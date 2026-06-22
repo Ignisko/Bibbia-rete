@@ -33,7 +33,7 @@ const Header = ({ onMenuClick }) => {
               <h3>About this Project</h3>
               <p>Data extracted from the <strong>Douay-Rheims Catholic Bible</strong>.</p>
               <p>Inspired by <strong>Prof. Dmitry Zinoviev</strong>.</p>
-              <p>Created by <a href="https://www.idiotajezusa.pl/" target="_blank" rel="noopener noreferrer">Ignacy (idiotajezusa.pl)</a></p>
+              <p>Created by <a href="https://idiotajezusa.pl/" target="_blank" rel="noopener noreferrer">https://idiotajezusa.pl/</a></p>
             </div>
           )}
         </div>
