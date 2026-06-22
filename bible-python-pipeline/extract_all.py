@@ -142,8 +142,12 @@ for book_name in priority_books:
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(network_data, f)
         
-    index_content += f"import {safe_book_id} from './{safe_book_id}.json';\n"
-    export_obj += f"  '{safe_book_id}': {safe_book_id},\n"
+    var_name = safe_book_id
+    if var_name[0].isdigit():
+        var_name = f"_{var_name}"
+        
+    index_content += f"import {var_name} from './{safe_book_id}.json';\n"
+    export_obj += f"  '{safe_book_id}': {var_name},\n"
     testament = "Old Testament" if book_name in old_testament else "New Testament"
     book_list.append(f"  {{ id: '{safe_book_id}', name: '{book_name}', testament: '{testament}' }}")
 

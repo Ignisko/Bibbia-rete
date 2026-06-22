@@ -6,10 +6,10 @@ import deuteronomy from './deuteronomy.json';
 import josue from './josue.json';
 import judges from './judges.json';
 import ruth from './ruth.json';
-import 1_kings from './1_kings.json';
-import 2_kings from './2_kings.json';
-import 3_kings from './3_kings.json';
-import 4_kings from './4_kings.json';
+import _1_kings from './1_kings.json';
+import _2_kings from './2_kings.json';
+import _3_kings from './3_kings.json';
+import _4_kings from './4_kings.json';
 import psalms from './psalms.json';
 import proverbs from './proverbs.json';
 import ecclesiastes from './ecclesiastes.json';
@@ -28,25 +28,25 @@ import luke from './luke.json';
 import john from './john.json';
 import acts from './acts.json';
 import romans from './romans.json';
-import 1_corinthians from './1_corinthians.json';
-import 2_corinthians from './2_corinthians.json';
+import _1_corinthians from './1_corinthians.json';
+import _2_corinthians from './2_corinthians.json';
 import galatians from './galatians.json';
 import ephesians from './ephesians.json';
 import philippians from './philippians.json';
 import colossians from './colossians.json';
-import 1_thessalonians from './1_thessalonians.json';
-import 2_thessalonians from './2_thessalonians.json';
-import 1_timothy from './1_timothy.json';
-import 2_timothy from './2_timothy.json';
+import _1_thessalonians from './1_thessalonians.json';
+import _2_thessalonians from './2_thessalonians.json';
+import _1_timothy from './1_timothy.json';
+import _2_timothy from './2_timothy.json';
 import titus from './titus.json';
 import philemon from './philemon.json';
 import hebrews from './hebrews.json';
 import james from './james.json';
-import 1_peter from './1_peter.json';
-import 2_peter from './2_peter.json';
-import 1_john from './1_john.json';
-import 2_john from './2_john.json';
-import 3_john from './3_john.json';
+import _1_peter from './1_peter.json';
+import _2_peter from './2_peter.json';
+import _1_john from './1_john.json';
+import _2_john from './2_john.json';
+import _3_john from './3_john.json';
 import jude from './jude.json';
 import apocalypse from './apocalypse.json';
 
@@ -59,10 +59,10 @@ export const bookData = {
   'josue': josue,
   'judges': judges,
   'ruth': ruth,
-  '1_kings': 1_kings,
-  '2_kings': 2_kings,
-  '3_kings': 3_kings,
-  '4_kings': 4_kings,
+  '1_kings': _1_kings,
+  '2_kings': _2_kings,
+  '3_kings': _3_kings,
+  '4_kings': _4_kings,
   'psalms': psalms,
   'proverbs': proverbs,
   'ecclesiastes': ecclesiastes,
@@ -81,25 +81,25 @@ export const bookData = {
   'john': john,
   'acts': acts,
   'romans': romans,
-  '1_corinthians': 1_corinthians,
-  '2_corinthians': 2_corinthians,
+  '1_corinthians': _1_corinthians,
+  '2_corinthians': _2_corinthians,
   'galatians': galatians,
   'ephesians': ephesians,
   'philippians': philippians,
   'colossians': colossians,
-  '1_thessalonians': 1_thessalonians,
-  '2_thessalonians': 2_thessalonians,
-  '1_timothy': 1_timothy,
-  '2_timothy': 2_timothy,
+  '1_thessalonians': _1_thessalonians,
+  '2_thessalonians': _2_thessalonians,
+  '1_timothy': _1_timothy,
+  '2_timothy': _2_timothy,
   'titus': titus,
   'philemon': philemon,
   'hebrews': hebrews,
   'james': james,
-  '1_peter': 1_peter,
-  '2_peter': 2_peter,
-  '1_john': 1_john,
-  '2_john': 2_john,
-  '3_john': 3_john,
+  '1_peter': _1_peter,
+  '2_peter': _2_peter,
+  '1_john': _1_john,
+  '2_john': _2_john,
+  '3_john': _3_john,
   'jude': jude,
   'apocalypse': apocalypse,
 };
