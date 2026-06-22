@@ -22,10 +22,7 @@ const NetworkGraph = ({ data }) => {
       const link = fgRef.current.d3Force('link');
       if (link) link.distance(40); // Shorter links to mimic the dense clusters
       
-      // Add weak gravity to center to keep disconnected nodes from flying away
-      fgRef.current.d3Force('center', null); // disable default hard center
-      fgRef.current.d3Force('x', d3 => 0).d3Force('x').strength(0.05);
-      fgRef.current.d3Force('y', d3 => 0).d3Force('y').strength(0.05);
+      // Let isolated nodes float naturally instead of crashing the d3 engine
     }
   }, [data]);
 
