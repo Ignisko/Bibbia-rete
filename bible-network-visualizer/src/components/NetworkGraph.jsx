@@ -29,10 +29,36 @@ const NetworkGraph = ({ data }) => {
     
     // Build adjacency list for BFS
     const adj = {};
-    const blockedNames = new Set(["Hebrews", "Sinai", "Israelites", "Egyptians", "Philistines", "Jews", "Romans", "Greeks", "Israel", "Egypt"]);
+    const blockedNames = new Set([
+      "Hebrews", "Sinai", "Israelites", "Egyptians", "Philistines", "Jews", "Romans", 
+      "Greeks", "Israel", "Egypt", "Blessed Sacrament", "Beati immaculati", "Scriptures"
+    ]);
     
     // Only include valid nodes
-    const validNodes = data.nodes.filter(n => !blockedNames.has(n.name));
+    const validNodes = data.nodes.filter(n => {
+      const name = n.name.trim();
+      if (!name) return false;
+      
+      // Filter out explicit blocked names
+      if (blockedNames.has(name)) return false;
+
+      // Filter out names starting with lowercase letters (e.g., "meek", "bald head", "angustia temporum")
+      const firstChar = name.charAt(0);
+      if (firstChar === firstChar.toLowerCase() && /[a-z]/i.test(firstChar)) {
+        return false;
+      }
+
+      // Filter out pure numbers
+      if (!isNaN(name.replace(/,/g, ''))) return false;
+      
+      // Filter out garbage prefixes like "a " or "the "
+      if (name.toLowerCase().startsWith("a ") || name.toLowerCase().startsWith("an ") || name.toLowerCase().startsWith("the ")) {
+        return false;
+      }
+
+      return true;
+    });
+    
     validNodes.forEach(n => { adj[n.id] = []; });
     
     // Only include links between valid nodes
@@ -173,8 +199,13 @@ const NetworkGraph = ({ data }) => {
     }
   }, [data]);
 
+  const [showCatalog, setShowCatalog] = useState(false);
+  const sortedNames = useMemo(() => {
+    return graphData.nodes.map(n => n.name).sort();
+  }, [graphData.nodes]);
+
   return (
-    <div className="graph-container">
+    <div className="graph-container" style={{ position: 'relative' }}>
       <ForceGraph2D
         ref={fgRef}
         width={dimensions.width}
@@ -188,6 +219,29 @@ const NetworkGraph = ({ data }) => {
         d3VelocityDecay={0.3} // Gentle friction
         backgroundColor="#ffffff"
       />
+      
+      <button 
+        className="catalog-btn" 
+        onClick={() => setShowCatalog(true)}
+      >
+        View Characters ({sortedNames.length})
+      </button>
+
+      {showCatalog && (
+        <div className="catalog-modal-overlay" onClick={() => setShowCatalog(false)}>
+          <div className="catalog-modal-content" onClick={e => e.stopPropagation()}>
+            <div className="catalog-header">
+              <h2>Characters in Book</h2>
+              <button onClick={() => setShowCatalog(false)} className="close-btn">&times;</button>
+            </div>
+            <div className="catalog-list">
+              {sortedNames.map(name => (
+                <div key={name} className="catalog-item">{name}</div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
