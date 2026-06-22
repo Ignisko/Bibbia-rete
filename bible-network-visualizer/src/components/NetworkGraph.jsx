@@ -173,7 +173,9 @@ const NetworkGraph = ({ data }) => {
 
   const handleEngineStop = useCallback(() => {
     if (fgRef.current && zoomedDataRef.current !== data) {
-      fgRef.current.zoomToFit(400, 50);
+      // Instead of zoomToFit (which fails if outliers exist), we explicitly center and zoom
+      fgRef.current.centerAt(0, 0, 400);
+      fgRef.current.zoom(1.8, 400);
       zoomedDataRef.current = data;
     }
   }, [data]);
@@ -189,6 +191,8 @@ const NetworkGraph = ({ data }) => {
         ref={fgRef}
         width={dimensions.width}
         height={dimensions.height}
+        minZoom={0.6}
+        maxZoom={6}
         graphData={graphData}
         nodeCanvasObject={paintNode}
         linkColor={getLinkColor}
