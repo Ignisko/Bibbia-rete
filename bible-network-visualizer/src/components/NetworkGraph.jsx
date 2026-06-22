@@ -17,10 +17,15 @@ const NetworkGraph = ({ data }) => {
   useEffect(() => {
     if (fgRef.current) {
       const charge = fgRef.current.d3Force('charge');
-      if (charge) charge.strength(-400);
+      if (charge) charge.strength(-200); // Less aggressive repel so dense graphs don't explode
       
       const link = fgRef.current.d3Force('link');
-      if (link) link.distance(60);
+      if (link) link.distance(40); // Shorter links to mimic the dense clusters
+      
+      // Add weak gravity to center to keep disconnected nodes from flying away
+      fgRef.current.d3Force('center', null); // disable default hard center
+      fgRef.current.d3Force('x', d3 => 0).d3Force('x').strength(0.05);
+      fgRef.current.d3Force('y', d3 => 0).d3Force('y').strength(0.05);
     }
   }, [data]);
 
@@ -60,50 +65,11 @@ const NetworkGraph = ({ data }) => {
     });
     
     validNodes.forEach(n => { adj[n.id] = []; });
-    
+        // Only include links between valid nodes
     const validLinks = data.links.filter(l => adj[l.source] && adj[l.target]);
     
-    validLinks.forEach(l => {
-      adj[l.source].push(l.target);
-      adj[l.target].push(l.source);
-    });
-
-    const visited = new Set();
-    let largestComponent = [];
-
-    validNodes.forEach(n => {
-      if (!visited.has(n.id)) {
-        const component = [];
-        const queue = [n.id];
-        visited.add(n.id);
-
-        while (queue.length > 0) {
-          const curr = queue.shift();
-          component.push(curr);
-          adj[curr].forEach(neighbor => {
-            if (!visited.has(neighbor)) {
-              visited.add(neighbor);
-              queue.push(neighbor);
-            }
-          });
-        }
-
-        if (component.length > largestComponent.length) {
-          largestComponent = component;
-        }
-      }
-    });
-
-    const largestComponentSet = new Set(largestComponent);
-
-    // Filter nodes and links to ONLY include the largest component
-    const finalNodes = data.nodes
-      .filter(n => largestComponentSet.has(n.id))
-      .map(node => ({ ...node }));
-      
-    const finalLinks = validLinks
-      .filter(l => largestComponentSet.has(l.source) && largestComponentSet.has(l.target))
-      .map(link => ({ ...link }));
+    const finalNodes = validNodes.map(node => ({ ...node }));
+    const finalLinks = validLinks.map(link => ({ ...link }));
 
     finalNodes.forEach(node => {
       node.neighbors = new Set();
@@ -122,7 +88,7 @@ const NetworkGraph = ({ data }) => {
     });
 
     return { nodes: finalNodes, links: finalLinks };
-  }, [data]);
+  }, [data, groupEntities]);
 
   const handleNodeHover = useCallback((node) => {
     document.body.style.cursor = node ? 'pointer' : 'default';
@@ -130,7 +96,7 @@ const NetworkGraph = ({ data }) => {
   }, []);
 
   const paintNode = useCallback((node, ctx, globalScale) => {
-    if (!Number.isFinite(node.x) || !Number.isFinite(node.y)) return; // Prevent Canvas crash on init
+    if (!Number.isFinite(node.x) || !Number.isFinite(node.y)) return; 
     
     const isHovered = hoverNode && node.id === hoverNode.id;
     const isNeighbor = hoverNode && hoverNode.neighbors && hoverNode.neighbors.has(node.id);
@@ -141,41 +107,34 @@ const NetworkGraph = ({ data }) => {
     const isGod = godTerms.includes(node.name);
     const isGroup = groupEntities.has(node.name);
 
-    if (isGod) {
-      size = Math.max(size, 7); // Ensure they are prominent
-      const gradient = ctx.createRadialGradient(node.x, node.y, 0, node.x, node.y, size * 2.5);
-      gradient.addColorStop(0, 'rgba(255, 215, 0, 1)'); // Pure gold core
-      gradient.addColorStop(0.5, 'rgba(255, 140, 0, 0.6)'); // Warm amber middle
-      gradient.addColorStop(1, 'rgba(255, 69, 0, 0)'); // Fading outer edge
-      
-      ctx.beginPath();
-      ctx.arc(node.x, node.y, size * 2.5, 0, 2 * Math.PI, false);
-      ctx.fillStyle = gradient;
-      ctx.fill();
-      
-      ctx.beginPath();
-      ctx.arc(node.x, node.y, size * 1.2, 0, 2 * Math.PI, false);
-      ctx.fillStyle = isDimmed ? '#f39c12' : '#f1c40f'; // Golden Yellow
-      ctx.fill();
+    if (isGod) size = Math.max(size, 6); 
+
+    ctx.beginPath();
+    if (isGroup) {
+      ctx.rect(node.x - size, node.y - size, size * 2, size * 2);
     } else {
-      ctx.beginPath();
-      if (isGroup) {
-        // Draw square for groups
-        ctx.rect(node.x - size, node.y - size, size * 2, size * 2);
-      } else {
-        // Draw circle for people
-        ctx.arc(node.x, node.y, size, 0, 2 * Math.PI, false);
-      }
-      
-      if (isDimmed) {
-        ctx.fillStyle = '#e5e7e9';
-      } else if (isHovered) {
-        ctx.fillStyle = isGroup ? '#732d91' : '#d68910'; // Darker on hover
-      } else {
-        ctx.fillStyle = isGroup ? '#8e44ad' : '#f39c12'; // Purple for group, Amber for people
-      }
-      
-      ctx.fill();
+      ctx.arc(node.x, node.y, size, 0, 2 * Math.PI, false);
+    }
+    
+    if (isDimmed) {
+      ctx.fillStyle = '#e5e7e9';
+    } else if (isHovered) {
+      ctx.fillStyle = '#1f618d';
+    } else if (isGod) {
+      ctx.fillStyle = '#2980b9'; // Clean strong blue
+    } else if (isGroup) {
+      ctx.fillStyle = '#7d3c98'; // Deep clean purple
+    } else {
+      ctx.fillStyle = '#5bc0be'; // Professor's teal
+    }
+    
+    ctx.fill();
+
+    // Node border for clarity
+    if (!isDimmed) {
+      ctx.strokeStyle = '#ffffff';
+      ctx.lineWidth = 0.5 / globalScale;
+      ctx.stroke();
     }
 
     if (!isDimmed || isHovered) {
