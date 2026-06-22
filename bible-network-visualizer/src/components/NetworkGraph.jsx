@@ -1,5 +1,8 @@
 import React, { useRef, useEffect, useState, useMemo, useCallback } from 'react';
 import ForceGraph2D from 'react-force-graph-2d';
+import canonicalNames from '../data/canonical_names.json';
+
+const canonicalSet = new Set(canonicalNames.map(n => n.toLowerCase()));
 
 const NetworkGraph = ({ data }) => {
   const fgRef = useRef();
@@ -51,18 +54,22 @@ const NetworkGraph = ({ data }) => {
     if (!data || !data.nodes || !data.links) return { nodes: [], links: [] };
     
     const adj = {};
-    const blockedNames = new Set([
-      "Blessed Sacrament", "Beati immaculati", "Scriptures", 
-      "Foreknown", "Virtues", "Grace", "Faith", "Hope", "Love", "Truth", 
-      "Salvation", "Gospel", "Mercy", "Peace", "Glory", "Word"
-    ]);
     
     const validNodes = data.nodes.filter(n => {
       // Fix trailing space duplicates in AI data
       const name = n.name.trim();
       if (!name) return false;
       
-      if (blockedNames.has(name)) return false;
+      // Strict allowlist validation against canonical dictionaries
+      // Groups/tribes are allowed separately
+      if (!groupEntities.has(name)) {
+        // Strip common AI prefixes before checking
+        const cleanedName = name.replace(/^(St\.? |Saint |King |Queen |Prophet |Apostle )/i, '').trim();
+        
+        if (!canonicalSet.has(name.toLowerCase()) && !canonicalSet.has(cleanedName.toLowerCase())) {
+          return false; // Reject AI slop!
+        }
+      }
 
       if (name.toLowerCase().includes("project gutenberg")) return false;
 
