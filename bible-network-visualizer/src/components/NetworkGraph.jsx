@@ -26,14 +26,17 @@ const NetworkGraph = ({ data }) => {
       if (link) link.distance(40); 
       
       // Custom soft gravity to pull disconnected subgraphs together
-      fgRef.current.d3Force('softCenter', (alpha) => {
-        const nodes = fgRef.current.graphData().nodes;
-        if (!nodes) return;
-        nodes.forEach(node => {
-          node.vx -= node.x * alpha * 0.02;
-          node.vy -= node.y * alpha * 0.02;
+      let simNodes = [];
+      const softGravity = (alpha) => {
+        simNodes.forEach(node => {
+          node.vx -= (node.x || 0) * alpha * 0.02;
+          node.vy -= (node.y || 0) * alpha * 0.02;
         });
-      });
+      };
+      softGravity.initialize = (nodes) => {
+        simNodes = nodes;
+      };
+      fgRef.current.d3Force('softCenter', softGravity);
     }
   }, [data]);
 
@@ -115,12 +118,13 @@ const NetworkGraph = ({ data }) => {
     const isNeighbor = hoverNode && hoverNode.neighbors && hoverNode.neighbors.has(node.id);
     const isDimmed = hoverNode && !isHovered && !isNeighbor;
     
-    let size = node.val ? Math.sqrt(node.val) * 1.5 : 3;
+    // Scale node size smoothly so it doesn't become a giant sloppy circle
+    let size = node.val ? Math.log(node.val + 2) * 1.5 : 2;
     const godTerms = ["Jesus", "God", "Christ", "Lord", "Holy Ghost", "Father"];
     const isGod = godTerms.includes(node.name);
     const isGroup = groupEntities.has(node.name);
 
-    if (isGod) size = Math.max(size, 6); 
+    if (isGod) size = Math.max(size, 4.5); 
 
     ctx.beginPath();
     if (isGroup) {
