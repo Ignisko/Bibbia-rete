@@ -24,34 +24,34 @@ const NetworkGraph = ({ data }) => {
     }
   }, [data]);
 
+  const groupEntities = useMemo(() => new Set([
+    "Hebrews", "Sinai", "Israelites", "Egyptians", "Philistines", "Jews", "Romans", 
+    "Greeks", "Israel", "Egypt", "Amalekites", "Canaanites", "Edom", "Moab", "Moabites",
+    "Midianites", "Pharisees", "Sadducees", "Samaritans", "Gentiles", "Babylonians",
+    "Assyrians", "Chaldeans", "Amorites", "Jebusites", "Hittites", "Perizzites", "Hivites"
+  ]), []);
+
   const graphData = useMemo(() => {
     if (!data || !data.nodes || !data.links) return { nodes: [], links: [] };
     
-    // Build adjacency list for BFS
     const adj = {};
     const blockedNames = new Set([
-      "Hebrews", "Sinai", "Israelites", "Egyptians", "Philistines", "Jews", "Romans", 
-      "Greeks", "Israel", "Egypt", "Blessed Sacrament", "Beati immaculati", "Scriptures"
+      "Blessed Sacrament", "Beati immaculati", "Scriptures"
     ]);
     
-    // Only include valid nodes
     const validNodes = data.nodes.filter(n => {
       const name = n.name.trim();
       if (!name) return false;
       
-      // Filter out explicit blocked names
       if (blockedNames.has(name)) return false;
 
-      // Filter out names starting with lowercase letters (e.g., "meek", "bald head", "angustia temporum")
       const firstChar = name.charAt(0);
       if (firstChar === firstChar.toLowerCase() && /[a-z]/i.test(firstChar)) {
         return false;
       }
 
-      // Filter out pure numbers
       if (!isNaN(name.replace(/,/g, ''))) return false;
       
-      // Filter out garbage prefixes like "a " or "the "
       if (name.toLowerCase().startsWith("a ") || name.toLowerCase().startsWith("an ") || name.toLowerCase().startsWith("the ")) {
         return false;
       }
@@ -61,49 +61,48 @@ const NetworkGraph = ({ data }) => {
     
     validNodes.forEach(n => { adj[n.id] = []; });
     
-    // Only include links between valid nodes
-    data.links.forEach(l => {
-      if (adj[l.source] && adj[l.target]) {
-        adj[l.source].push(l.target);
-        adj[l.target].push(l.source);
-      }
+    const validLinks = data.links.filter(l => adj[l.source] && adj[l.target]);
+    
+    validLinks.forEach(l => {
+      adj[l.source].push(l.target);
+      adj[l.target].push(l.source);
     });
 
-    // Find the largest connected component using BFS
     const visited = new Set();
-    let largestComponent = new Set();
+    let largestComponent = [];
 
-    validNodes.forEach(node => {
-      if (!visited.has(node.id) && adj[node.id]) {
-        const component = new Set();
-        const queue = [node.id];
-        visited.add(node.id);
-        component.add(node.id);
+    validNodes.forEach(n => {
+      if (!visited.has(n.id)) {
+        const component = [];
+        const queue = [n.id];
+        visited.add(n.id);
 
         while (queue.length > 0) {
           const curr = queue.shift();
+          component.push(curr);
           adj[curr].forEach(neighbor => {
             if (!visited.has(neighbor)) {
               visited.add(neighbor);
-              component.add(neighbor);
               queue.push(neighbor);
             }
           });
         }
 
-        if (component.size > largestComponent.size) {
+        if (component.length > largestComponent.length) {
           largestComponent = component;
         }
       }
     });
 
+    const largestComponentSet = new Set(largestComponent);
+
     // Filter nodes and links to ONLY include the largest component
     const finalNodes = data.nodes
-      .filter(n => largestComponent.has(n.id))
+      .filter(n => largestComponentSet.has(n.id))
       .map(node => ({ ...node }));
       
-    const finalLinks = data.links
-      .filter(l => largestComponent.has(l.source) && largestComponent.has(l.target))
+    const finalLinks = validLinks
+      .filter(l => largestComponentSet.has(l.source) && largestComponentSet.has(l.target))
       .map(link => ({ ...link }));
 
     finalNodes.forEach(node => {
@@ -131,28 +130,51 @@ const NetworkGraph = ({ data }) => {
   }, []);
 
   const paintNode = useCallback((node, ctx, globalScale) => {
-    const isHovered = hoverNode === node;
+    const isHovered = hoverNode && node.id === hoverNode.id;
     const isNeighbor = hoverNode && hoverNode.neighbors && hoverNode.neighbors.has(node.id);
     const isDimmed = hoverNode && !isHovered && !isNeighbor;
-
+    
     let size = node.val ? Math.sqrt(node.val) * 1.5 : 3;
     const godTerms = ["Jesus", "God", "Christ", "Lord", "Holy Ghost", "Father"];
-    if (godTerms.includes(node.name)) {
-      size = Math.max(size, 7); // Ensure they are prominent
-    }
+    const isGod = godTerms.includes(node.name);
+    const isGroup = groupEntities.has(node.name);
 
-    ctx.beginPath();
-    ctx.arc(node.x, node.y, size, 0, 2 * Math.PI, false);
-    
-    if (isHovered) {
-      ctx.fillStyle = '#1a5276';
-    } else if (isDimmed) {
-      ctx.fillStyle = '#e5e7e9';
+    if (isGod) {
+      size = Math.max(size, 7); // Ensure they are prominent
+      const gradient = ctx.createRadialGradient(node.x, node.y, 0, node.x, node.y, size * 2.5);
+      gradient.addColorStop(0, 'rgba(255, 215, 0, 1)'); // Pure gold core
+      gradient.addColorStop(0.5, 'rgba(255, 140, 0, 0.6)'); // Warm amber middle
+      gradient.addColorStop(1, 'rgba(255, 69, 0, 0)'); // Fading outer edge
+      
+      ctx.beginPath();
+      ctx.arc(node.x, node.y, size * 2.5, 0, 2 * Math.PI, false);
+      ctx.fillStyle = gradient;
+      ctx.fill();
+      
+      ctx.beginPath();
+      ctx.arc(node.x, node.y, size * 1.2, 0, 2 * Math.PI, false);
+      ctx.fillStyle = isDimmed ? '#f39c12' : '#f1c40f'; // Golden Yellow
+      ctx.fill();
     } else {
-      ctx.fillStyle = '#2874a6';
+      ctx.beginPath();
+      if (isGroup) {
+        // Draw square for groups
+        ctx.rect(node.x - size, node.y - size, size * 2, size * 2);
+      } else {
+        // Draw circle for people
+        ctx.arc(node.x, node.y, size, 0, 2 * Math.PI, false);
+      }
+      
+      if (isDimmed) {
+        ctx.fillStyle = '#e5e7e9';
+      } else if (isHovered) {
+        ctx.fillStyle = isGroup ? '#732d91' : '#d68910'; // Darker on hover
+      } else {
+        ctx.fillStyle = isGroup ? '#8e44ad' : '#f39c12'; // Purple for group, Amber for people
+      }
+      
+      ctx.fill();
     }
-    
-    ctx.fill();
 
     if (!isDimmed || isHovered) {
       const label = node.name;

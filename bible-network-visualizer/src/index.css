@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Georgia&display=swap');
+
 :root {
-  --bg-color: #ffffff;
-  --text-color: #111111;
-  --header-bg: #ffffff;
-  --border-color: #e0e0e0;
+  --bg-color: #f8f9fa;
+  --text-color: #2c3e50;
+  --header-bg: rgba(255, 255, 255, 0.7);
+  --border-color: rgba(224, 224, 224, 0.5);
   --accent-color: #2874a6;
-  --highlight-color: rgba(40, 116, 166, 0.1);
+  --highlight-color: rgba(40, 116, 166, 0.08);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
 }
 
 * {
@@ -13,11 +16,11 @@
 
 body {
   margin: 0;
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: 'Inter', sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
-  overflow: hidden; /* Prevent body scroll, everything should be contained */
+  overflow: hidden;
 }
 
 /* App Layout */
@@ -36,9 +39,12 @@ body {
 
 /* Header styles */
 header {
-  background-color: var(--header-bg);
+  background: var(--header-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   padding: 1rem 2rem;
   border-bottom: 1px solid var(--border-color);
+  box-shadow: var(--glass-shadow);
   z-index: 10;
 }
 
@@ -57,6 +63,7 @@ header {
 
 h1 {
   margin: 0;
+  font-family: 'Georgia', serif;
   font-size: 1.8rem;
   color: var(--text-color);
   font-style: italic;
@@ -71,20 +78,23 @@ h1 {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-family: inherit;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
   font-size: 0.95rem;
   color: var(--text-color);
-  background: none;
-  border: 1px solid transparent;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--border-color);
   padding: 0.5rem 1rem;
-  border-radius: 4px;
+  border-radius: 8px;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.02);
 }
 
 .about-btn:hover {
-  background-color: var(--highlight-color);
-  border-color: var(--border-color);
+  background-color: rgba(255, 255, 255, 0.9);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
 .about-modal {
@@ -92,11 +102,13 @@ h1 {
   top: 130%;
   right: 0;
   width: 450px;
-  background-color: white;
-  border: 1px solid var(--border-color);
-  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 12px;
   padding: 1.5rem;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  box-shadow: var(--glass-shadow);
   z-index: 100;
   text-align: left;
 }
@@ -105,24 +117,26 @@ h1 {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 1.2rem;
+  font-weight: 600;
   color: var(--text-color);
 }
 
 .about-modal p {
   margin-bottom: 0.75rem;
   font-size: 0.9rem;
-  line-height: 1.5;
+  line-height: 1.6;
   color: #444;
 }
 
 .about-modal a {
   color: var(--accent-color);
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
+  transition: opacity 0.2s;
 }
 
 .about-modal a:hover {
-  text-decoration: underline;
+  opacity: 0.8;
 }
 
 .icon-btn {
@@ -133,12 +147,12 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 4px;
+  border-radius: 8px;
   transition: background-color 0.2s;
 }
 
 .icon-btn:hover {
-  background-color: var(--border-color);
+  background-color: var(--highlight-color);
 }
 
 /* Sidebar Styles */
@@ -148,14 +162,16 @@ h1 {
   left: 0;
   height: 100%;
   width: 300px;
-  background-color: #fafafa;
+  background: rgba(250, 250, 250, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border-right: 1px solid var(--border-color);
   transform: translateX(-100%);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 20;
   display: flex;
   flex-direction: column;
-  box-shadow: 2px 0 8px rgba(0,0,0,0.05);
+  box-shadow: var(--glass-shadow);
 }
 
 .sidebar.open {
@@ -181,13 +197,14 @@ h1 {
   text-align: left;
   background: none;
   border: none;
-  padding: 0.5rem 1.5rem;
-  font-family: inherit;
+  padding: 0.6rem 1.5rem;
+  font-family: 'Inter', sans-serif;
   font-size: 0.95rem;
+  font-weight: 500;
   cursor: pointer;
-  color: #444;
+  color: #555;
   border-left: 3px solid transparent;
-  transition: all 0.2s;
+  transition: all 0.2s ease;
 }
 
 .book-item:hover {
@@ -199,20 +216,21 @@ h1 {
   background-color: var(--highlight-color);
   border-left-color: var(--accent-color);
   color: var(--accent-color);
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .testament-header {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #666;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  color: #888;
   padding: 0.5rem 1.5rem;
-  margin: 0 0 0.5rem 0;
+  margin: 0.5rem 0 0.5rem 0;
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
 }
 
 .sidebar-overlay {
@@ -221,8 +239,15 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(2px);
   z-index: 15;
+  opacity: 0;
+  animation: fadeIn 0.3s forwards;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
 }
 
 /* Graph container */
@@ -230,6 +255,7 @@ h1 {
   flex: 1;
   width: 100%;
   height: 100%;
+  background: radial-gradient(circle at center, #ffffff 0%, #f4f6f8 100%);
 }
 
 .graph-container {
@@ -240,24 +266,28 @@ h1 {
 /* Catalog Modal Styles */
 .catalog-btn {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 16px;
-  background-color: var(--accent-color);
-  color: white;
-  border: none;
-  border-radius: 20px;
+  bottom: 24px;
+  right: 24px;
+  padding: 12px 20px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: var(--accent-color);
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+  font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  font-family: inherit;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  font-family: 'Inter', sans-serif;
   font-size: 0.9rem;
   z-index: 10;
-  transition: transform 0.2s, background-color 0.2s;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .catalog-btn:hover {
-  background-color: #1a5276;
-  transform: translateY(-2px);
+  background: white;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
 }
 
 .catalog-modal-overlay {
@@ -266,28 +296,30 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   z-index: 100;
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: fadeIn 0.2s forwards;
 }
 
 .catalog-modal-content {
-  background-color: white;
-  border: 1px solid var(--border-color);
-  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 16px;
   width: 400px;
   max-width: 90%;
   max-height: 80%;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  box-shadow: var(--glass-shadow);
 }
 
 .catalog-header {
-  padding: 1rem 1.5rem;
+  padding: 1.2rem 1.5rem;
   border-bottom: 1px solid var(--border-color);
   display: flex;
   justify-content: space-between;
@@ -297,7 +329,9 @@ h1 {
 .catalog-header h2 {
   margin: 0;
   font-size: 1.2rem;
-  color: var(--accent-color);
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  color: var(--text-color);
 }
 
 .close-btn {
@@ -305,12 +339,13 @@ h1 {
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: #666;
+  color: #888;
   line-height: 1;
+  transition: color 0.2s;
 }
 
 .close-btn:hover {
-  color: #000;
+  color: #111;
 }
 
 .catalog-list {
@@ -318,12 +353,19 @@ h1 {
   overflow-y: auto;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.4rem;
 }
 
 .catalog-item {
-  padding: 0.5rem 1rem;
-  background-color: var(--highlight-color);
-  border-radius: 4px;
+  padding: 0.6rem 1rem;
+  background-color: rgba(40, 116, 166, 0.04);
+  border-radius: 8px;
   font-size: 0.95rem;
+  font-family: 'Inter', sans-serif;
+  color: var(--text-color);
+  transition: background-color 0.2s;
+}
+
+.catalog-item:hover {
+  background-color: rgba(40, 116, 166, 0.1);
 }
