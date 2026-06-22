@@ -17,10 +17,13 @@ function App() {
     }
   }, [selectedBook]);
 
+  const currentBookName = bookList.find(b => b.id === selectedBook)?.name || '';
+
   return (
     <div className="app-layout">
       <Header 
         onMenuClick={() => setIsSidebarOpen(true)} 
+        currentBookName={currentBookName}
       />
       
       <div className="main-content">

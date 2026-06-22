@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Menu, Info } from 'lucide-react';
 
-const Header = ({ onMenuClick }) => {
+const Header = ({ onMenuClick, currentBookName }) => {
   const [showAbout, setShowAbout] = useState(false);
   const aboutRef = useRef();
 
@@ -22,7 +22,7 @@ const Header = ({ onMenuClick }) => {
           <button onClick={onMenuClick} className="icon-btn menu-btn" aria-label="Open Books Menu">
             <Menu size={24} color="var(--text-color)" />
           </button>
-          <h1>Mapping the Bible</h1>
+          <h1>Mapping the Bible {currentBookName && <span style={{opacity: 0.6, fontSize: '0.8em'}}>| {currentBookName}</span>}</h1>
         </div>
         <div className="header-actions">
           <button className="icon-btn about-btn" onClick={() => setShowAbout(!showAbout)}>

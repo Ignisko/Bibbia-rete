@@ -29,7 +29,13 @@ const NetworkGraph = ({ data }) => {
     
     // Build adjacency list for BFS
     const adj = {};
-    data.nodes.forEach(n => { adj[n.id] = []; });
+    const blockedNames = new Set(["Hebrews", "Sinai", "Israelites", "Egyptians", "Philistines", "Jews", "Romans", "Greeks", "Israel", "Egypt"]);
+    
+    // Only include valid nodes
+    const validNodes = data.nodes.filter(n => !blockedNames.has(n.name));
+    validNodes.forEach(n => { adj[n.id] = []; });
+    
+    // Only include links between valid nodes
     data.links.forEach(l => {
       if (adj[l.source] && adj[l.target]) {
         adj[l.source].push(l.target);
@@ -41,7 +47,7 @@ const NetworkGraph = ({ data }) => {
     const visited = new Set();
     let largestComponent = new Set();
 
-    data.nodes.forEach(node => {
+    validNodes.forEach(node => {
       if (!visited.has(node.id) && adj[node.id]) {
         const component = new Set();
         const queue = [node.id];
