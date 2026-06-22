@@ -9,24 +9,38 @@ const docsDir = path.join(__dirname, 'docs');
 if (!fs.existsSync(docsDir)) {
   fs.mkdirSync(docsDir);
 }
-const localOutputFile = path.join(docsDir, 'extracted_names.csv');
+const booksDir = path.join(docsDir, 'books');
+if (!fs.existsSync(booksDir)) {
+  fs.mkdirSync(booksDir);
+}
 
 const files = fs.readdirSync(dataDir).filter(f => f.endsWith('.json'));
 
-const nameMap = new Map();
+const wholeBibleMap = new Map();
+const bookMaps = {};
 
 files.forEach(file => {
   const filePath = path.join(dataDir, file);
+  const bookName = file.replace('.json', '');
+  bookMaps[bookName] = new Map();
+  
   try {
     const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
     if (data.nodes) {
       data.nodes.forEach(node => {
-        if (!nameMap.has(node.name)) {
-          nameMap.set(node.name, { books: new Set(), totalOccurrences: 0 });
+        // Whole Bible
+        if (!wholeBibleMap.has(node.name)) {
+          wholeBibleMap.set(node.name, { books: new Set(), count: 0 });
         }
-        const entry = nameMap.get(node.name);
-        entry.books.add(file.replace('.json', ''));
-        entry.totalOccurrences += (node.val || 1);
+        const entry = wholeBibleMap.get(node.name);
+        entry.books.add(bookName);
+        entry.count += (node.val || 1);
+        
+        // Individual Book
+        if (!bookMaps[bookName].has(node.name)) {
+          bookMaps[bookName].set(node.name, 0);
+        }
+        bookMaps[bookName].set(node.name, bookMaps[bookName].get(node.name) + (node.val || 1));
       });
     }
   } catch (err) {
@@ -34,33 +48,25 @@ files.forEach(file => {
   }
 });
 
-const sortedNames = Array.from(nameMap.entries()).sort((a, b) => {
-  // Sort alphabetically
-  return a[0].localeCompare(b[0]);
-});
-
-// Generate Markdown
-let mdContent = `# Extracted Names List\n\n`;
-mdContent += `This list contains all unique names extracted from the Bible text by the NLP pipeline. You can review this list to spot any misclassifications (like "meek", "Scriptures", "Galilee", etc.) and add them to the blocklist in the app.\n\n`;
-mdContent += `| Name | Total Occurrences | Books Found In |\n`;
-mdContent += `|---|---|---|\n`;
-
-sortedNames.forEach(([name, data]) => {
-  const booksList = Array.from(data.books).join(', ');
-  mdContent += `| **${name}** | ${data.totalOccurrences} | ${booksList} |\n`;
-});
-
-// Generate CSV
-let csvContent = `Name,Total Occurrences,Books Found In\n`;
-sortedNames.forEach(([name, data]) => {
+// Write Whole Bible CSV
+const sortedWholeBible = Array.from(wholeBibleMap.entries()).sort((a, b) => a[0].localeCompare(b[0]));
+let wholeCsv = `Name,Total Occurrences,Books Found In\n`;
+sortedWholeBible.forEach(([name, data]) => {
   const booksList = Array.from(data.books).join(';');
-  // Escape quotes if needed
   const safeName = name.includes(',') ? `"${name}"` : name;
-  csvContent += `${safeName},${data.totalOccurrences},"${booksList}"\n`;
+  wholeCsv += `${safeName},${data.count},"${booksList}"\n`;
+});
+fs.writeFileSync(path.join(docsDir, 'whole_bible.csv'), wholeCsv);
+
+// Write Individual Book CSVs
+Object.keys(bookMaps).forEach(bookName => {
+  const sortedBookNames = Array.from(bookMaps[bookName].entries()).sort((a, b) => a[0].localeCompare(b[0]));
+  let bookCsv = `Name,Occurrences\n`;
+  sortedBookNames.forEach(([name, count]) => {
+    const safeName = name.includes(',') ? `"${name}"` : name;
+    bookCsv += `${safeName},${count}\n`;
+  });
+  fs.writeFileSync(path.join(booksDir, `${bookName}.csv`), bookCsv);
 });
 
-// Write files
-fs.writeFileSync(path.join(docsDir, 'extracted_names.md'), mdContent);
-fs.writeFileSync(localOutputFile, csvContent);
-
-console.log('Successfully extracted ' + sortedNames.length + ' unique names.');
+console.log(`Successfully generated whole_bible.csv and ${Object.keys(bookMaps).length} individual book files.`);

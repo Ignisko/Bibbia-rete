@@ -157,14 +157,18 @@ const NetworkGraph = ({ data }) => {
     if (!isDimmed || isHovered) {
       const label = node.name;
       const isCentral = godTerms.includes(node.name);
-      const fontSize = isHovered ? 14 / globalScale : (isCentral ? 14 / globalScale : 11 / globalScale);
       
-      ctx.font = `${isCentral ? 'bold' : 'normal'} ${fontSize}px Georgia, serif`;
+      // Make hovered text bolder and larger
+      const isBold = isCentral || isHovered;
+      const fontSize = isHovered ? 15 / globalScale : (isCentral ? 14 / globalScale : 11 / globalScale);
+      
+      ctx.font = `${isBold ? 'bold' : 'normal'} ${fontSize}px Georgia, serif`;
       ctx.textAlign = 'left';
       ctx.textBaseline = 'middle';
       
       const textPadding = 4 / globalScale;
-      ctx.fillStyle = isHovered ? '#000000' : (isNeighbor ? '#333333' : '#111111');
+      // Light up the text with the accent color
+      ctx.fillStyle = isHovered ? '#1a5276' : (isNeighbor ? '#111111' : '#444444');
       ctx.fillText(label, node.x + size + textPadding, node.y);
     }
   }, [hoverNode]);
