@@ -14,17 +14,11 @@ const NetworkGraph = ({ data }) => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  // Stabilize the graph physics by pushing nodes apart
   useEffect(() => {
     if (fgRef.current) {
-      const chargeForce = fgRef.current.d3Force('charge');
-      if (chargeForce) {
-        chargeForce.strength(-150).distanceMax(300);
-      }
-      const linkForce = fgRef.current.d3Force('link');
-      if (linkForce) {
-        linkForce.distance(30);
-      }
+      // Moderate charge to space out connected nodes
+      fgRef.current.d3Force('charge').strength(-80);
+      fgRef.current.d3Force('link').distance(40);
     }
   }, [data]);
 
@@ -128,7 +122,14 @@ const NetworkGraph = ({ data }) => {
         linkCanvasObjectMode={() => 'replace'}
         linkCanvasObject={paintLink}
         onNodeHover={handleNodeHover}
-        d3VelocityDecay={0.3} // Dampen movement
+        onEngineTick={() => {
+          // Gentle gravity pulling all nodes towards center (0,0)
+          nodes.forEach(node => {
+            node.vx += (0 - node.x) * 0.0015;
+            node.vy += (0 - node.y) * 0.0015;
+          });
+        }}
+        d3VelocityDecay={0.2} // Dampen movement slightly less
         backgroundColor="#ffffff"
       />
     </div>
