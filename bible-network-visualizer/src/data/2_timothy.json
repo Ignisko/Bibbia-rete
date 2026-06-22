@@ -1,0 +1,231 @@
+{
+  "nodes": [
+    {
+      "id": "Christ",
+      "name": "Christ",
+      "val": 4
+    },
+    {
+      "id": "Ephesus",
+      "name": "Ephesus",
+      "val": 2
+    },
+    {
+      "id": "Timothy",
+      "name": "Timothy",
+      "val": 3
+    },
+    {
+      "id": "Holy Ghost",
+      "name": "Holy Ghost",
+      "val": 1
+    },
+    {
+      "id": "Father",
+      "name": "Father",
+      "val": 1
+    },
+    {
+      "id": "God",
+      "name": "God",
+      "val": 4
+    },
+    {
+      "id": "Jesus Christ",
+      "name": "Jesus Christ",
+      "val": 3
+    },
+    {
+      "id": "Lord",
+      "name": "Lord",
+      "val": 4
+    },
+    {
+      "id": "Jesus",
+      "name": "Jesus",
+      "val": 4
+    }
+  ],
+  "links": [
+    {
+      "source": "Christ",
+      "target": "Ephesus",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Timothy",
+      "weight": 3
+    },
+    {
+      "source": "Christ",
+      "target": "Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Father",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "God",
+      "weight": 4
+    },
+    {
+      "source": "Christ",
+      "target": "Jesus Christ",
+      "weight": 3
+    },
+    {
+      "source": "Christ",
+      "target": "Lord",
+      "weight": 4
+    },
+    {
+      "source": "Christ",
+      "target": "Jesus",
+      "weight": 4
+    },
+    {
+      "source": "Ephesus",
+      "target": "Timothy",
+      "weight": 2
+    },
+    {
+      "source": "Ephesus",
+      "target": "Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "Ephesus",
+      "target": "Father",
+      "weight": 1
+    },
+    {
+      "source": "Ephesus",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Ephesus",
+      "target": "Jesus Christ",
+      "weight": 2
+    },
+    {
+      "source": "Ephesus",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Ephesus",
+      "target": "Jesus",
+      "weight": 2
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Timothy",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "Timothy",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Timothy",
+      "weight": 3
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Timothy",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Timothy",
+      "weight": 3
+    },
+    {
+      "source": "Jesus",
+      "target": "Timothy",
+      "weight": 3
+    },
+    {
+      "source": "Father",
+      "target": "Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Jesus",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "God",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "Jesus",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Jesus Christ",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Lord",
+      "weight": 4
+    },
+    {
+      "source": "God",
+      "target": "Jesus",
+      "weight": 4
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Jesus",
+      "target": "Jesus Christ",
+      "weight": 3
+    },
+    {
+      "source": "Jesus",
+      "target": "Lord",
+      "weight": 4
+    }
+  ]
+}

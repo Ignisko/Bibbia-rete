@@ -1,0 +1,4016 @@
+{
+  "nodes": [
+    {
+      "id": "God",
+      "name": "God",
+      "val": 27
+    },
+    {
+      "id": "Lord",
+      "name": "Lord",
+      "val": 25
+    },
+    {
+      "id": "Jesus",
+      "name": "Jesus",
+      "val": 24
+    },
+    {
+      "id": "Peter",
+      "name": "Peter",
+      "val": 11
+    },
+    {
+      "id": "Mary",
+      "name": "Mary",
+      "val": 2
+    },
+    {
+      "id": "Philip",
+      "name": "Philip",
+      "val": 3
+    },
+    {
+      "id": "Judas",
+      "name": "Judas",
+      "val": 4
+    },
+    {
+      "id": "Judea",
+      "name": "Judea",
+      "val": 4
+    },
+    {
+      "id": "James",
+      "name": "James",
+      "val": 4
+    },
+    {
+      "id": "John",
+      "name": "John",
+      "val": 11
+    },
+    {
+      "id": "Holy Ghost",
+      "name": "Holy Ghost",
+      "val": 17
+    },
+    {
+      "id": "Father",
+      "name": "Father",
+      "val": 3
+    },
+    {
+      "id": "Samaria",
+      "name": "Samaria",
+      "val": 3
+    },
+    {
+      "id": "the Holy Ghost",
+      "name": "the Holy Ghost",
+      "val": 5
+    },
+    {
+      "id": "David",
+      "name": "David",
+      "val": 6
+    },
+    {
+      "id": "Christ",
+      "name": "Christ",
+      "val": 19
+    },
+    {
+      "id": "Galilee",
+      "name": "Galilee",
+      "val": 5
+    },
+    {
+      "id": "Joseph",
+      "name": "Joseph",
+      "val": 3
+    },
+    {
+      "id": "Cyrene",
+      "name": "Cyrene",
+      "val": 3
+    },
+    {
+      "id": "Jesus Christ",
+      "name": "Jesus Christ",
+      "val": 12
+    },
+    {
+      "id": "Samuel",
+      "name": "Samuel",
+      "val": 2
+    },
+    {
+      "id": "Jacob",
+      "name": "Jacob",
+      "val": 2
+    },
+    {
+      "id": "Abraham",
+      "name": "Abraham",
+      "val": 3
+    },
+    {
+      "id": "Jesus\r\nChrist",
+      "name": "Jesus\r\nChrist",
+      "val": 2
+    },
+    {
+      "id": "Isaac",
+      "name": "Isaac",
+      "val": 2
+    },
+    {
+      "id": "Solomon",
+      "name": "Solomon",
+      "val": 3
+    },
+    {
+      "id": "Barnabas",
+      "name": "Barnabas",
+      "val": 7
+    },
+    {
+      "id": "Alexander",
+      "name": "Alexander",
+      "val": 2
+    },
+    {
+      "id": "Gentiles",
+      "name": "Gentiles",
+      "val": 10
+    },
+    {
+      "id": "Gamaliel",
+      "name": "Gamaliel",
+      "val": 2
+    },
+    {
+      "id": "Ananias",
+      "name": "Ananias",
+      "val": 3
+    },
+    {
+      "id": "Stephen",
+      "name": "Stephen",
+      "val": 3
+    },
+    {
+      "id": "Cilicia",
+      "name": "Cilicia",
+      "val": 6
+    },
+    {
+      "id": "Saul",
+      "name": "Saul",
+      "val": 8
+    },
+    {
+      "id": "Caesarea",
+      "name": "Caesarea",
+      "val": 8
+    },
+    {
+      "id": "Simon",
+      "name": "Simon",
+      "val": 6
+    },
+    {
+      "id": "Joppe",
+      "name": "Joppe",
+      "val": 3
+    },
+    {
+      "id": "Paul",
+      "name": "Paul",
+      "val": 17
+    },
+    {
+      "id": "Antioch",
+      "name": "Antioch",
+      "val": 3
+    },
+    {
+      "id": "Mark",
+      "name": "Mark",
+      "val": 2
+    },
+    {
+      "id": "Perge",
+      "name": "Perge",
+      "val": 2
+    },
+    {
+      "id": "Lystra",
+      "name": "Lystra",
+      "val": 3
+    },
+    {
+      "id": "Derbe",
+      "name": "Derbe",
+      "val": 2
+    },
+    {
+      "id": "Pharisees",
+      "name": "Pharisees",
+      "val": 2
+    },
+    {
+      "id": "Silas",
+      "name": "Silas",
+      "val": 3
+    },
+    {
+      "id": "Timothy",
+      "name": "Timothy",
+      "val": 3
+    },
+    {
+      "id": "Berea",
+      "name": "Berea",
+      "val": 2
+    },
+    {
+      "id": "Achaia",
+      "name": "Achaia",
+      "val": 2
+    },
+    {
+      "id": "Ephesus",
+      "name": "Ephesus",
+      "val": 3
+    },
+    {
+      "id": "Whom",
+      "name": "Whom",
+      "val": 2
+    },
+    {
+      "id": "Gaius",
+      "name": "Gaius",
+      "val": 2
+    },
+    {
+      "id": "Felix",
+      "name": "Felix",
+      "val": 2
+    },
+    {
+      "id": "Festus",
+      "name": "Festus",
+      "val": 2
+    },
+    {
+      "id": "Bernice",
+      "name": "Bernice",
+      "val": 2
+    },
+    {
+      "id": "Agrippa",
+      "name": "Agrippa",
+      "val": 2
+    }
+  ],
+  "links": [
+    {
+      "source": "God",
+      "target": "Lord",
+      "weight": 25
+    },
+    {
+      "source": "God",
+      "target": "Jesus",
+      "weight": 23
+    },
+    {
+      "source": "God",
+      "target": "Peter",
+      "weight": 11
+    },
+    {
+      "source": "God",
+      "target": "Mary",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Philip",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Judas",
+      "weight": 4
+    },
+    {
+      "source": "God",
+      "target": "Judea",
+      "weight": 4
+    },
+    {
+      "source": "God",
+      "target": "James",
+      "weight": 4
+    },
+    {
+      "source": "God",
+      "target": "John",
+      "weight": 11
+    },
+    {
+      "source": "God",
+      "target": "Holy Ghost",
+      "weight": 17
+    },
+    {
+      "source": "Father",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Samaria",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "the Holy Ghost",
+      "weight": 5
+    },
+    {
+      "source": "David",
+      "target": "God",
+      "weight": 6
+    },
+    {
+      "source": "Christ",
+      "target": "God",
+      "weight": 19
+    },
+    {
+      "source": "Galilee",
+      "target": "God",
+      "weight": 5
+    },
+    {
+      "source": "God",
+      "target": "Joseph",
+      "weight": 3
+    },
+    {
+      "source": "Jesus",
+      "target": "Lord",
+      "weight": 22
+    },
+    {
+      "source": "Lord",
+      "target": "Peter",
+      "weight": 11
+    },
+    {
+      "source": "Lord",
+      "target": "Mary",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Philip",
+      "weight": 3
+    },
+    {
+      "source": "Judas",
+      "target": "Lord",
+      "weight": 4
+    },
+    {
+      "source": "Judea",
+      "target": "Lord",
+      "weight": 4
+    },
+    {
+      "source": "James",
+      "target": "Lord",
+      "weight": 4
+    },
+    {
+      "source": "John",
+      "target": "Lord",
+      "weight": 11
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Lord",
+      "weight": 17
+    },
+    {
+      "source": "Father",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Samaria",
+      "weight": 3
+    },
+    {
+      "source": "Lord",
+      "target": "the Holy Ghost",
+      "weight": 5
+    },
+    {
+      "source": "David",
+      "target": "Lord",
+      "weight": 6
+    },
+    {
+      "source": "Christ",
+      "target": "Lord",
+      "weight": 18
+    },
+    {
+      "source": "Galilee",
+      "target": "Lord",
+      "weight": 5
+    },
+    {
+      "source": "Joseph",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Jesus",
+      "target": "Peter",
+      "weight": 10
+    },
+    {
+      "source": "Jesus",
+      "target": "Mary",
+      "weight": 1
+    },
+    {
+      "source": "Jesus",
+      "target": "Philip",
+      "weight": 3
+    },
+    {
+      "source": "Jesus",
+      "target": "Judas",
+      "weight": 4
+    },
+    {
+      "source": "Jesus",
+      "target": "Judea",
+      "weight": 4
+    },
+    {
+      "source": "James",
+      "target": "Jesus",
+      "weight": 3
+    },
+    {
+      "source": "Jesus",
+      "target": "John",
+      "weight": 10
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Jesus",
+      "weight": 17
+    },
+    {
+      "source": "Father",
+      "target": "Jesus",
+      "weight": 3
+    },
+    {
+      "source": "Jesus",
+      "target": "Samaria",
+      "weight": 3
+    },
+    {
+      "source": "Jesus",
+      "target": "the Holy Ghost",
+      "weight": 5
+    },
+    {
+      "source": "David",
+      "target": "Jesus",
+      "weight": 6
+    },
+    {
+      "source": "Christ",
+      "target": "Jesus",
+      "weight": 19
+    },
+    {
+      "source": "Galilee",
+      "target": "Jesus",
+      "weight": 5
+    },
+    {
+      "source": "Jesus",
+      "target": "Joseph",
+      "weight": 3
+    },
+    {
+      "source": "Mary",
+      "target": "Peter",
+      "weight": 2
+    },
+    {
+      "source": "Peter",
+      "target": "Philip",
+      "weight": 2
+    },
+    {
+      "source": "Judas",
+      "target": "Peter",
+      "weight": 4
+    },
+    {
+      "source": "Judea",
+      "target": "Peter",
+      "weight": 4
+    },
+    {
+      "source": "James",
+      "target": "Peter",
+      "weight": 3
+    },
+    {
+      "source": "John",
+      "target": "Peter",
+      "weight": 8
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Peter",
+      "weight": 9
+    },
+    {
+      "source": "Father",
+      "target": "Peter",
+      "weight": 2
+    },
+    {
+      "source": "Peter",
+      "target": "Samaria",
+      "weight": 3
+    },
+    {
+      "source": "Peter",
+      "target": "the Holy Ghost",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Peter",
+      "weight": 4
+    },
+    {
+      "source": "Christ",
+      "target": "Peter",
+      "weight": 10
+    },
+    {
+      "source": "Galilee",
+      "target": "Peter",
+      "weight": 4
+    },
+    {
+      "source": "Joseph",
+      "target": "Peter",
+      "weight": 2
+    },
+    {
+      "source": "Mary",
+      "target": "Philip",
+      "weight": 1
+    },
+    {
+      "source": "Judas",
+      "target": "Mary",
+      "weight": 1
+    },
+    {
+      "source": "Judea",
+      "target": "Mary",
+      "weight": 1
+    },
+    {
+      "source": "James",
+      "target": "Mary",
+      "weight": 2
+    },
+    {
+      "source": "John",
+      "target": "Mary",
+      "weight": 2
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Mary",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "Mary",
+      "weight": 1
+    },
+    {
+      "source": "Mary",
+      "target": "Samaria",
+      "weight": 1
+    },
+    {
+      "source": "Mary",
+      "target": "the Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Mary",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Mary",
+      "weight": 1
+    },
+    {
+      "source": "Galilee",
+      "target": "Mary",
+      "weight": 1
+    },
+    {
+      "source": "Joseph",
+      "target": "Mary",
+      "weight": 1
+    },
+    {
+      "source": "Judas",
+      "target": "Philip",
+      "weight": 1
+    },
+    {
+      "source": "Judea",
+      "target": "Philip",
+      "weight": 1
+    },
+    {
+      "source": "James",
+      "target": "Philip",
+      "weight": 1
+    },
+    {
+      "source": "John",
+      "target": "Philip",
+      "weight": 2
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Philip",
+      "weight": 3
+    },
+    {
+      "source": "Father",
+      "target": "Philip",
+      "weight": 1
+    },
+    {
+      "source": "Philip",
+      "target": "Samaria",
+      "weight": 2
+    },
+    {
+      "source": "Philip",
+      "target": "the Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Philip",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Philip",
+      "weight": 2
+    },
+    {
+      "source": "Galilee",
+      "target": "Philip",
+      "weight": 1
+    },
+    {
+      "source": "Joseph",
+      "target": "Philip",
+      "weight": 1
+    },
+    {
+      "source": "Judas",
+      "target": "Judea",
+      "weight": 2
+    },
+    {
+      "source": "James",
+      "target": "Judas",
+      "weight": 2
+    },
+    {
+      "source": "John",
+      "target": "Judas",
+      "weight": 2
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Judas",
+      "weight": 4
+    },
+    {
+      "source": "Father",
+      "target": "Judas",
+      "weight": 1
+    },
+    {
+      "source": "Judas",
+      "target": "Samaria",
+      "weight": 2
+    },
+    {
+      "source": "Judas",
+      "target": "the Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Judas",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Judas",
+      "weight": 4
+    },
+    {
+      "source": "Galilee",
+      "target": "Judas",
+      "weight": 3
+    },
+    {
+      "source": "Joseph",
+      "target": "Judas",
+      "weight": 1
+    },
+    {
+      "source": "James",
+      "target": "Judea",
+      "weight": 1
+    },
+    {
+      "source": "John",
+      "target": "Judea",
+      "weight": 2
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Judea",
+      "weight": 4
+    },
+    {
+      "source": "Father",
+      "target": "Judea",
+      "weight": 2
+    },
+    {
+      "source": "Judea",
+      "target": "Samaria",
+      "weight": 2
+    },
+    {
+      "source": "Judea",
+      "target": "the Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Judea",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Judea",
+      "weight": 4
+    },
+    {
+      "source": "Galilee",
+      "target": "Judea",
+      "weight": 3
+    },
+    {
+      "source": "Joseph",
+      "target": "Judea",
+      "weight": 1
+    },
+    {
+      "source": "James",
+      "target": "John",
+      "weight": 3
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "James",
+      "weight": 3
+    },
+    {
+      "source": "Father",
+      "target": "James",
+      "weight": 1
+    },
+    {
+      "source": "James",
+      "target": "Samaria",
+      "weight": 1
+    },
+    {
+      "source": "James",
+      "target": "the Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "James",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "James",
+      "weight": 3
+    },
+    {
+      "source": "Galilee",
+      "target": "James",
+      "weight": 1
+    },
+    {
+      "source": "James",
+      "target": "Joseph",
+      "weight": 1
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "John",
+      "weight": 8
+    },
+    {
+      "source": "Father",
+      "target": "John",
+      "weight": 1
+    },
+    {
+      "source": "John",
+      "target": "Samaria",
+      "weight": 2
+    },
+    {
+      "source": "John",
+      "target": "the Holy Ghost",
+      "weight": 3
+    },
+    {
+      "source": "David",
+      "target": "John",
+      "weight": 4
+    },
+    {
+      "source": "Christ",
+      "target": "John",
+      "weight": 8
+    },
+    {
+      "source": "Galilee",
+      "target": "John",
+      "weight": 3
+    },
+    {
+      "source": "John",
+      "target": "Joseph",
+      "weight": 2
+    },
+    {
+      "source": "Father",
+      "target": "Holy Ghost",
+      "weight": 2
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Samaria",
+      "weight": 3
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "the Holy Ghost",
+      "weight": 5
+    },
+    {
+      "source": "David",
+      "target": "Holy Ghost",
+      "weight": 6
+    },
+    {
+      "source": "Christ",
+      "target": "Holy Ghost",
+      "weight": 14
+    },
+    {
+      "source": "Galilee",
+      "target": "Holy Ghost",
+      "weight": 5
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Joseph",
+      "weight": 3
+    },
+    {
+      "source": "Father",
+      "target": "Samaria",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "the Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Father",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Father",
+      "weight": 3
+    },
+    {
+      "source": "Father",
+      "target": "Galilee",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "Joseph",
+      "weight": 1
+    },
+    {
+      "source": "Samaria",
+      "target": "the Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Samaria",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Samaria",
+      "weight": 3
+    },
+    {
+      "source": "Galilee",
+      "target": "Samaria",
+      "weight": 2
+    },
+    {
+      "source": "Joseph",
+      "target": "Samaria",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "the Holy Ghost",
+      "weight": 4
+    },
+    {
+      "source": "Christ",
+      "target": "the Holy Ghost",
+      "weight": 4
+    },
+    {
+      "source": "Galilee",
+      "target": "the Holy Ghost",
+      "weight": 2
+    },
+    {
+      "source": "Joseph",
+      "target": "the Holy Ghost",
+      "weight": 3
+    },
+    {
+      "source": "Christ",
+      "target": "David",
+      "weight": 5
+    },
+    {
+      "source": "David",
+      "target": "Galilee",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Joseph",
+      "weight": 3
+    },
+    {
+      "source": "Christ",
+      "target": "Galilee",
+      "weight": 4
+    },
+    {
+      "source": "Christ",
+      "target": "Joseph",
+      "weight": 3
+    },
+    {
+      "source": "Galilee",
+      "target": "Joseph",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Cyrene",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Jesus Christ",
+      "weight": 12
+    },
+    {
+      "source": "Cyrene",
+      "target": "Holy Ghost",
+      "weight": 3
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Jesus Christ",
+      "weight": 10
+    },
+    {
+      "source": "Cyrene",
+      "target": "Father",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "Cyrene",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Jesus Christ",
+      "weight": 12
+    },
+    {
+      "source": "Cyrene",
+      "target": "Jesus Christ",
+      "weight": 2
+    },
+    {
+      "source": "Cyrene",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Cyrene",
+      "target": "Jesus",
+      "weight": 3
+    },
+    {
+      "source": "Cyrene",
+      "target": "Peter",
+      "weight": 2
+    },
+    {
+      "source": "Cyrene",
+      "target": "Judea",
+      "weight": 1
+    },
+    {
+      "source": "Cyrene",
+      "target": "David",
+      "weight": 2
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Lord",
+      "weight": 12
+    },
+    {
+      "source": "Jesus",
+      "target": "Jesus Christ",
+      "weight": 12
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Peter",
+      "weight": 8
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Judea",
+      "weight": 3
+    },
+    {
+      "source": "David",
+      "target": "Jesus Christ",
+      "weight": 3
+    },
+    {
+      "source": "Christ",
+      "target": "Samuel",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Jacob",
+      "weight": 2
+    },
+    {
+      "source": "Abraham",
+      "target": "Christ",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Jesus\r\nChrist",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Isaac",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Solomon",
+      "weight": 3
+    },
+    {
+      "source": "John",
+      "target": "Samuel",
+      "weight": 2
+    },
+    {
+      "source": "Jacob",
+      "target": "Samuel",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Samuel",
+      "weight": 2
+    },
+    {
+      "source": "Abraham",
+      "target": "Samuel",
+      "weight": 2
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Samuel",
+      "weight": 1
+    },
+    {
+      "source": "Jesus",
+      "target": "Samuel",
+      "weight": 2
+    },
+    {
+      "source": "Jesus\r\nChrist",
+      "target": "Samuel",
+      "weight": 1
+    },
+    {
+      "source": "Isaac",
+      "target": "Samuel",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "Samuel",
+      "weight": 2
+    },
+    {
+      "source": "Samuel",
+      "target": "Solomon",
+      "weight": 1
+    },
+    {
+      "source": "Peter",
+      "target": "Samuel",
+      "weight": 1
+    },
+    {
+      "source": "Jacob",
+      "target": "John",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "John",
+      "weight": 2
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "John",
+      "weight": 6
+    },
+    {
+      "source": "Jesus\r\nChrist",
+      "target": "John",
+      "weight": 2
+    },
+    {
+      "source": "Isaac",
+      "target": "John",
+      "weight": 1
+    },
+    {
+      "source": "John",
+      "target": "Solomon",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Jacob",
+      "weight": 2
+    },
+    {
+      "source": "Abraham",
+      "target": "Jacob",
+      "weight": 2
+    },
+    {
+      "source": "Jacob",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "Jacob",
+      "target": "Jesus",
+      "weight": 2
+    },
+    {
+      "source": "Jacob",
+      "target": "Jesus\r\nChrist",
+      "weight": 1
+    },
+    {
+      "source": "Isaac",
+      "target": "Jacob",
+      "weight": 2
+    },
+    {
+      "source": "Jacob",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Jacob",
+      "target": "Solomon",
+      "weight": 2
+    },
+    {
+      "source": "Jacob",
+      "target": "Peter",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Jesus\r\nChrist",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Isaac",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Solomon",
+      "weight": 3
+    },
+    {
+      "source": "Abraham",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "Jesus",
+      "weight": 3
+    },
+    {
+      "source": "Abraham",
+      "target": "Jesus\r\nChrist",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "Isaac",
+      "weight": 2
+    },
+    {
+      "source": "Abraham",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Abraham",
+      "target": "Solomon",
+      "weight": 2
+    },
+    {
+      "source": "Abraham",
+      "target": "Peter",
+      "weight": 1
+    },
+    {
+      "source": "Jesus\r\nChrist",
+      "target": "Jesus Christ",
+      "weight": 2
+    },
+    {
+      "source": "Isaac",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Solomon",
+      "weight": 1
+    },
+    {
+      "source": "Jesus",
+      "target": "Jesus\r\nChrist",
+      "weight": 2
+    },
+    {
+      "source": "Isaac",
+      "target": "Jesus",
+      "weight": 2
+    },
+    {
+      "source": "Jesus",
+      "target": "Solomon",
+      "weight": 3
+    },
+    {
+      "source": "Isaac",
+      "target": "Jesus\r\nChrist",
+      "weight": 1
+    },
+    {
+      "source": "Jesus\r\nChrist",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Jesus\r\nChrist",
+      "target": "Solomon",
+      "weight": 1
+    },
+    {
+      "source": "Jesus\r\nChrist",
+      "target": "Peter",
+      "weight": 2
+    },
+    {
+      "source": "Isaac",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Isaac",
+      "target": "Solomon",
+      "weight": 2
+    },
+    {
+      "source": "Isaac",
+      "target": "Peter",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "Solomon",
+      "weight": 3
+    },
+    {
+      "source": "Peter",
+      "target": "Solomon",
+      "weight": 2
+    },
+    {
+      "source": "Barnabas",
+      "target": "Christ",
+      "weight": 4
+    },
+    {
+      "source": "Alexander",
+      "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Gentiles",
+      "weight": 7
+    },
+    {
+      "source": "Barnabas",
+      "target": "Holy Ghost",
+      "weight": 5
+    },
+    {
+      "source": "Barnabas",
+      "target": "John",
+      "weight": 5
+    },
+    {
+      "source": "Alexander",
+      "target": "Barnabas",
+      "weight": 1
+    },
+    {
+      "source": "Barnabas",
+      "target": "God",
+      "weight": 7
+    },
+    {
+      "source": "Barnabas",
+      "target": "Gentiles",
+      "weight": 5
+    },
+    {
+      "source": "Barnabas",
+      "target": "Jesus Christ",
+      "weight": 4
+    },
+    {
+      "source": "Barnabas",
+      "target": "the Holy Ghost",
+      "weight": 2
+    },
+    {
+      "source": "Barnabas",
+      "target": "Lord",
+      "weight": 7
+    },
+    {
+      "source": "Barnabas",
+      "target": "Jesus",
+      "weight": 5
+    },
+    {
+      "source": "Barnabas",
+      "target": "Joseph",
+      "weight": 1
+    },
+    {
+      "source": "Barnabas",
+      "target": "Peter",
+      "weight": 5
+    },
+    {
+      "source": "Barnabas",
+      "target": "David",
+      "weight": 3
+    },
+    {
+      "source": "Alexander",
+      "target": "Holy Ghost",
+      "weight": 2
+    },
+    {
+      "source": "Gentiles",
+      "target": "Holy Ghost",
+      "weight": 7
+    },
+    {
+      "source": "Alexander",
+      "target": "John",
+      "weight": 2
+    },
+    {
+      "source": "Gentiles",
+      "target": "John",
+      "weight": 6
+    },
+    {
+      "source": "Alexander",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Alexander",
+      "target": "Gentiles",
+      "weight": 2
+    },
+    {
+      "source": "Alexander",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "Alexander",
+      "target": "the Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "Alexander",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Alexander",
+      "target": "Jesus",
+      "weight": 2
+    },
+    {
+      "source": "Alexander",
+      "target": "Joseph",
+      "weight": 1
+    },
+    {
+      "source": "Alexander",
+      "target": "Peter",
+      "weight": 1
+    },
+    {
+      "source": "Alexander",
+      "target": "David",
+      "weight": 1
+    },
+    {
+      "source": "Gentiles",
+      "target": "God",
+      "weight": 10
+    },
+    {
+      "source": "Gentiles",
+      "target": "Jesus Christ",
+      "weight": 6
+    },
+    {
+      "source": "Gentiles",
+      "target": "the Holy Ghost",
+      "weight": 2
+    },
+    {
+      "source": "Gentiles",
+      "target": "Lord",
+      "weight": 10
+    },
+    {
+      "source": "Gentiles",
+      "target": "Jesus",
+      "weight": 9
+    },
+    {
+      "source": "Gentiles",
+      "target": "Joseph",
+      "weight": 1
+    },
+    {
+      "source": "Gentiles",
+      "target": "Peter",
+      "weight": 4
+    },
+    {
+      "source": "David",
+      "target": "Gentiles",
+      "weight": 3
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "the Holy Ghost",
+      "weight": 2
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Joseph",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Gamaliel",
+      "weight": 1
+    },
+    {
+      "source": "Ananias",
+      "target": "Christ",
+      "weight": 3
+    },
+    {
+      "source": "Galilee",
+      "target": "Gamaliel",
+      "weight": 1
+    },
+    {
+      "source": "Ananias",
+      "target": "Galilee",
+      "weight": 2
+    },
+    {
+      "source": "Galilee",
+      "target": "Solomon",
+      "weight": 1
+    },
+    {
+      "source": "Gamaliel",
+      "target": "Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "Ananias",
+      "target": "Holy Ghost",
+      "weight": 2
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Solomon",
+      "weight": 2
+    },
+    {
+      "source": "Gamaliel",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Gamaliel",
+      "target": "Judas",
+      "weight": 1
+    },
+    {
+      "source": "Ananias",
+      "target": "Gamaliel",
+      "weight": 1
+    },
+    {
+      "source": "Gamaliel",
+      "target": "Solomon",
+      "weight": 1
+    },
+    {
+      "source": "Gamaliel",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Gamaliel",
+      "target": "Jesus",
+      "weight": 2
+    },
+    {
+      "source": "Gamaliel",
+      "target": "Peter",
+      "weight": 1
+    },
+    {
+      "source": "Ananias",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Ananias",
+      "target": "Judas",
+      "weight": 2
+    },
+    {
+      "source": "Judas",
+      "target": "Solomon",
+      "weight": 1
+    },
+    {
+      "source": "Ananias",
+      "target": "Solomon",
+      "weight": 1
+    },
+    {
+      "source": "Ananias",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Ananias",
+      "target": "Jesus",
+      "weight": 3
+    },
+    {
+      "source": "Ananias",
+      "target": "Peter",
+      "weight": 2
+    },
+    {
+      "source": "Philip",
+      "target": "Stephen",
+      "weight": 2
+    },
+    {
+      "source": "Cilicia",
+      "target": "Philip",
+      "weight": 1
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Stephen",
+      "weight": 3
+    },
+    {
+      "source": "Cilicia",
+      "target": "Holy Ghost",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Stephen",
+      "weight": 3
+    },
+    {
+      "source": "Lord",
+      "target": "Stephen",
+      "weight": 3
+    },
+    {
+      "source": "Jesus",
+      "target": "Stephen",
+      "weight": 3
+    },
+    {
+      "source": "Cilicia",
+      "target": "Stephen",
+      "weight": 1
+    },
+    {
+      "source": "Cilicia",
+      "target": "God",
+      "weight": 6
+    },
+    {
+      "source": "Cilicia",
+      "target": "Lord",
+      "weight": 5
+    },
+    {
+      "source": "Cilicia",
+      "target": "Jesus",
+      "weight": 4
+    },
+    {
+      "source": "Christ",
+      "target": "Stephen",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Saul",
+      "weight": 5
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "Holy Ghost",
+      "weight": 2
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Saul",
+      "weight": 5
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Isaac",
+      "weight": 1
+    },
+    {
+      "source": "Jacob",
+      "target": "Stephen",
+      "weight": 1
+    },
+    {
+      "source": "Jacob",
+      "target": "Saul",
+      "weight": 1
+    },
+    {
+      "source": "Jacob",
+      "target": "the Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "Jacob",
+      "target": "Joseph",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "Stephen",
+      "weight": 1
+    },
+    {
+      "source": "Solomon",
+      "target": "Stephen",
+      "weight": 1
+    },
+    {
+      "source": "Saul",
+      "target": "Stephen",
+      "weight": 2
+    },
+    {
+      "source": "Stephen",
+      "target": "the Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "Isaac",
+      "target": "Stephen",
+      "weight": 1
+    },
+    {
+      "source": "Joseph",
+      "target": "Stephen",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Stephen",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Saul",
+      "weight": 8
+    },
+    {
+      "source": "Abraham",
+      "target": "Saul",
+      "weight": 2
+    },
+    {
+      "source": "Abraham",
+      "target": "the Holy Ghost",
+      "weight": 2
+    },
+    {
+      "source": "Abraham",
+      "target": "Joseph",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "David",
+      "weight": 2
+    },
+    {
+      "source": "Saul",
+      "target": "Solomon",
+      "weight": 1
+    },
+    {
+      "source": "Solomon",
+      "target": "the Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "Joseph",
+      "target": "Solomon",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Solomon",
+      "weight": 1
+    },
+    {
+      "source": "Saul",
+      "target": "the Holy Ghost",
+      "weight": 2
+    },
+    {
+      "source": "Isaac",
+      "target": "Saul",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "Saul",
+      "weight": 8
+    },
+    {
+      "source": "Jesus",
+      "target": "Saul",
+      "weight": 7
+    },
+    {
+      "source": "Joseph",
+      "target": "Saul",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Saul",
+      "weight": 2
+    },
+    {
+      "source": "Isaac",
+      "target": "the Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "Isaac",
+      "target": "Joseph",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Isaac",
+      "weight": 1
+    },
+    {
+      "source": "Caesarea",
+      "target": "Christ",
+      "weight": 6
+    },
+    {
+      "source": "Christ",
+      "target": "Simon",
+      "weight": 5
+    },
+    {
+      "source": "Caesarea",
+      "target": "Holy Ghost",
+      "weight": 5
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Simon",
+      "weight": 6
+    },
+    {
+      "source": "Caesarea",
+      "target": "Philip",
+      "weight": 1
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Philip",
+      "weight": 1
+    },
+    {
+      "source": "Philip",
+      "target": "Simon",
+      "weight": 1
+    },
+    {
+      "source": "Philip",
+      "target": "Saul",
+      "weight": 1
+    },
+    {
+      "source": "John",
+      "target": "Stephen",
+      "weight": 1
+    },
+    {
+      "source": "Caesarea",
+      "target": "John",
+      "weight": 4
+    },
+    {
+      "source": "John",
+      "target": "Simon",
+      "weight": 5
+    },
+    {
+      "source": "John",
+      "target": "Saul",
+      "weight": 4
+    },
+    {
+      "source": "Caesarea",
+      "target": "Stephen",
+      "weight": 1
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Stephen",
+      "weight": 1
+    },
+    {
+      "source": "Samaria",
+      "target": "Stephen",
+      "weight": 1
+    },
+    {
+      "source": "Simon",
+      "target": "Stephen",
+      "weight": 1
+    },
+    {
+      "source": "Peter",
+      "target": "Stephen",
+      "weight": 1
+    },
+    {
+      "source": "Caesarea",
+      "target": "God",
+      "weight": 7
+    },
+    {
+      "source": "Caesarea",
+      "target": "Jesus Christ",
+      "weight": 4
+    },
+    {
+      "source": "Caesarea",
+      "target": "Lord",
+      "weight": 7
+    },
+    {
+      "source": "Caesarea",
+      "target": "Samaria",
+      "weight": 2
+    },
+    {
+      "source": "Caesarea",
+      "target": "Simon",
+      "weight": 4
+    },
+    {
+      "source": "Caesarea",
+      "target": "Jesus",
+      "weight": 7
+    },
+    {
+      "source": "Caesarea",
+      "target": "Peter",
+      "weight": 4
+    },
+    {
+      "source": "Caesarea",
+      "target": "Saul",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Simon",
+      "weight": 6
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Samaria",
+      "weight": 2
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Simon",
+      "weight": 5
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Saul",
+      "weight": 3
+    },
+    {
+      "source": "Lord",
+      "target": "Simon",
+      "weight": 6
+    },
+    {
+      "source": "Samaria",
+      "target": "Simon",
+      "weight": 2
+    },
+    {
+      "source": "Samaria",
+      "target": "Saul",
+      "weight": 2
+    },
+    {
+      "source": "Jesus",
+      "target": "Simon",
+      "weight": 6
+    },
+    {
+      "source": "Peter",
+      "target": "Simon",
+      "weight": 5
+    },
+    {
+      "source": "Saul",
+      "target": "Simon",
+      "weight": 4
+    },
+    {
+      "source": "Peter",
+      "target": "Saul",
+      "weight": 4
+    },
+    {
+      "source": "God",
+      "target": "Joppe",
+      "weight": 3
+    },
+    {
+      "source": "Joppe",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Jesus",
+      "target": "Joppe",
+      "weight": 3
+    },
+    {
+      "source": "Joppe",
+      "target": "Peter",
+      "weight": 3
+    },
+    {
+      "source": "Joppe",
+      "target": "Judas",
+      "weight": 1
+    },
+    {
+      "source": "Joppe",
+      "target": "Simon",
+      "weight": 3
+    },
+    {
+      "source": "Joppe",
+      "target": "Judea",
+      "weight": 2
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Joppe",
+      "weight": 3
+    },
+    {
+      "source": "Caesarea",
+      "target": "Joppe",
+      "weight": 3
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Joppe",
+      "weight": 3
+    },
+    {
+      "source": "Joppe",
+      "target": "Samaria",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Joppe",
+      "weight": 3
+    },
+    {
+      "source": "Galilee",
+      "target": "Joppe",
+      "weight": 2
+    },
+    {
+      "source": "Barnabas",
+      "target": "Joppe",
+      "weight": 2
+    },
+    {
+      "source": "Ananias",
+      "target": "Joppe",
+      "weight": 1
+    },
+    {
+      "source": "Joppe",
+      "target": "Paul",
+      "weight": 1
+    },
+    {
+      "source": "Joppe",
+      "target": "Saul",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Paul",
+      "weight": 16
+    },
+    {
+      "source": "Lord",
+      "target": "Paul",
+      "weight": 14
+    },
+    {
+      "source": "Jesus",
+      "target": "Paul",
+      "weight": 14
+    },
+    {
+      "source": "Paul",
+      "target": "Peter",
+      "weight": 2
+    },
+    {
+      "source": "Judas",
+      "target": "Simon",
+      "weight": 2
+    },
+    {
+      "source": "Caesarea",
+      "target": "Judas",
+      "weight": 1
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Judas",
+      "weight": 2
+    },
+    {
+      "source": "Barnabas",
+      "target": "Judas",
+      "weight": 2
+    },
+    {
+      "source": "Judas",
+      "target": "Paul",
+      "weight": 2
+    },
+    {
+      "source": "Judas",
+      "target": "Saul",
+      "weight": 1
+    },
+    {
+      "source": "Judea",
+      "target": "Simon",
+      "weight": 2
+    },
+    {
+      "source": "Galilee",
+      "target": "Simon",
+      "weight": 3
+    },
+    {
+      "source": "Barnabas",
+      "target": "Simon",
+      "weight": 4
+    },
+    {
+      "source": "Ananias",
+      "target": "Simon",
+      "weight": 1
+    },
+    {
+      "source": "Paul",
+      "target": "Simon",
+      "weight": 3
+    },
+    {
+      "source": "Caesarea",
+      "target": "Judea",
+      "weight": 2
+    },
+    {
+      "source": "Barnabas",
+      "target": "Judea",
+      "weight": 1
+    },
+    {
+      "source": "Ananias",
+      "target": "Judea",
+      "weight": 1
+    },
+    {
+      "source": "Judea",
+      "target": "Paul",
+      "weight": 1
+    },
+    {
+      "source": "Judea",
+      "target": "Saul",
+      "weight": 1
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Paul",
+      "weight": 8
+    },
+    {
+      "source": "Caesarea",
+      "target": "Galilee",
+      "weight": 2
+    },
+    {
+      "source": "Barnabas",
+      "target": "Caesarea",
+      "weight": 2
+    },
+    {
+      "source": "Ananias",
+      "target": "Caesarea",
+      "weight": 1
+    },
+    {
+      "source": "Caesarea",
+      "target": "Paul",
+      "weight": 5
+    },
+    {
+      "source": "Galilee",
+      "target": "Jesus Christ",
+      "weight": 2
+    },
+    {
+      "source": "Ananias",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Paul",
+      "weight": 6
+    },
+    {
+      "source": "Barnabas",
+      "target": "Samaria",
+      "weight": 1
+    },
+    {
+      "source": "Ananias",
+      "target": "Samaria",
+      "weight": 1
+    },
+    {
+      "source": "Paul",
+      "target": "Samaria",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Paul",
+      "weight": 10
+    },
+    {
+      "source": "Barnabas",
+      "target": "Galilee",
+      "weight": 2
+    },
+    {
+      "source": "Galilee",
+      "target": "Paul",
+      "weight": 2
+    },
+    {
+      "source": "Galilee",
+      "target": "Saul",
+      "weight": 2
+    },
+    {
+      "source": "Ananias",
+      "target": "Barnabas",
+      "weight": 1
+    },
+    {
+      "source": "Barnabas",
+      "target": "Paul",
+      "weight": 4
+    },
+    {
+      "source": "Barnabas",
+      "target": "Saul",
+      "weight": 4
+    },
+    {
+      "source": "Ananias",
+      "target": "Paul",
+      "weight": 2
+    },
+    {
+      "source": "Ananias",
+      "target": "Saul",
+      "weight": 1
+    },
+    {
+      "source": "Paul",
+      "target": "Saul",
+      "weight": 4
+    },
+    {
+      "source": "Galilee",
+      "target": "Gentiles",
+      "weight": 2
+    },
+    {
+      "source": "John",
+      "target": "Joppe",
+      "weight": 2
+    },
+    {
+      "source": "Gentiles",
+      "target": "Joppe",
+      "weight": 2
+    },
+    {
+      "source": "Caesarea",
+      "target": "Gentiles",
+      "weight": 2
+    },
+    {
+      "source": "Gentiles",
+      "target": "Simon",
+      "weight": 4
+    },
+    {
+      "source": "Gentiles",
+      "target": "Judea",
+      "weight": 1
+    },
+    {
+      "source": "Antioch",
+      "target": "Christ",
+      "weight": 2
+    },
+    {
+      "source": "Barnabas",
+      "target": "Cyrene",
+      "weight": 2
+    },
+    {
+      "source": "Antioch",
+      "target": "Barnabas",
+      "weight": 3
+    },
+    {
+      "source": "Antioch",
+      "target": "Holy Ghost",
+      "weight": 2
+    },
+    {
+      "source": "Cyrene",
+      "target": "John",
+      "weight": 2
+    },
+    {
+      "source": "Antioch",
+      "target": "John",
+      "weight": 2
+    },
+    {
+      "source": "Cyrene",
+      "target": "Joppe",
+      "weight": 1
+    },
+    {
+      "source": "Antioch",
+      "target": "Joppe",
+      "weight": 1
+    },
+    {
+      "source": "Caesarea",
+      "target": "Cyrene",
+      "weight": 1
+    },
+    {
+      "source": "Antioch",
+      "target": "Caesarea",
+      "weight": 1
+    },
+    {
+      "source": "Antioch",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Cyrene",
+      "target": "Gentiles",
+      "weight": 2
+    },
+    {
+      "source": "Cyrene",
+      "target": "Simon",
+      "weight": 2
+    },
+    {
+      "source": "Antioch",
+      "target": "Cyrene",
+      "weight": 1
+    },
+    {
+      "source": "Cyrene",
+      "target": "Saul",
+      "weight": 2
+    },
+    {
+      "source": "Antioch",
+      "target": "Gentiles",
+      "weight": 3
+    },
+    {
+      "source": "Gentiles",
+      "target": "Saul",
+      "weight": 3
+    },
+    {
+      "source": "Antioch",
+      "target": "Jesus Christ",
+      "weight": 2
+    },
+    {
+      "source": "Antioch",
+      "target": "Jesus",
+      "weight": 2
+    },
+    {
+      "source": "Antioch",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Antioch",
+      "target": "Simon",
+      "weight": 2
+    },
+    {
+      "source": "Antioch",
+      "target": "Peter",
+      "weight": 2
+    },
+    {
+      "source": "Antioch",
+      "target": "Saul",
+      "weight": 1
+    },
+    {
+      "source": "Barnabas",
+      "target": "James",
+      "weight": 2
+    },
+    {
+      "source": "Barnabas",
+      "target": "Mark",
+      "weight": 2
+    },
+    {
+      "source": "Barnabas",
+      "target": "Mary",
+      "weight": 1
+    },
+    {
+      "source": "James",
+      "target": "Mark",
+      "weight": 2
+    },
+    {
+      "source": "James",
+      "target": "Saul",
+      "weight": 1
+    },
+    {
+      "source": "John",
+      "target": "Mark",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Mark",
+      "weight": 2
+    },
+    {
+      "source": "Mark",
+      "target": "Saul",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "Mark",
+      "weight": 2
+    },
+    {
+      "source": "Mark",
+      "target": "Peter",
+      "weight": 2
+    },
+    {
+      "source": "Mark",
+      "target": "Mary",
+      "weight": 1
+    },
+    {
+      "source": "Mary",
+      "target": "Saul",
+      "weight": 1
+    },
+    {
+      "source": "Samuel",
+      "target": "Simon",
+      "weight": 1
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Samuel",
+      "weight": 1
+    },
+    {
+      "source": "Gentiles",
+      "target": "Samuel",
+      "weight": 1
+    },
+    {
+      "source": "Samuel",
+      "target": "the Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Samuel",
+      "weight": 1
+    },
+    {
+      "source": "Galilee",
+      "target": "Samuel",
+      "weight": 1
+    },
+    {
+      "source": "Barnabas",
+      "target": "Samuel",
+      "weight": 1
+    },
+    {
+      "source": "Cyrene",
+      "target": "Samuel",
+      "weight": 1
+    },
+    {
+      "source": "Samuel",
+      "target": "Saul",
+      "weight": 1
+    },
+    {
+      "source": "Paul",
+      "target": "Samuel",
+      "weight": 1
+    },
+    {
+      "source": "Perge",
+      "target": "Samuel",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Perge",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Perge",
+      "weight": 2
+    },
+    {
+      "source": "Jesus",
+      "target": "Perge",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "Simon",
+      "weight": 1
+    },
+    {
+      "source": "Simon",
+      "target": "the Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Simon",
+      "weight": 2
+    },
+    {
+      "source": "Perge",
+      "target": "Simon",
+      "weight": 1
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Perge",
+      "weight": 1
+    },
+    {
+      "source": "John",
+      "target": "Paul",
+      "weight": 4
+    },
+    {
+      "source": "John",
+      "target": "Perge",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "Gentiles",
+      "weight": 1
+    },
+    {
+      "source": "Gentiles",
+      "target": "Paul",
+      "weight": 7
+    },
+    {
+      "source": "Gentiles",
+      "target": "Perge",
+      "weight": 2
+    },
+    {
+      "source": "Abraham",
+      "target": "Galilee",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "Barnabas",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "Cyrene",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "Paul",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "Perge",
+      "weight": 1
+    },
+    {
+      "source": "Cyrene",
+      "target": "the Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "Paul",
+      "target": "the Holy Ghost",
+      "weight": 2
+    },
+    {
+      "source": "Perge",
+      "target": "the Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Paul",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Perge",
+      "weight": 1
+    },
+    {
+      "source": "Cyrene",
+      "target": "Galilee",
+      "weight": 1
+    },
+    {
+      "source": "Galilee",
+      "target": "Perge",
+      "weight": 1
+    },
+    {
+      "source": "Barnabas",
+      "target": "Perge",
+      "weight": 2
+    },
+    {
+      "source": "Cyrene",
+      "target": "Paul",
+      "weight": 1
+    },
+    {
+      "source": "Cyrene",
+      "target": "Perge",
+      "weight": 1
+    },
+    {
+      "source": "Perge",
+      "target": "Saul",
+      "weight": 1
+    },
+    {
+      "source": "Paul",
+      "target": "Perge",
+      "weight": 2
+    },
+    {
+      "source": "Barnabas",
+      "target": "Lystra",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Lystra",
+      "weight": 3
+    },
+    {
+      "source": "Derbe",
+      "target": "Lystra",
+      "weight": 2
+    },
+    {
+      "source": "Gentiles",
+      "target": "Lystra",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "Lystra",
+      "weight": 2
+    },
+    {
+      "source": "Antioch",
+      "target": "Lystra",
+      "weight": 1
+    },
+    {
+      "source": "Lystra",
+      "target": "Paul",
+      "weight": 3
+    },
+    {
+      "source": "Lystra",
+      "target": "Perge",
+      "weight": 1
+    },
+    {
+      "source": "Barnabas",
+      "target": "Derbe",
+      "weight": 1
+    },
+    {
+      "source": "Derbe",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Derbe",
+      "target": "Gentiles",
+      "weight": 1
+    },
+    {
+      "source": "Derbe",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Antioch",
+      "target": "Derbe",
+      "weight": 1
+    },
+    {
+      "source": "Derbe",
+      "target": "Paul",
+      "weight": 2
+    },
+    {
+      "source": "Derbe",
+      "target": "Perge",
+      "weight": 1
+    },
+    {
+      "source": "Antioch",
+      "target": "Paul",
+      "weight": 2
+    },
+    {
+      "source": "Antioch",
+      "target": "Perge",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Pharisees",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Silas",
+      "weight": 3
+    },
+    {
+      "source": "Mark",
+      "target": "Pharisees",
+      "weight": 1
+    },
+    {
+      "source": "Jesus",
+      "target": "Mark",
+      "weight": 1
+    },
+    {
+      "source": "Cilicia",
+      "target": "Mark",
+      "weight": 1
+    },
+    {
+      "source": "Mark",
+      "target": "Silas",
+      "weight": 1
+    },
+    {
+      "source": "Judas",
+      "target": "Mark",
+      "weight": 1
+    },
+    {
+      "source": "Mark",
+      "target": "Simon",
+      "weight": 1
+    },
+    {
+      "source": "Antioch",
+      "target": "Mark",
+      "weight": 1
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Mark",
+      "weight": 1
+    },
+    {
+      "source": "Gentiles",
+      "target": "Mark",
+      "weight": 1
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Mark",
+      "weight": 1
+    },
+    {
+      "source": "Jesus\r\nChrist",
+      "target": "Mark",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Mark",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Mark",
+      "weight": 1
+    },
+    {
+      "source": "Mark",
+      "target": "Paul",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "Pharisees",
+      "weight": 2
+    },
+    {
+      "source": "Jesus",
+      "target": "Pharisees",
+      "weight": 1
+    },
+    {
+      "source": "Cilicia",
+      "target": "Pharisees",
+      "weight": 2
+    },
+    {
+      "source": "Peter",
+      "target": "Pharisees",
+      "weight": 1
+    },
+    {
+      "source": "Pharisees",
+      "target": "Silas",
+      "weight": 1
+    },
+    {
+      "source": "Judas",
+      "target": "Pharisees",
+      "weight": 1
+    },
+    {
+      "source": "Pharisees",
+      "target": "Simon",
+      "weight": 1
+    },
+    {
+      "source": "Antioch",
+      "target": "Pharisees",
+      "weight": 1
+    },
+    {
+      "source": "James",
+      "target": "Pharisees",
+      "weight": 1
+    },
+    {
+      "source": "John",
+      "target": "Pharisees",
+      "weight": 1
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Pharisees",
+      "weight": 1
+    },
+    {
+      "source": "Gentiles",
+      "target": "Pharisees",
+      "weight": 1
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Pharisees",
+      "weight": 1
+    },
+    {
+      "source": "Jesus\r\nChrist",
+      "target": "Pharisees",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Pharisees",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Pharisees",
+      "weight": 1
+    },
+    {
+      "source": "Barnabas",
+      "target": "Pharisees",
+      "weight": 1
+    },
+    {
+      "source": "Paul",
+      "target": "Pharisees",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Silas",
+      "weight": 3
+    },
+    {
+      "source": "Jesus",
+      "target": "Silas",
+      "weight": 3
+    },
+    {
+      "source": "Cilicia",
+      "target": "Peter",
+      "weight": 1
+    },
+    {
+      "source": "Cilicia",
+      "target": "Silas",
+      "weight": 1
+    },
+    {
+      "source": "Cilicia",
+      "target": "Judas",
+      "weight": 1
+    },
+    {
+      "source": "Cilicia",
+      "target": "Simon",
+      "weight": 1
+    },
+    {
+      "source": "Antioch",
+      "target": "Cilicia",
+      "weight": 1
+    },
+    {
+      "source": "Cilicia",
+      "target": "James",
+      "weight": 2
+    },
+    {
+      "source": "Cilicia",
+      "target": "John",
+      "weight": 1
+    },
+    {
+      "source": "Cilicia",
+      "target": "Gentiles",
+      "weight": 1
+    },
+    {
+      "source": "Cilicia",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "Cilicia",
+      "target": "Jesus\r\nChrist",
+      "weight": 1
+    },
+    {
+      "source": "Cilicia",
+      "target": "David",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Cilicia",
+      "weight": 2
+    },
+    {
+      "source": "Barnabas",
+      "target": "Cilicia",
+      "weight": 1
+    },
+    {
+      "source": "Cilicia",
+      "target": "Paul",
+      "weight": 5
+    },
+    {
+      "source": "Peter",
+      "target": "Silas",
+      "weight": 1
+    },
+    {
+      "source": "Judas",
+      "target": "Silas",
+      "weight": 1
+    },
+    {
+      "source": "Silas",
+      "target": "Simon",
+      "weight": 1
+    },
+    {
+      "source": "Antioch",
+      "target": "Silas",
+      "weight": 1
+    },
+    {
+      "source": "James",
+      "target": "Silas",
+      "weight": 1
+    },
+    {
+      "source": "John",
+      "target": "Silas",
+      "weight": 2
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Silas",
+      "weight": 1
+    },
+    {
+      "source": "Gentiles",
+      "target": "Silas",
+      "weight": 2
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Silas",
+      "weight": 2
+    },
+    {
+      "source": "Jesus\r\nChrist",
+      "target": "Silas",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Silas",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Silas",
+      "weight": 3
+    },
+    {
+      "source": "Barnabas",
+      "target": "Silas",
+      "weight": 1
+    },
+    {
+      "source": "Paul",
+      "target": "Silas",
+      "weight": 3
+    },
+    {
+      "source": "Antioch",
+      "target": "Judas",
+      "weight": 1
+    },
+    {
+      "source": "Gentiles",
+      "target": "Judas",
+      "weight": 1
+    },
+    {
+      "source": "Jesus\r\nChrist",
+      "target": "Judas",
+      "weight": 1
+    },
+    {
+      "source": "James",
+      "target": "Simon",
+      "weight": 1
+    },
+    {
+      "source": "Jesus\r\nChrist",
+      "target": "Simon",
+      "weight": 1
+    },
+    {
+      "source": "Antioch",
+      "target": "James",
+      "weight": 1
+    },
+    {
+      "source": "Antioch",
+      "target": "Jesus\r\nChrist",
+      "weight": 1
+    },
+    {
+      "source": "Antioch",
+      "target": "David",
+      "weight": 1
+    },
+    {
+      "source": "Gentiles",
+      "target": "James",
+      "weight": 1
+    },
+    {
+      "source": "James",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "James",
+      "target": "Jesus\r\nChrist",
+      "weight": 1
+    },
+    {
+      "source": "James",
+      "target": "Paul",
+      "weight": 2
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Jesus\r\nChrist",
+      "weight": 1
+    },
+    {
+      "source": "Gentiles",
+      "target": "Jesus\r\nChrist",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Jesus\r\nChrist",
+      "weight": 1
+    },
+    {
+      "source": "Barnabas",
+      "target": "Jesus\r\nChrist",
+      "weight": 1
+    },
+    {
+      "source": "Jesus\r\nChrist",
+      "target": "Paul",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Lystra",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Timothy",
+      "weight": 3
+    },
+    {
+      "source": "Christ",
+      "target": "Derbe",
+      "weight": 1
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Lystra",
+      "weight": 1
+    },
+    {
+      "source": "Lystra",
+      "target": "Timothy",
+      "weight": 1
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Lystra",
+      "weight": 1
+    },
+    {
+      "source": "Lystra",
+      "target": "the Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "Jesus",
+      "target": "Lystra",
+      "weight": 1
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Timothy",
+      "weight": 1
+    },
+    {
+      "source": "Derbe",
+      "target": "Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Timothy",
+      "weight": 3
+    },
+    {
+      "source": "Derbe",
+      "target": "Timothy",
+      "weight": 1
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Timothy",
+      "weight": 2
+    },
+    {
+      "source": "Timothy",
+      "target": "the Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "Timothy",
+      "weight": 3
+    },
+    {
+      "source": "Jesus",
+      "target": "Timothy",
+      "weight": 3
+    },
+    {
+      "source": "Paul",
+      "target": "Timothy",
+      "weight": 3
+    },
+    {
+      "source": "Derbe",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "Derbe",
+      "target": "the Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "Derbe",
+      "target": "Jesus",
+      "weight": 1
+    },
+    {
+      "source": "Berea",
+      "target": "Christ",
+      "weight": 2
+    },
+    {
+      "source": "Gentiles",
+      "target": "Timothy",
+      "weight": 1
+    },
+    {
+      "source": "Berea",
+      "target": "Timothy",
+      "weight": 1
+    },
+    {
+      "source": "Silas",
+      "target": "Timothy",
+      "weight": 2
+    },
+    {
+      "source": "Berea",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Berea",
+      "target": "Gentiles",
+      "weight": 2
+    },
+    {
+      "source": "Berea",
+      "target": "Jesus Christ",
+      "weight": 2
+    },
+    {
+      "source": "Berea",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Berea",
+      "target": "Jesus",
+      "weight": 2
+    },
+    {
+      "source": "Berea",
+      "target": "Paul",
+      "weight": 2
+    },
+    {
+      "source": "Berea",
+      "target": "Silas",
+      "weight": 1
+    },
+    {
+      "source": "Achaia",
+      "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Achaia",
+      "target": "Ephesus",
+      "weight": 2
+    },
+    {
+      "source": "Achaia",
+      "target": "Timothy",
+      "weight": 1
+    },
+    {
+      "source": "Achaia",
+      "target": "John",
+      "weight": 2
+    },
+    {
+      "source": "Achaia",
+      "target": "Caesarea",
+      "weight": 1
+    },
+    {
+      "source": "Achaia",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Achaia",
+      "target": "Whom",
+      "weight": 1
+    },
+    {
+      "source": "Achaia",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Achaia",
+      "target": "Jesus",
+      "weight": 2
+    },
+    {
+      "source": "Achaia",
+      "target": "Paul",
+      "weight": 2
+    },
+    {
+      "source": "Achaia",
+      "target": "Silas",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Ephesus",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Whom",
+      "weight": 2
+    },
+    {
+      "source": "Ephesus",
+      "target": "Timothy",
+      "weight": 1
+    },
+    {
+      "source": "Ephesus",
+      "target": "John",
+      "weight": 2
+    },
+    {
+      "source": "Caesarea",
+      "target": "Ephesus",
+      "weight": 1
+    },
+    {
+      "source": "Ephesus",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Ephesus",
+      "target": "Whom",
+      "weight": 1
+    },
+    {
+      "source": "Ephesus",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Ephesus",
+      "target": "Jesus",
+      "weight": 3
+    },
+    {
+      "source": "Ephesus",
+      "target": "Paul",
+      "weight": 3
+    },
+    {
+      "source": "Ephesus",
+      "target": "Silas",
+      "weight": 1
+    },
+    {
+      "source": "John",
+      "target": "Timothy",
+      "weight": 1
+    },
+    {
+      "source": "Caesarea",
+      "target": "Timothy",
+      "weight": 1
+    },
+    {
+      "source": "Timothy",
+      "target": "Whom",
+      "weight": 1
+    },
+    {
+      "source": "John",
+      "target": "Whom",
+      "weight": 1
+    },
+    {
+      "source": "Caesarea",
+      "target": "Whom",
+      "weight": 1
+    },
+    {
+      "source": "Caesarea",
+      "target": "Silas",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Whom",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Whom",
+      "weight": 2
+    },
+    {
+      "source": "Jesus",
+      "target": "Whom",
+      "weight": 2
+    },
+    {
+      "source": "Paul",
+      "target": "Whom",
+      "weight": 2
+    },
+    {
+      "source": "Silas",
+      "target": "Whom",
+      "weight": 1
+    },
+    {
+      "source": "Achaia",
+      "target": "Alexander",
+      "weight": 1
+    },
+    {
+      "source": "Achaia",
+      "target": "Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "Achaia",
+      "target": "Gentiles",
+      "weight": 1
+    },
+    {
+      "source": "Achaia",
+      "target": "Gaius",
+      "weight": 1
+    },
+    {
+      "source": "Alexander",
+      "target": "Ephesus",
+      "weight": 1
+    },
+    {
+      "source": "Ephesus",
+      "target": "Holy Ghost",
+      "weight": 2
+    },
+    {
+      "source": "Ephesus",
+      "target": "Gentiles",
+      "weight": 2
+    },
+    {
+      "source": "Ephesus",
+      "target": "Gaius",
+      "weight": 2
+    },
+    {
+      "source": "Gaius",
+      "target": "John",
+      "weight": 1
+    },
+    {
+      "source": "Alexander",
+      "target": "Gaius",
+      "weight": 1
+    },
+    {
+      "source": "Alexander",
+      "target": "Paul",
+      "weight": 1
+    },
+    {
+      "source": "Gaius",
+      "target": "Holy Ghost",
+      "weight": 2
+    },
+    {
+      "source": "Gaius",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Gaius",
+      "target": "Gentiles",
+      "weight": 2
+    },
+    {
+      "source": "Gaius",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Gaius",
+      "target": "Jesus",
+      "weight": 2
+    },
+    {
+      "source": "Gaius",
+      "target": "Paul",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Gaius",
+      "weight": 1
+    },
+    {
+      "source": "Ephesus",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "Berea",
+      "target": "Ephesus",
+      "weight": 1
+    },
+    {
+      "source": "Berea",
+      "target": "Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "Gaius",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "Berea",
+      "target": "Gaius",
+      "weight": 1
+    },
+    {
+      "source": "Caesarea",
+      "target": "James",
+      "weight": 1
+    },
+    {
+      "source": "Caesarea",
+      "target": "Cilicia",
+      "weight": 2
+    },
+    {
+      "source": "Cilicia",
+      "target": "Gamaliel",
+      "weight": 1
+    },
+    {
+      "source": "Gamaliel",
+      "target": "Paul",
+      "weight": 1
+    },
+    {
+      "source": "Gamaliel",
+      "target": "Saul",
+      "weight": 1
+    },
+    {
+      "source": "Cilicia",
+      "target": "Saul",
+      "weight": 1
+    },
+    {
+      "source": "Caesarea",
+      "target": "Pharisees",
+      "weight": 1
+    },
+    {
+      "source": "Caesarea",
+      "target": "Felix",
+      "weight": 1
+    },
+    {
+      "source": "Felix",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Felix",
+      "target": "Pharisees",
+      "weight": 1
+    },
+    {
+      "source": "Felix",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Cilicia",
+      "target": "Felix",
+      "weight": 1
+    },
+    {
+      "source": "Felix",
+      "target": "Paul",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Felix",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "Felix",
+      "weight": 1
+    },
+    {
+      "source": "Ananias",
+      "target": "Father",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "Paul",
+      "weight": 1
+    },
+    {
+      "source": "Ananias",
+      "target": "Felix",
+      "weight": 1
+    },
+    {
+      "source": "Felix",
+      "target": "Jesus",
+      "weight": 1
+    },
+    {
+      "source": "Bernice",
+      "target": "Festus",
+      "weight": 2
+    },
+    {
+      "source": "Caesarea",
+      "target": "Festus",
+      "weight": 1
+    },
+    {
+      "source": "Agrippa",
+      "target": "Festus",
+      "weight": 2
+    },
+    {
+      "source": "Festus",
+      "target": "Jesus",
+      "weight": 2
+    },
+    {
+      "source": "Festus",
+      "target": "Paul",
+      "weight": 2
+    },
+    {
+      "source": "Bernice",
+      "target": "Caesarea",
+      "weight": 1
+    },
+    {
+      "source": "Agrippa",
+      "target": "Bernice",
+      "weight": 2
+    },
+    {
+      "source": "Bernice",
+      "target": "Jesus",
+      "weight": 2
+    },
+    {
+      "source": "Bernice",
+      "target": "Paul",
+      "weight": 2
+    },
+    {
+      "source": "Agrippa",
+      "target": "Caesarea",
+      "weight": 1
+    },
+    {
+      "source": "Agrippa",
+      "target": "Jesus",
+      "weight": 2
+    },
+    {
+      "source": "Agrippa",
+      "target": "Paul",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Festus",
+      "weight": 1
+    },
+    {
+      "source": "Bernice",
+      "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Agrippa",
+      "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Festus",
+      "target": "God",
+      "weight": 1
+    },
+    {
+      "source": "Festus",
+      "target": "Gentiles",
+      "weight": 1
+    },
+    {
+      "source": "Festus",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Festus",
+      "target": "Saul",
+      "weight": 1
+    },
+    {
+      "source": "Bernice",
+      "target": "God",
+      "weight": 1
+    },
+    {
+      "source": "Bernice",
+      "target": "Gentiles",
+      "weight": 1
+    },
+    {
+      "source": "Bernice",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Bernice",
+      "target": "Saul",
+      "weight": 1
+    },
+    {
+      "source": "Agrippa",
+      "target": "God",
+      "weight": 1
+    },
+    {
+      "source": "Agrippa",
+      "target": "Gentiles",
+      "weight": 1
+    },
+    {
+      "source": "Agrippa",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Agrippa",
+      "target": "Saul",
+      "weight": 1
+    },
+    {
+      "source": "Cilicia",
+      "target": "Lystra",
+      "weight": 1
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Whom",
+      "weight": 1
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Whom",
+      "weight": 1
+    }
+  ]
+}

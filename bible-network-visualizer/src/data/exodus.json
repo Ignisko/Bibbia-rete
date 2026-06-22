@@ -1,0 +1,996 @@
+{
+  "nodes": [
+    {
+      "id": "Aser",
+      "name": "Aser",
+      "val": 2
+    },
+    {
+      "id": "Jacob",
+      "name": "Jacob",
+      "val": 5
+    },
+    {
+      "id": "Sephora",
+      "name": "Sephora",
+      "val": 3
+    },
+    {
+      "id": "God",
+      "name": "God",
+      "val": 31
+    },
+    {
+      "id": "Levi",
+      "name": "Levi",
+      "val": 4
+    },
+    {
+      "id": "Dan",
+      "name": "Dan",
+      "val": 4
+    },
+    {
+      "id": "Joseph",
+      "name": "Joseph",
+      "val": 2
+    },
+    {
+      "id": "Juda",
+      "name": "Juda",
+      "val": 4
+    },
+    {
+      "id": "Hebrews",
+      "name": "Hebrews",
+      "val": 6
+    },
+    {
+      "id": "Gersam",
+      "name": "Gersam",
+      "val": 2
+    },
+    {
+      "id": "Abraham",
+      "name": "Abraham",
+      "val": 6
+    },
+    {
+      "id": "Eliezer",
+      "name": "Eliezer",
+      "val": 2
+    },
+    {
+      "id": "Isaac",
+      "name": "Isaac",
+      "val": 6
+    },
+    {
+      "id": "Lord",
+      "name": "Lord",
+      "val": 36
+    },
+    {
+      "id": "Horeb",
+      "name": "Horeb",
+      "val": 2
+    },
+    {
+      "id": "Hethite",
+      "name": "Hethite",
+      "val": 4
+    },
+    {
+      "id": "Jethro",
+      "name": "Jethro",
+      "val": 2
+    },
+    {
+      "id": "Aaron",
+      "name": "Aaron",
+      "val": 26
+    },
+    {
+      "id": "Pharao",
+      "name": "Pharao",
+      "val": 8
+    },
+    {
+      "id": "Abiu",
+      "name": "Abiu",
+      "val": 3
+    },
+    {
+      "id": "Christ",
+      "name": "Christ",
+      "val": 3
+    },
+    {
+      "id": "Sinai",
+      "name": "Sinai",
+      "val": 2
+    },
+    {
+      "id": "Hur",
+      "name": "Hur",
+      "val": 2
+    },
+    {
+      "id": "Holy Ghost",
+      "name": "Holy Ghost",
+      "val": 1
+    },
+    {
+      "id": "Achisamech",
+      "name": "Achisamech",
+      "val": 3
+    },
+    {
+      "id": "Uri",
+      "name": "Uri",
+      "val": 3
+    },
+    {
+      "id": "Ooliab",
+      "name": "Ooliab",
+      "val": 3
+    }
+  ],
+  "links": [
+    {
+      "source": "Aser",
+      "target": "Jacob",
+      "weight": 2
+    },
+    {
+      "source": "Aser",
+      "target": "Sephora",
+      "weight": 1
+    },
+    {
+      "source": "Aser",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Aser",
+      "target": "Levi",
+      "weight": 2
+    },
+    {
+      "source": "Aser",
+      "target": "Dan",
+      "weight": 1
+    },
+    {
+      "source": "Aser",
+      "target": "Joseph",
+      "weight": 1
+    },
+    {
+      "source": "Aser",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Aser",
+      "target": "Hebrews",
+      "weight": 1
+    },
+    {
+      "source": "Jacob",
+      "target": "Sephora",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Jacob",
+      "weight": 5
+    },
+    {
+      "source": "Jacob",
+      "target": "Levi",
+      "weight": 3
+    },
+    {
+      "source": "Dan",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Jacob",
+      "target": "Joseph",
+      "weight": 1
+    },
+    {
+      "source": "Jacob",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Hebrews",
+      "target": "Jacob",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Sephora",
+      "weight": 3
+    },
+    {
+      "source": "Levi",
+      "target": "Sephora",
+      "weight": 2
+    },
+    {
+      "source": "Dan",
+      "target": "Sephora",
+      "weight": 1
+    },
+    {
+      "source": "Joseph",
+      "target": "Sephora",
+      "weight": 1
+    },
+    {
+      "source": "Juda",
+      "target": "Sephora",
+      "weight": 1
+    },
+    {
+      "source": "Hebrews",
+      "target": "Sephora",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Levi",
+      "weight": 4
+    },
+    {
+      "source": "Dan",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Joseph",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Juda",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Hebrews",
+      "weight": 6
+    },
+    {
+      "source": "Dan",
+      "target": "Levi",
+      "weight": 1
+    },
+    {
+      "source": "Joseph",
+      "target": "Levi",
+      "weight": 1
+    },
+    {
+      "source": "Juda",
+      "target": "Levi",
+      "weight": 1
+    },
+    {
+      "source": "Hebrews",
+      "target": "Levi",
+      "weight": 2
+    },
+    {
+      "source": "Dan",
+      "target": "Joseph",
+      "weight": 1
+    },
+    {
+      "source": "Dan",
+      "target": "Juda",
+      "weight": 4
+    },
+    {
+      "source": "Dan",
+      "target": "Hebrews",
+      "weight": 1
+    },
+    {
+      "source": "Joseph",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Hebrews",
+      "target": "Joseph",
+      "weight": 2
+    },
+    {
+      "source": "Hebrews",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Gersam",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Gersam",
+      "target": "Sephora",
+      "weight": 2
+    },
+    {
+      "source": "Gersam",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Gersam",
+      "target": "Levi",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "Gersam",
+      "weight": 1
+    },
+    {
+      "source": "Eliezer",
+      "target": "Gersam",
+      "weight": 2
+    },
+    {
+      "source": "Gersam",
+      "target": "Isaac",
+      "weight": 1
+    },
+    {
+      "source": "Gersam",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Gersam",
+      "target": "Hebrews",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "Jacob",
+      "weight": 4
+    },
+    {
+      "source": "Eliezer",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Isaac",
+      "target": "Jacob",
+      "weight": 4
+    },
+    {
+      "source": "Jacob",
+      "target": "Lord",
+      "weight": 4
+    },
+    {
+      "source": "Abraham",
+      "target": "Sephora",
+      "weight": 1
+    },
+    {
+      "source": "Eliezer",
+      "target": "Sephora",
+      "weight": 2
+    },
+    {
+      "source": "Isaac",
+      "target": "Sephora",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "Sephora",
+      "weight": 2
+    },
+    {
+      "source": "Abraham",
+      "target": "God",
+      "weight": 6
+    },
+    {
+      "source": "Eliezer",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Isaac",
+      "weight": 6
+    },
+    {
+      "source": "God",
+      "target": "Lord",
+      "weight": 29
+    },
+    {
+      "source": "Abraham",
+      "target": "Levi",
+      "weight": 3
+    },
+    {
+      "source": "Eliezer",
+      "target": "Levi",
+      "weight": 1
+    },
+    {
+      "source": "Isaac",
+      "target": "Levi",
+      "weight": 3
+    },
+    {
+      "source": "Levi",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Abraham",
+      "target": "Eliezer",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "Isaac",
+      "weight": 6
+    },
+    {
+      "source": "Abraham",
+      "target": "Lord",
+      "weight": 6
+    },
+    {
+      "source": "Abraham",
+      "target": "Hebrews",
+      "weight": 1
+    },
+    {
+      "source": "Eliezer",
+      "target": "Isaac",
+      "weight": 1
+    },
+    {
+      "source": "Eliezer",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Eliezer",
+      "target": "Hebrews",
+      "weight": 1
+    },
+    {
+      "source": "Isaac",
+      "target": "Lord",
+      "weight": 6
+    },
+    {
+      "source": "Hebrews",
+      "target": "Isaac",
+      "weight": 1
+    },
+    {
+      "source": "Hebrews",
+      "target": "Lord",
+      "weight": 5
+    },
+    {
+      "source": "Horeb",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Hethite",
+      "target": "Jacob",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Horeb",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Hethite",
+      "weight": 4
+    },
+    {
+      "source": "Abraham",
+      "target": "Horeb",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "Hethite",
+      "weight": 2
+    },
+    {
+      "source": "Horeb",
+      "target": "Isaac",
+      "weight": 1
+    },
+    {
+      "source": "Horeb",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Hethite",
+      "target": "Horeb",
+      "weight": 1
+    },
+    {
+      "source": "Hethite",
+      "target": "Isaac",
+      "weight": 2
+    },
+    {
+      "source": "Hethite",
+      "target": "Lord",
+      "weight": 4
+    },
+    {
+      "source": "God",
+      "target": "Jethro",
+      "weight": 2
+    },
+    {
+      "source": "Aaron",
+      "target": "God",
+      "weight": 21
+    },
+    {
+      "source": "Abraham",
+      "target": "Jethro",
+      "weight": 1
+    },
+    {
+      "source": "Isaac",
+      "target": "Jethro",
+      "weight": 1
+    },
+    {
+      "source": "Jethro",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Aaron",
+      "target": "Jethro",
+      "weight": 2
+    },
+    {
+      "source": "Aaron",
+      "target": "Abraham",
+      "weight": 3
+    },
+    {
+      "source": "Aaron",
+      "target": "Isaac",
+      "weight": 3
+    },
+    {
+      "source": "Aaron",
+      "target": "Lord",
+      "weight": 26
+    },
+    {
+      "source": "God",
+      "target": "Pharao",
+      "weight": 8
+    },
+    {
+      "source": "Lord",
+      "target": "Pharao",
+      "weight": 8
+    },
+    {
+      "source": "Aaron",
+      "target": "Pharao",
+      "weight": 6
+    },
+    {
+      "source": "Abiu",
+      "target": "Aser",
+      "weight": 1
+    },
+    {
+      "source": "Abiu",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Abiu",
+      "target": "Levi",
+      "weight": 1
+    },
+    {
+      "source": "Abiu",
+      "target": "Isaac",
+      "weight": 1
+    },
+    {
+      "source": "Abiu",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Aaron",
+      "target": "Abiu",
+      "weight": 3
+    },
+    {
+      "source": "Abiu",
+      "target": "Abraham",
+      "weight": 1
+    },
+    {
+      "source": "Abiu",
+      "target": "Pharao",
+      "weight": 1
+    },
+    {
+      "source": "Abiu",
+      "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Abiu",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Aser",
+      "target": "Isaac",
+      "weight": 1
+    },
+    {
+      "source": "Aser",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Aaron",
+      "target": "Aser",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "Aser",
+      "weight": 1
+    },
+    {
+      "source": "Aser",
+      "target": "Pharao",
+      "weight": 1
+    },
+    {
+      "source": "Aser",
+      "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Aaron",
+      "target": "Levi",
+      "weight": 2
+    },
+    {
+      "source": "Levi",
+      "target": "Pharao",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Levi",
+      "weight": 1
+    },
+    {
+      "source": "Isaac",
+      "target": "Pharao",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Isaac",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Aaron",
+      "target": "Christ",
+      "weight": 2
+    },
+    {
+      "source": "Aaron",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "Pharao",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Pharao",
+      "weight": 1
+    },
+    {
+      "source": "Jacob",
+      "target": "Pharao",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Hebrews",
+      "target": "Pharao",
+      "weight": 3
+    },
+    {
+      "source": "Aaron",
+      "target": "Hebrews",
+      "weight": 3
+    },
+    {
+      "source": "Joseph",
+      "target": "Pharao",
+      "weight": 1
+    },
+    {
+      "source": "Hethite",
+      "target": "Pharao",
+      "weight": 1
+    },
+    {
+      "source": "Joseph",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Hethite",
+      "target": "Joseph",
+      "weight": 1
+    },
+    {
+      "source": "Hebrews",
+      "target": "Hethite",
+      "weight": 1
+    },
+    {
+      "source": "Aaron",
+      "target": "Sinai",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Sinai",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Sinai",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Hur",
+      "weight": 2
+    },
+    {
+      "source": "Horeb",
+      "target": "Hur",
+      "weight": 1
+    },
+    {
+      "source": "Aaron",
+      "target": "Horeb",
+      "weight": 1
+    },
+    {
+      "source": "Hur",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Aaron",
+      "target": "Hur",
+      "weight": 2
+    },
+    {
+      "source": "Gersam",
+      "target": "Jethro",
+      "weight": 1
+    },
+    {
+      "source": "Aaron",
+      "target": "Gersam",
+      "weight": 1
+    },
+    {
+      "source": "Jethro",
+      "target": "Sephora",
+      "weight": 1
+    },
+    {
+      "source": "Aaron",
+      "target": "Sephora",
+      "weight": 1
+    },
+    {
+      "source": "Eliezer",
+      "target": "Jethro",
+      "weight": 1
+    },
+    {
+      "source": "Aaron",
+      "target": "Eliezer",
+      "weight": 1
+    },
+    {
+      "source": "Abiu",
+      "target": "Hur",
+      "weight": 1
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "Achisamech",
+      "target": "Uri",
+      "weight": 3
+    },
+    {
+      "source": "Achisamech",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Achisamech",
+      "target": "Dan",
+      "weight": 3
+    },
+    {
+      "source": "Achisamech",
+      "target": "Ooliab",
+      "weight": 3
+    },
+    {
+      "source": "Achisamech",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Aaron",
+      "target": "Achisamech",
+      "weight": 3
+    },
+    {
+      "source": "Achisamech",
+      "target": "Juda",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Uri",
+      "weight": 2
+    },
+    {
+      "source": "Dan",
+      "target": "Uri",
+      "weight": 3
+    },
+    {
+      "source": "Ooliab",
+      "target": "Uri",
+      "weight": 3
+    },
+    {
+      "source": "Lord",
+      "target": "Uri",
+      "weight": 3
+    },
+    {
+      "source": "Aaron",
+      "target": "Uri",
+      "weight": 3
+    },
+    {
+      "source": "Juda",
+      "target": "Uri",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Ooliab",
+      "weight": 2
+    },
+    {
+      "source": "Dan",
+      "target": "Ooliab",
+      "weight": 3
+    },
+    {
+      "source": "Dan",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Aaron",
+      "target": "Dan",
+      "weight": 3
+    },
+    {
+      "source": "Lord",
+      "target": "Ooliab",
+      "weight": 3
+    },
+    {
+      "source": "Aaron",
+      "target": "Ooliab",
+      "weight": 3
+    },
+    {
+      "source": "Juda",
+      "target": "Ooliab",
+      "weight": 3
+    },
+    {
+      "source": "Juda",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Aaron",
+      "target": "Juda",
+      "weight": 3
+    }
+  ]
+}

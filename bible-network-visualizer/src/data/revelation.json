@@ -1,0 +1,25 @@
+{
+  "nodes": [
+    {"id": "God", "name": "God", "val": 10},
+    {"id": "Jesus", "name": "Jesus", "val": 9},
+    {"id": "John", "name": "John", "val": 6},
+    {"id": "Angel", "name": "Angel", "val": 7},
+    {"id": "Dragon", "name": "Dragon", "val": 6},
+    {"id": "Beast", "name": "Beast", "val": 5},
+    {"id": "FalseProphet", "name": "False Prophet", "val": 4},
+    {"id": "Michael", "name": "Michael", "val": 4},
+    {"id": "Lamb", "name": "Lamb", "val": 8}
+  ],
+  "links": [
+    {"source": "God", "target": "Jesus", "weight": 8},
+    {"source": "Jesus", "target": "John", "weight": 6},
+    {"source": "Jesus", "target": "Angel", "weight": 5},
+    {"source": "Jesus", "target": "Lamb", "weight": 8},
+    {"source": "God", "target": "Lamb", "weight": 7},
+    {"source": "John", "target": "Angel", "weight": 7},
+    {"source": "Dragon", "target": "Beast", "weight": 6},
+    {"source": "Beast", "target": "FalseProphet", "weight": 5},
+    {"source": "Michael", "target": "Dragon", "weight": 4},
+    {"source": "Angel", "target": "Dragon", "weight": 3}
+  ]
+}

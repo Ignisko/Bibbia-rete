@@ -1,0 +1,401 @@
+{
+  "nodes": [
+    {
+      "id": "Lord",
+      "name": "Lord",
+      "val": 8
+    },
+    {
+      "id": "God",
+      "name": "God",
+      "val": 13
+    },
+    {
+      "id": "Father",
+      "name": "Father",
+      "val": 3
+    },
+    {
+      "id": "Christ",
+      "name": "Christ",
+      "val": 11
+    },
+    {
+      "id": "Holy Ghost",
+      "name": "Holy Ghost",
+      "val": 6
+    },
+    {
+      "id": "Abraham",
+      "name": "Abraham",
+      "val": 4
+    },
+    {
+      "id": "Jesus",
+      "name": "Jesus",
+      "val": 9
+    },
+    {
+      "id": "Jesus Christ",
+      "name": "Jesus Christ",
+      "val": 4
+    },
+    {
+      "id": "David",
+      "name": "David",
+      "val": 2
+    },
+    {
+      "id": "Aaron",
+      "name": "Aaron",
+      "val": 3
+    },
+    {
+      "id": "Juda",
+      "name": "Juda",
+      "val": 2
+    },
+    {
+      "id": "Abel",
+      "name": "Abel",
+      "val": 2
+    },
+    {
+      "id": "Jacob",
+      "name": "Jacob",
+      "val": 2
+    }
+  ],
+  "links": [
+    {
+      "source": "God",
+      "target": "Lord",
+      "weight": 8
+    },
+    {
+      "source": "Father",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Father",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Christ",
+      "target": "Holy Ghost",
+      "weight": 6
+    },
+    {
+      "source": "Christ",
+      "target": "God",
+      "weight": 11
+    },
+    {
+      "source": "Abraham",
+      "target": "Christ",
+      "weight": 4
+    },
+    {
+      "source": "Christ",
+      "target": "Lord",
+      "weight": 6
+    },
+    {
+      "source": "Christ",
+      "target": "Jesus",
+      "weight": 8
+    },
+    {
+      "source": "God",
+      "target": "Holy Ghost",
+      "weight": 6
+    },
+    {
+      "source": "Abraham",
+      "target": "Holy Ghost",
+      "weight": 3
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Jesus",
+      "weight": 5
+    },
+    {
+      "source": "Abraham",
+      "target": "God",
+      "weight": 4
+    },
+    {
+      "source": "God",
+      "target": "Jesus",
+      "weight": 9
+    },
+    {
+      "source": "Abraham",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Abraham",
+      "target": "Jesus",
+      "weight": 3
+    },
+    {
+      "source": "Jesus",
+      "target": "Lord",
+      "weight": 6
+    },
+    {
+      "source": "Christ",
+      "target": "Jesus Christ",
+      "weight": 4
+    },
+    {
+      "source": "Christ",
+      "target": "David",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Jesus Christ",
+      "weight": 4
+    },
+    {
+      "source": "David",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Jesus",
+      "target": "Jesus Christ",
+      "weight": 4
+    },
+    {
+      "source": "David",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Jesus",
+      "weight": 1
+    },
+    {
+      "source": "Aaron",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Aaron",
+      "target": "Christ",
+      "weight": 3
+    },
+    {
+      "source": "Christ",
+      "target": "Father",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Abraham",
+      "target": "Father",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "Aaron",
+      "target": "Father",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "Jesus",
+      "weight": 2
+    },
+    {
+      "source": "Father",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Abraham",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "Aaron",
+      "target": "Abraham",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Aaron",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Aaron",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Juda",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Aaron",
+      "target": "Jesus",
+      "weight": 2
+    },
+    {
+      "source": "Aaron",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Jesus",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Aaron",
+      "target": "Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "Abel",
+      "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Abel",
+      "target": "Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "Abel",
+      "target": "Jacob",
+      "weight": 2
+    },
+    {
+      "source": "Abel",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Abel",
+      "target": "Abraham",
+      "weight": 1
+    },
+    {
+      "source": "Abel",
+      "target": "David",
+      "weight": 1
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Jacob",
+      "weight": 2
+    },
+    {
+      "source": "Abraham",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "David",
+      "weight": 1
+    },
+    {
+      "source": "Abel",
+      "target": "Father",
+      "weight": 1
+    },
+    {
+      "source": "Abel",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Abel",
+      "target": "Jesus",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Jacob",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Jacob",
+      "target": "Jesus",
+      "weight": 1
+    }
+  ]
+}

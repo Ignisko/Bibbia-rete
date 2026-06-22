@@ -1,0 +1,476 @@
+{
+  "nodes": [
+    {
+      "id": "Christ",
+      "name": "Christ",
+      "val": 12
+    },
+    {
+      "id": "John",
+      "name": "John",
+      "val": 5
+    },
+    {
+      "id": "Father",
+      "name": "Father",
+      "val": 4
+    },
+    {
+      "id": "Sardis",
+      "name": "Sardis",
+      "val": 2
+    },
+    {
+      "id": "Thyatira",
+      "name": "Thyatira",
+      "val": 2
+    },
+    {
+      "id": "God",
+      "name": "God",
+      "val": 22
+    },
+    {
+      "id": "Jesus Christ",
+      "name": "Jesus Christ",
+      "val": 4
+    },
+    {
+      "id": "Omega",
+      "name": "Omega",
+      "val": 3
+    },
+    {
+      "id": "Lord",
+      "name": "Lord",
+      "val": 15
+    },
+    {
+      "id": "Alpha",
+      "name": "Alpha",
+      "val": 3
+    },
+    {
+      "id": "Jesus",
+      "name": "Jesus",
+      "val": 8
+    },
+    {
+      "id": "David",
+      "name": "David",
+      "val": 3
+    },
+    {
+      "id": "Juda",
+      "name": "Juda",
+      "val": 2
+    },
+    {
+      "id": "Antichrist",
+      "name": "Antichrist",
+      "val": 3
+    },
+    {
+      "id": "Babylon",
+      "name": "Babylon",
+      "val": 2
+    }
+  ],
+  "links": [
+    {
+      "source": "Christ",
+      "target": "John",
+      "weight": 4
+    },
+    {
+      "source": "Christ",
+      "target": "Father",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Sardis",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Thyatira",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "God",
+      "weight": 12
+    },
+    {
+      "source": "Christ",
+      "target": "Jesus Christ",
+      "weight": 4
+    },
+    {
+      "source": "Christ",
+      "target": "Omega",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Lord",
+      "weight": 8
+    },
+    {
+      "source": "Alpha",
+      "target": "Christ",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Jesus",
+      "weight": 7
+    },
+    {
+      "source": "Father",
+      "target": "John",
+      "weight": 1
+    },
+    {
+      "source": "John",
+      "target": "Sardis",
+      "weight": 1
+    },
+    {
+      "source": "John",
+      "target": "Thyatira",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "John",
+      "weight": 5
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "John",
+      "weight": 2
+    },
+    {
+      "source": "John",
+      "target": "Omega",
+      "weight": 3
+    },
+    {
+      "source": "John",
+      "target": "Lord",
+      "weight": 4
+    },
+    {
+      "source": "Alpha",
+      "target": "John",
+      "weight": 3
+    },
+    {
+      "source": "Jesus",
+      "target": "John",
+      "weight": 3
+    },
+    {
+      "source": "Father",
+      "target": "Sardis",
+      "weight": 2
+    },
+    {
+      "source": "Father",
+      "target": "Thyatira",
+      "weight": 2
+    },
+    {
+      "source": "Father",
+      "target": "God",
+      "weight": 4
+    },
+    {
+      "source": "Father",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "Omega",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Alpha",
+      "target": "Father",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "Jesus",
+      "weight": 2
+    },
+    {
+      "source": "Sardis",
+      "target": "Thyatira",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Sardis",
+      "weight": 2
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Sardis",
+      "weight": 1
+    },
+    {
+      "source": "Omega",
+      "target": "Sardis",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "Sardis",
+      "weight": 1
+    },
+    {
+      "source": "Alpha",
+      "target": "Sardis",
+      "weight": 1
+    },
+    {
+      "source": "Jesus",
+      "target": "Sardis",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Thyatira",
+      "weight": 2
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Thyatira",
+      "weight": 1
+    },
+    {
+      "source": "Omega",
+      "target": "Thyatira",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "Thyatira",
+      "weight": 2
+    },
+    {
+      "source": "Alpha",
+      "target": "Thyatira",
+      "weight": 1
+    },
+    {
+      "source": "Jesus",
+      "target": "Thyatira",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Jesus Christ",
+      "weight": 4
+    },
+    {
+      "source": "God",
+      "target": "Omega",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Lord",
+      "weight": 15
+    },
+    {
+      "source": "Alpha",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Jesus",
+      "weight": 8
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Omega",
+      "weight": 2
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Alpha",
+      "target": "Jesus Christ",
+      "weight": 2
+    },
+    {
+      "source": "Jesus",
+      "target": "Jesus Christ",
+      "weight": 4
+    },
+    {
+      "source": "Lord",
+      "target": "Omega",
+      "weight": 3
+    },
+    {
+      "source": "Alpha",
+      "target": "Omega",
+      "weight": 3
+    },
+    {
+      "source": "Jesus",
+      "target": "Omega",
+      "weight": 2
+    },
+    {
+      "source": "Alpha",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Jesus",
+      "target": "Lord",
+      "weight": 5
+    },
+    {
+      "source": "Alpha",
+      "target": "Jesus",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Father",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "David",
+      "target": "Sardis",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "David",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Juda",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Antichrist",
+      "target": "Christ",
+      "weight": 2
+    },
+    {
+      "source": "Antichrist",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Antichrist",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "Antichrist",
+      "target": "Jesus",
+      "weight": 2
+    },
+    {
+      "source": "Babylon",
+      "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Babylon",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Babylon",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Babylon",
+      "target": "Jesus",
+      "weight": 1
+    },
+    {
+      "source": "Antichrist",
+      "target": "Babylon",
+      "weight": 1
+    },
+    {
+      "source": "Antichrist",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Omega",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Jesus",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "John",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "Alpha",
+      "target": "David",
+      "weight": 1
+    }
+  ]
+}

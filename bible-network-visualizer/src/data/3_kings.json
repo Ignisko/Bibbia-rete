@@ -1,0 +1,1851 @@
+{
+  "nodes": [
+    {
+      "id": "God",
+      "name": "God",
+      "val": 22
+    },
+    {
+      "id": "Lord",
+      "name": "Lord",
+      "val": 21
+    },
+    {
+      "id": "Sadoc",
+      "name": "Sadoc",
+      "val": 2
+    },
+    {
+      "id": "Adonias",
+      "name": "Adonias",
+      "val": 2
+    },
+    {
+      "id": "Sunamitess",
+      "name": "Sunamitess",
+      "val": 2
+    },
+    {
+      "id": "Abiathar",
+      "name": "Abiathar",
+      "val": 3
+    },
+    {
+      "id": "Banaias",
+      "name": "Banaias",
+      "val": 3
+    },
+    {
+      "id": "Abisag",
+      "name": "Abisag",
+      "val": 2
+    },
+    {
+      "id": "Joab",
+      "name": "Joab",
+      "val": 3
+    },
+    {
+      "id": "Juda",
+      "name": "Juda",
+      "val": 11
+    },
+    {
+      "id": "Bethsabee",
+      "name": "Bethsabee",
+      "val": 2
+    },
+    {
+      "id": "David",
+      "name": "David",
+      "val": 14
+    },
+    {
+      "id": "Solomon",
+      "name": "Solomon",
+      "val": 13
+    },
+    {
+      "id": "Maacha",
+      "name": "Maacha",
+      "val": 2
+    },
+    {
+      "id": "Ela",
+      "name": "Ela",
+      "val": 2
+    },
+    {
+      "id": "Bersabee",
+      "name": "Bersabee",
+      "val": 2
+    },
+    {
+      "id": "Benjamin",
+      "name": "Benjamin",
+      "val": 2
+    },
+    {
+      "id": "Adoniram",
+      "name": "Adoniram",
+      "val": 2
+    },
+    {
+      "id": "Galaad",
+      "name": "Galaad",
+      "val": 2
+    },
+    {
+      "id": "Dan",
+      "name": "Dan",
+      "val": 3
+    },
+    {
+      "id": "Libanus",
+      "name": "Libanus",
+      "val": 4
+    },
+    {
+      "id": "Hiram",
+      "name": "Hiram",
+      "val": 3
+    },
+    {
+      "id": "Pharao",
+      "name": "Pharao",
+      "val": 3
+    },
+    {
+      "id": "Jeroboam",
+      "name": "Jeroboam",
+      "val": 7
+    },
+    {
+      "id": "Roboam",
+      "name": "Roboam",
+      "val": 4
+    },
+    {
+      "id": "Bethel",
+      "name": "Bethel",
+      "val": 2
+    },
+    {
+      "id": "Ahias",
+      "name": "Ahias",
+      "val": 2
+    },
+    {
+      "id": "Abiam",
+      "name": "Abiam",
+      "val": 2
+    },
+    {
+      "id": "Benadad",
+      "name": "Benadad",
+      "val": 2
+    },
+    {
+      "id": "Nabat",
+      "name": "Nabat",
+      "val": 3
+    },
+    {
+      "id": "Gebbethon",
+      "name": "Gebbethon",
+      "val": 2
+    },
+    {
+      "id": "Josaphat",
+      "name": "Josaphat",
+      "val": 2
+    },
+    {
+      "id": "Jehu",
+      "name": "Jehu",
+      "val": 2
+    },
+    {
+      "id": "Jezabel",
+      "name": "Jezabel",
+      "val": 4
+    },
+    {
+      "id": "Baal",
+      "name": "Baal",
+      "val": 3
+    },
+    {
+      "id": "Achab",
+      "name": "Achab",
+      "val": 7
+    },
+    {
+      "id": "Elias",
+      "name": "Elias",
+      "val": 4
+    },
+    {
+      "id": "Jezrahel",
+      "name": "Jezrahel",
+      "val": 2
+    }
+  ],
+  "links": [
+    {
+      "source": "God",
+      "target": "Lord",
+      "weight": 21
+    },
+    {
+      "source": "God",
+      "target": "Sadoc",
+      "weight": 2
+    },
+    {
+      "source": "Adonias",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Sunamitess",
+      "weight": 2
+    },
+    {
+      "source": "Abiathar",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Banaias",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Abisag",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Joab",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Juda",
+      "weight": 11
+    },
+    {
+      "source": "Bethsabee",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "God",
+      "weight": 14
+    },
+    {
+      "source": "God",
+      "target": "Solomon",
+      "weight": 13
+    },
+    {
+      "source": "Lord",
+      "target": "Sadoc",
+      "weight": 1
+    },
+    {
+      "source": "Adonias",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Sunamitess",
+      "weight": 2
+    },
+    {
+      "source": "Abiathar",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Banaias",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Abisag",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Joab",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Juda",
+      "target": "Lord",
+      "weight": 10
+    },
+    {
+      "source": "Bethsabee",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Lord",
+      "weight": 14
+    },
+    {
+      "source": "Lord",
+      "target": "Solomon",
+      "weight": 12
+    },
+    {
+      "source": "Adonias",
+      "target": "Sadoc",
+      "weight": 1
+    },
+    {
+      "source": "Sadoc",
+      "target": "Sunamitess",
+      "weight": 1
+    },
+    {
+      "source": "Abiathar",
+      "target": "Sadoc",
+      "weight": 2
+    },
+    {
+      "source": "Banaias",
+      "target": "Sadoc",
+      "weight": 2
+    },
+    {
+      "source": "Abisag",
+      "target": "Sadoc",
+      "weight": 1
+    },
+    {
+      "source": "Joab",
+      "target": "Sadoc",
+      "weight": 1
+    },
+    {
+      "source": "Juda",
+      "target": "Sadoc",
+      "weight": 2
+    },
+    {
+      "source": "Bethsabee",
+      "target": "Sadoc",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Sadoc",
+      "weight": 1
+    },
+    {
+      "source": "Sadoc",
+      "target": "Solomon",
+      "weight": 2
+    },
+    {
+      "source": "Adonias",
+      "target": "Sunamitess",
+      "weight": 2
+    },
+    {
+      "source": "Abiathar",
+      "target": "Adonias",
+      "weight": 2
+    },
+    {
+      "source": "Adonias",
+      "target": "Banaias",
+      "weight": 2
+    },
+    {
+      "source": "Abisag",
+      "target": "Adonias",
+      "weight": 2
+    },
+    {
+      "source": "Adonias",
+      "target": "Joab",
+      "weight": 2
+    },
+    {
+      "source": "Adonias",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Adonias",
+      "target": "Bethsabee",
+      "weight": 2
+    },
+    {
+      "source": "Adonias",
+      "target": "David",
+      "weight": 2
+    },
+    {
+      "source": "Adonias",
+      "target": "Solomon",
+      "weight": 2
+    },
+    {
+      "source": "Abiathar",
+      "target": "Sunamitess",
+      "weight": 2
+    },
+    {
+      "source": "Banaias",
+      "target": "Sunamitess",
+      "weight": 2
+    },
+    {
+      "source": "Abisag",
+      "target": "Sunamitess",
+      "weight": 2
+    },
+    {
+      "source": "Joab",
+      "target": "Sunamitess",
+      "weight": 2
+    },
+    {
+      "source": "Juda",
+      "target": "Sunamitess",
+      "weight": 2
+    },
+    {
+      "source": "Bethsabee",
+      "target": "Sunamitess",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Sunamitess",
+      "weight": 2
+    },
+    {
+      "source": "Solomon",
+      "target": "Sunamitess",
+      "weight": 2
+    },
+    {
+      "source": "Abiathar",
+      "target": "Banaias",
+      "weight": 3
+    },
+    {
+      "source": "Abiathar",
+      "target": "Abisag",
+      "weight": 2
+    },
+    {
+      "source": "Abiathar",
+      "target": "Joab",
+      "weight": 2
+    },
+    {
+      "source": "Abiathar",
+      "target": "Juda",
+      "weight": 3
+    },
+    {
+      "source": "Abiathar",
+      "target": "Bethsabee",
+      "weight": 2
+    },
+    {
+      "source": "Abiathar",
+      "target": "David",
+      "weight": 2
+    },
+    {
+      "source": "Abiathar",
+      "target": "Solomon",
+      "weight": 3
+    },
+    {
+      "source": "Abisag",
+      "target": "Banaias",
+      "weight": 2
+    },
+    {
+      "source": "Banaias",
+      "target": "Joab",
+      "weight": 2
+    },
+    {
+      "source": "Banaias",
+      "target": "Juda",
+      "weight": 3
+    },
+    {
+      "source": "Banaias",
+      "target": "Bethsabee",
+      "weight": 2
+    },
+    {
+      "source": "Banaias",
+      "target": "David",
+      "weight": 2
+    },
+    {
+      "source": "Banaias",
+      "target": "Solomon",
+      "weight": 3
+    },
+    {
+      "source": "Abisag",
+      "target": "Joab",
+      "weight": 2
+    },
+    {
+      "source": "Abisag",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Abisag",
+      "target": "Bethsabee",
+      "weight": 2
+    },
+    {
+      "source": "Abisag",
+      "target": "David",
+      "weight": 2
+    },
+    {
+      "source": "Abisag",
+      "target": "Solomon",
+      "weight": 2
+    },
+    {
+      "source": "Joab",
+      "target": "Juda",
+      "weight": 3
+    },
+    {
+      "source": "Bethsabee",
+      "target": "Joab",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Joab",
+      "weight": 3
+    },
+    {
+      "source": "Joab",
+      "target": "Solomon",
+      "weight": 3
+    },
+    {
+      "source": "Bethsabee",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Juda",
+      "weight": 8
+    },
+    {
+      "source": "Juda",
+      "target": "Solomon",
+      "weight": 6
+    },
+    {
+      "source": "Bethsabee",
+      "target": "David",
+      "weight": 2
+    },
+    {
+      "source": "Bethsabee",
+      "target": "Solomon",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Solomon",
+      "weight": 11
+    },
+    {
+      "source": "Abiathar",
+      "target": "Maacha",
+      "weight": 1
+    },
+    {
+      "source": "Adonias",
+      "target": "Maacha",
+      "weight": 1
+    },
+    {
+      "source": "Maacha",
+      "target": "Sunamitess",
+      "weight": 1
+    },
+    {
+      "source": "Banaias",
+      "target": "Maacha",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Maacha",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Maacha",
+      "weight": 2
+    },
+    {
+      "source": "Bethsabee",
+      "target": "Maacha",
+      "weight": 1
+    },
+    {
+      "source": "Abisag",
+      "target": "Maacha",
+      "weight": 1
+    },
+    {
+      "source": "Joab",
+      "target": "Maacha",
+      "weight": 1
+    },
+    {
+      "source": "Maacha",
+      "target": "Solomon",
+      "weight": 1
+    },
+    {
+      "source": "Juda",
+      "target": "Maacha",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Maacha",
+      "weight": 2
+    },
+    {
+      "source": "Ela",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Bersabee",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Benjamin",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Adoniram",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Galaad",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Dan",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Bersabee",
+      "target": "Ela",
+      "weight": 1
+    },
+    {
+      "source": "Ela",
+      "target": "Sadoc",
+      "weight": 1
+    },
+    {
+      "source": "Benjamin",
+      "target": "Ela",
+      "weight": 1
+    },
+    {
+      "source": "Adoniram",
+      "target": "Ela",
+      "weight": 1
+    },
+    {
+      "source": "Abiathar",
+      "target": "Ela",
+      "weight": 1
+    },
+    {
+      "source": "Banaias",
+      "target": "Ela",
+      "weight": 1
+    },
+    {
+      "source": "Ela",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Ela",
+      "target": "Galaad",
+      "weight": 1
+    },
+    {
+      "source": "Dan",
+      "target": "Ela",
+      "weight": 1
+    },
+    {
+      "source": "Ela",
+      "target": "Solomon",
+      "weight": 1
+    },
+    {
+      "source": "Bersabee",
+      "target": "Sadoc",
+      "weight": 1
+    },
+    {
+      "source": "Benjamin",
+      "target": "Bersabee",
+      "weight": 1
+    },
+    {
+      "source": "Adoniram",
+      "target": "Bersabee",
+      "weight": 1
+    },
+    {
+      "source": "Abiathar",
+      "target": "Bersabee",
+      "weight": 1
+    },
+    {
+      "source": "Banaias",
+      "target": "Bersabee",
+      "weight": 1
+    },
+    {
+      "source": "Bersabee",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Bersabee",
+      "target": "Galaad",
+      "weight": 1
+    },
+    {
+      "source": "Bersabee",
+      "target": "Dan",
+      "weight": 1
+    },
+    {
+      "source": "Bersabee",
+      "target": "Solomon",
+      "weight": 1
+    },
+    {
+      "source": "Benjamin",
+      "target": "Sadoc",
+      "weight": 1
+    },
+    {
+      "source": "Adoniram",
+      "target": "Sadoc",
+      "weight": 1
+    },
+    {
+      "source": "Galaad",
+      "target": "Sadoc",
+      "weight": 1
+    },
+    {
+      "source": "Dan",
+      "target": "Sadoc",
+      "weight": 1
+    },
+    {
+      "source": "Adoniram",
+      "target": "Benjamin",
+      "weight": 1
+    },
+    {
+      "source": "Abiathar",
+      "target": "Benjamin",
+      "weight": 1
+    },
+    {
+      "source": "Banaias",
+      "target": "Benjamin",
+      "weight": 1
+    },
+    {
+      "source": "Benjamin",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Benjamin",
+      "target": "Galaad",
+      "weight": 1
+    },
+    {
+      "source": "Benjamin",
+      "target": "Dan",
+      "weight": 2
+    },
+    {
+      "source": "Benjamin",
+      "target": "Solomon",
+      "weight": 2
+    },
+    {
+      "source": "Abiathar",
+      "target": "Adoniram",
+      "weight": 1
+    },
+    {
+      "source": "Adoniram",
+      "target": "Banaias",
+      "weight": 1
+    },
+    {
+      "source": "Adoniram",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Adoniram",
+      "target": "Galaad",
+      "weight": 1
+    },
+    {
+      "source": "Adoniram",
+      "target": "Dan",
+      "weight": 1
+    },
+    {
+      "source": "Adoniram",
+      "target": "Solomon",
+      "weight": 2
+    },
+    {
+      "source": "Abiathar",
+      "target": "Galaad",
+      "weight": 1
+    },
+    {
+      "source": "Abiathar",
+      "target": "Dan",
+      "weight": 1
+    },
+    {
+      "source": "Banaias",
+      "target": "Galaad",
+      "weight": 1
+    },
+    {
+      "source": "Banaias",
+      "target": "Dan",
+      "weight": 1
+    },
+    {
+      "source": "Galaad",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Dan",
+      "target": "Juda",
+      "weight": 3
+    },
+    {
+      "source": "Dan",
+      "target": "Galaad",
+      "weight": 1
+    },
+    {
+      "source": "Galaad",
+      "target": "Solomon",
+      "weight": 1
+    },
+    {
+      "source": "Dan",
+      "target": "Solomon",
+      "weight": 2
+    },
+    {
+      "source": "Adoniram",
+      "target": "Libanus",
+      "weight": 1
+    },
+    {
+      "source": "Adoniram",
+      "target": "Hiram",
+      "weight": 1
+    },
+    {
+      "source": "Adoniram",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Adoniram",
+      "target": "David",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Libanus",
+      "weight": 4
+    },
+    {
+      "source": "Hiram",
+      "target": "Libanus",
+      "weight": 3
+    },
+    {
+      "source": "Libanus",
+      "target": "Lord",
+      "weight": 4
+    },
+    {
+      "source": "Libanus",
+      "target": "Solomon",
+      "weight": 4
+    },
+    {
+      "source": "David",
+      "target": "Libanus",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Hiram",
+      "weight": 3
+    },
+    {
+      "source": "Hiram",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Hiram",
+      "target": "Solomon",
+      "weight": 3
+    },
+    {
+      "source": "David",
+      "target": "Hiram",
+      "weight": 3
+    },
+    {
+      "source": "Libanus",
+      "target": "Pharao",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Pharao",
+      "weight": 3
+    },
+    {
+      "source": "Hiram",
+      "target": "Pharao",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Pharao",
+      "weight": 3
+    },
+    {
+      "source": "Pharao",
+      "target": "Solomon",
+      "weight": 3
+    },
+    {
+      "source": "David",
+      "target": "Pharao",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Jeroboam",
+      "weight": 7
+    },
+    {
+      "source": "Jeroboam",
+      "target": "Roboam",
+      "weight": 4
+    },
+    {
+      "source": "Jeroboam",
+      "target": "Pharao",
+      "weight": 1
+    },
+    {
+      "source": "Jeroboam",
+      "target": "Solomon",
+      "weight": 3
+    },
+    {
+      "source": "Jeroboam",
+      "target": "Lord",
+      "weight": 7
+    },
+    {
+      "source": "Jeroboam",
+      "target": "Joab",
+      "weight": 1
+    },
+    {
+      "source": "Jeroboam",
+      "target": "Juda",
+      "weight": 6
+    },
+    {
+      "source": "David",
+      "target": "Jeroboam",
+      "weight": 5
+    },
+    {
+      "source": "God",
+      "target": "Roboam",
+      "weight": 4
+    },
+    {
+      "source": "Pharao",
+      "target": "Roboam",
+      "weight": 1
+    },
+    {
+      "source": "Roboam",
+      "target": "Solomon",
+      "weight": 3
+    },
+    {
+      "source": "Lord",
+      "target": "Roboam",
+      "weight": 4
+    },
+    {
+      "source": "Joab",
+      "target": "Roboam",
+      "weight": 1
+    },
+    {
+      "source": "Juda",
+      "target": "Roboam",
+      "weight": 4
+    },
+    {
+      "source": "David",
+      "target": "Roboam",
+      "weight": 4
+    },
+    {
+      "source": "Joab",
+      "target": "Pharao",
+      "weight": 1
+    },
+    {
+      "source": "Juda",
+      "target": "Pharao",
+      "weight": 1
+    },
+    {
+      "source": "Bethel",
+      "target": "Jeroboam",
+      "weight": 2
+    },
+    {
+      "source": "Bethel",
+      "target": "Roboam",
+      "weight": 1
+    },
+    {
+      "source": "Bethel",
+      "target": "Dan",
+      "weight": 1
+    },
+    {
+      "source": "Bethel",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Bethel",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Bethel",
+      "target": "Solomon",
+      "weight": 1
+    },
+    {
+      "source": "Bethel",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Benjamin",
+      "target": "Bethel",
+      "weight": 1
+    },
+    {
+      "source": "Bethel",
+      "target": "David",
+      "weight": 2
+    },
+    {
+      "source": "Dan",
+      "target": "Jeroboam",
+      "weight": 2
+    },
+    {
+      "source": "Benjamin",
+      "target": "Jeroboam",
+      "weight": 1
+    },
+    {
+      "source": "Dan",
+      "target": "Roboam",
+      "weight": 2
+    },
+    {
+      "source": "Benjamin",
+      "target": "Roboam",
+      "weight": 1
+    },
+    {
+      "source": "Dan",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Dan",
+      "target": "David",
+      "weight": 2
+    },
+    {
+      "source": "Benjamin",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Benjamin",
+      "target": "David",
+      "weight": 1
+    },
+    {
+      "source": "Ahias",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Abiam",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Ahias",
+      "target": "Jeroboam",
+      "weight": 2
+    },
+    {
+      "source": "Abiam",
+      "target": "Jeroboam",
+      "weight": 2
+    },
+    {
+      "source": "Ahias",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Abiam",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Ahias",
+      "target": "Roboam",
+      "weight": 2
+    },
+    {
+      "source": "Abiam",
+      "target": "Roboam",
+      "weight": 2
+    },
+    {
+      "source": "Ahias",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Abiam",
+      "target": "Ahias",
+      "weight": 2
+    },
+    {
+      "source": "Ahias",
+      "target": "Solomon",
+      "weight": 1
+    },
+    {
+      "source": "Ahias",
+      "target": "David",
+      "weight": 2
+    },
+    {
+      "source": "Abiam",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Abiam",
+      "target": "Solomon",
+      "weight": 1
+    },
+    {
+      "source": "Abiam",
+      "target": "David",
+      "weight": 2
+    },
+    {
+      "source": "Benadad",
+      "target": "Nabat",
+      "weight": 1
+    },
+    {
+      "source": "Benadad",
+      "target": "Maacha",
+      "weight": 1
+    },
+    {
+      "source": "Benadad",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Benadad",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Abiam",
+      "target": "Benadad",
+      "weight": 1
+    },
+    {
+      "source": "Benadad",
+      "target": "Gebbethon",
+      "weight": 1
+    },
+    {
+      "source": "Benadad",
+      "target": "Roboam",
+      "weight": 1
+    },
+    {
+      "source": "Benadad",
+      "target": "Josaphat",
+      "weight": 1
+    },
+    {
+      "source": "Benadad",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Benadad",
+      "target": "Jeroboam",
+      "weight": 1
+    },
+    {
+      "source": "Ahias",
+      "target": "Benadad",
+      "weight": 1
+    },
+    {
+      "source": "Benadad",
+      "target": "David",
+      "weight": 1
+    },
+    {
+      "source": "Benadad",
+      "target": "Dan",
+      "weight": 1
+    },
+    {
+      "source": "Maacha",
+      "target": "Nabat",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Nabat",
+      "weight": 3
+    },
+    {
+      "source": "Lord",
+      "target": "Nabat",
+      "weight": 3
+    },
+    {
+      "source": "Abiam",
+      "target": "Nabat",
+      "weight": 1
+    },
+    {
+      "source": "Gebbethon",
+      "target": "Nabat",
+      "weight": 1
+    },
+    {
+      "source": "Nabat",
+      "target": "Roboam",
+      "weight": 1
+    },
+    {
+      "source": "Josaphat",
+      "target": "Nabat",
+      "weight": 2
+    },
+    {
+      "source": "Juda",
+      "target": "Nabat",
+      "weight": 2
+    },
+    {
+      "source": "Jeroboam",
+      "target": "Nabat",
+      "weight": 2
+    },
+    {
+      "source": "Ahias",
+      "target": "Nabat",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Nabat",
+      "weight": 2
+    },
+    {
+      "source": "Dan",
+      "target": "Nabat",
+      "weight": 1
+    },
+    {
+      "source": "Abiam",
+      "target": "Maacha",
+      "weight": 1
+    },
+    {
+      "source": "Gebbethon",
+      "target": "Maacha",
+      "weight": 1
+    },
+    {
+      "source": "Maacha",
+      "target": "Roboam",
+      "weight": 1
+    },
+    {
+      "source": "Josaphat",
+      "target": "Maacha",
+      "weight": 1
+    },
+    {
+      "source": "Jeroboam",
+      "target": "Maacha",
+      "weight": 1
+    },
+    {
+      "source": "Ahias",
+      "target": "Maacha",
+      "weight": 1
+    },
+    {
+      "source": "Dan",
+      "target": "Maacha",
+      "weight": 1
+    },
+    {
+      "source": "Gebbethon",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Josaphat",
+      "weight": 2
+    },
+    {
+      "source": "Gebbethon",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Josaphat",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Abiam",
+      "target": "Gebbethon",
+      "weight": 1
+    },
+    {
+      "source": "Abiam",
+      "target": "Josaphat",
+      "weight": 1
+    },
+    {
+      "source": "Abiam",
+      "target": "Dan",
+      "weight": 1
+    },
+    {
+      "source": "Gebbethon",
+      "target": "Roboam",
+      "weight": 1
+    },
+    {
+      "source": "Gebbethon",
+      "target": "Josaphat",
+      "weight": 1
+    },
+    {
+      "source": "Gebbethon",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Gebbethon",
+      "target": "Jeroboam",
+      "weight": 2
+    },
+    {
+      "source": "Ahias",
+      "target": "Gebbethon",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Gebbethon",
+      "weight": 1
+    },
+    {
+      "source": "Dan",
+      "target": "Gebbethon",
+      "weight": 1
+    },
+    {
+      "source": "Josaphat",
+      "target": "Roboam",
+      "weight": 1
+    },
+    {
+      "source": "Josaphat",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Jeroboam",
+      "target": "Josaphat",
+      "weight": 1
+    },
+    {
+      "source": "Ahias",
+      "target": "Josaphat",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Josaphat",
+      "weight": 2
+    },
+    {
+      "source": "Dan",
+      "target": "Josaphat",
+      "weight": 1
+    },
+    {
+      "source": "Ahias",
+      "target": "Dan",
+      "weight": 1
+    },
+    {
+      "source": "Gebbethon",
+      "target": "Jehu",
+      "weight": 1
+    },
+    {
+      "source": "Ela",
+      "target": "Gebbethon",
+      "weight": 1
+    },
+    {
+      "source": "Gebbethon",
+      "target": "Jezabel",
+      "weight": 1
+    },
+    {
+      "source": "Baal",
+      "target": "Gebbethon",
+      "weight": 1
+    },
+    {
+      "source": "Achab",
+      "target": "Gebbethon",
+      "weight": 1
+    },
+    {
+      "source": "Jehu",
+      "target": "Jeroboam",
+      "weight": 1
+    },
+    {
+      "source": "Ela",
+      "target": "Jeroboam",
+      "weight": 1
+    },
+    {
+      "source": "Jeroboam",
+      "target": "Jezabel",
+      "weight": 2
+    },
+    {
+      "source": "Baal",
+      "target": "Jeroboam",
+      "weight": 1
+    },
+    {
+      "source": "Achab",
+      "target": "Jeroboam",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Jehu",
+      "weight": 2
+    },
+    {
+      "source": "Ela",
+      "target": "Jehu",
+      "weight": 1
+    },
+    {
+      "source": "Jehu",
+      "target": "Jezabel",
+      "weight": 2
+    },
+    {
+      "source": "Baal",
+      "target": "Jehu",
+      "weight": 1
+    },
+    {
+      "source": "Achab",
+      "target": "Jehu",
+      "weight": 2
+    },
+    {
+      "source": "Jehu",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Jehu",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Jezabel",
+      "weight": 4
+    },
+    {
+      "source": "Baal",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Achab",
+      "target": "God",
+      "weight": 7
+    },
+    {
+      "source": "Ela",
+      "target": "Jezabel",
+      "weight": 1
+    },
+    {
+      "source": "Baal",
+      "target": "Ela",
+      "weight": 1
+    },
+    {
+      "source": "Achab",
+      "target": "Ela",
+      "weight": 1
+    },
+    {
+      "source": "Ela",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Baal",
+      "target": "Jezabel",
+      "weight": 2
+    },
+    {
+      "source": "Achab",
+      "target": "Jezabel",
+      "weight": 4
+    },
+    {
+      "source": "Jezabel",
+      "target": "Lord",
+      "weight": 4
+    },
+    {
+      "source": "Jezabel",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Achab",
+      "target": "Baal",
+      "weight": 3
+    },
+    {
+      "source": "Baal",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Baal",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Achab",
+      "target": "Lord",
+      "weight": 7
+    },
+    {
+      "source": "Achab",
+      "target": "Juda",
+      "weight": 3
+    },
+    {
+      "source": "Elias",
+      "target": "God",
+      "weight": 4
+    },
+    {
+      "source": "Achab",
+      "target": "Elias",
+      "weight": 4
+    },
+    {
+      "source": "Elias",
+      "target": "Lord",
+      "weight": 4
+    },
+    {
+      "source": "God",
+      "target": "Jezrahel",
+      "weight": 2
+    },
+    {
+      "source": "Elias",
+      "target": "Jezrahel",
+      "weight": 2
+    },
+    {
+      "source": "Jezabel",
+      "target": "Jezrahel",
+      "weight": 2
+    },
+    {
+      "source": "Baal",
+      "target": "Jezrahel",
+      "weight": 1
+    },
+    {
+      "source": "Achab",
+      "target": "Jezrahel",
+      "weight": 2
+    },
+    {
+      "source": "Jezrahel",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Elias",
+      "target": "Jezabel",
+      "weight": 3
+    },
+    {
+      "source": "Baal",
+      "target": "Elias",
+      "weight": 1
+    },
+    {
+      "source": "Elias",
+      "target": "Jehu",
+      "weight": 1
+    },
+    {
+      "source": "Bersabee",
+      "target": "Jehu",
+      "weight": 1
+    },
+    {
+      "source": "Bersabee",
+      "target": "Elias",
+      "weight": 1
+    },
+    {
+      "source": "Elias",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Bersabee",
+      "target": "Jezabel",
+      "weight": 1
+    },
+    {
+      "source": "Achab",
+      "target": "Bersabee",
+      "weight": 1
+    },
+    {
+      "source": "Bersabee",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Achab",
+      "target": "Benadad",
+      "weight": 1
+    },
+    {
+      "source": "Jezrahel",
+      "target": "Nabat",
+      "weight": 1
+    },
+    {
+      "source": "Jeroboam",
+      "target": "Jezrahel",
+      "weight": 1
+    },
+    {
+      "source": "Elias",
+      "target": "Nabat",
+      "weight": 1
+    },
+    {
+      "source": "Jezabel",
+      "target": "Nabat",
+      "weight": 1
+    },
+    {
+      "source": "Achab",
+      "target": "Nabat",
+      "weight": 2
+    },
+    {
+      "source": "Elias",
+      "target": "Jeroboam",
+      "weight": 1
+    },
+    {
+      "source": "Galaad",
+      "target": "Josaphat",
+      "weight": 1
+    },
+    {
+      "source": "Baal",
+      "target": "Josaphat",
+      "weight": 1
+    },
+    {
+      "source": "Achab",
+      "target": "Josaphat",
+      "weight": 1
+    },
+    {
+      "source": "Galaad",
+      "target": "Nabat",
+      "weight": 1
+    },
+    {
+      "source": "Baal",
+      "target": "Galaad",
+      "weight": 1
+    },
+    {
+      "source": "Achab",
+      "target": "Galaad",
+      "weight": 1
+    },
+    {
+      "source": "Galaad",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Galaad",
+      "weight": 1
+    },
+    {
+      "source": "Baal",
+      "target": "Nabat",
+      "weight": 1
+    },
+    {
+      "source": "Baal",
+      "target": "David",
+      "weight": 1
+    },
+    {
+      "source": "Achab",
+      "target": "David",
+      "weight": 1
+    }
+  ]
+}

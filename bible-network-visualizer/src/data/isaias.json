@@ -1,0 +1,1081 @@
+{
+  "nodes": [
+    {
+      "id": "Lord",
+      "name": "Lord",
+      "val": 64
+    },
+    {
+      "id": "Amos",
+      "name": "Amos",
+      "val": 6
+    },
+    {
+      "id": "God",
+      "name": "God",
+      "val": 56
+    },
+    {
+      "id": "Juda",
+      "name": "Juda",
+      "val": 19
+    },
+    {
+      "id": "Christ",
+      "name": "Christ",
+      "val": 32
+    },
+    {
+      "id": "Jacob",
+      "name": "Jacob",
+      "val": 14
+    },
+    {
+      "id": "Libanus",
+      "name": "Libanus",
+      "val": 8
+    },
+    {
+      "id": "Sion",
+      "name": "Sion",
+      "val": 18
+    },
+    {
+      "id": "David",
+      "name": "David",
+      "val": 9
+    },
+    {
+      "id": "Woe",
+      "name": "Woe",
+      "val": 2
+    },
+    {
+      "id": "Romelia",
+      "name": "Romelia",
+      "val": 2
+    },
+    {
+      "id": "Rasin",
+      "name": "Rasin",
+      "val": 3
+    },
+    {
+      "id": "Ephraim",
+      "name": "Ephraim",
+      "val": 4
+    },
+    {
+      "id": "Achaz",
+      "name": "Achaz",
+      "val": 2
+    },
+    {
+      "id": "Father",
+      "name": "Father",
+      "val": 1
+    },
+    {
+      "id": "Gentiles",
+      "name": "Gentiles",
+      "val": 9
+    },
+    {
+      "id": "Ezechias",
+      "name": "Ezechias",
+      "val": 5
+    },
+    {
+      "id": "Arphad",
+      "name": "Arphad",
+      "val": 3
+    },
+    {
+      "id": "Emath",
+      "name": "Emath",
+      "val": 2
+    },
+    {
+      "id": "Moab",
+      "name": "Moab",
+      "val": 4
+    },
+    {
+      "id": "Babylon",
+      "name": "Babylon",
+      "val": 3
+    },
+    {
+      "id": "Moabites",
+      "name": "Moabites",
+      "val": 2
+    },
+    {
+      "id": "Pharao",
+      "name": "Pharao",
+      "val": 2
+    },
+    {
+      "id": "Helcias",
+      "name": "Helcias",
+      "val": 2
+    },
+    {
+      "id": "Eliacim",
+      "name": "Eliacim",
+      "val": 3
+    },
+    {
+      "id": "Depart",
+      "name": "Depart",
+      "val": 3
+    },
+    {
+      "id": "forsaken",
+      "name": "forsaken",
+      "val": 2
+    },
+    {
+      "id": "Abraham",
+      "name": "Abraham",
+      "val": 4
+    },
+    {
+      "id": "Saron",
+      "name": "Saron",
+      "val": 2
+    },
+    {
+      "id": "Jesus",
+      "name": "Jesus",
+      "val": 1
+    }
+  ],
+  "links": [
+    {
+      "source": "Amos",
+      "target": "Lord",
+      "weight": 6
+    },
+    {
+      "source": "God",
+      "target": "Lord",
+      "weight": 55
+    },
+    {
+      "source": "Juda",
+      "target": "Lord",
+      "weight": 19
+    },
+    {
+      "source": "Amos",
+      "target": "God",
+      "weight": 4
+    },
+    {
+      "source": "Amos",
+      "target": "Juda",
+      "weight": 4
+    },
+    {
+      "source": "God",
+      "target": "Juda",
+      "weight": 18
+    },
+    {
+      "source": "Amos",
+      "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Amos",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Amos",
+      "target": "Libanus",
+      "weight": 2
+    },
+    {
+      "source": "Amos",
+      "target": "Sion",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Jacob",
+      "weight": 6
+    },
+    {
+      "source": "Christ",
+      "target": "Libanus",
+      "weight": 4
+    },
+    {
+      "source": "Christ",
+      "target": "God",
+      "weight": 28
+    },
+    {
+      "source": "Christ",
+      "target": "Sion",
+      "weight": 13
+    },
+    {
+      "source": "Christ",
+      "target": "Lord",
+      "weight": 31
+    },
+    {
+      "source": "Christ",
+      "target": "Juda",
+      "weight": 8
+    },
+    {
+      "source": "Jacob",
+      "target": "Libanus",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Jacob",
+      "weight": 14
+    },
+    {
+      "source": "Jacob",
+      "target": "Sion",
+      "weight": 4
+    },
+    {
+      "source": "Jacob",
+      "target": "Lord",
+      "weight": 13
+    },
+    {
+      "source": "Jacob",
+      "target": "Juda",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Libanus",
+      "weight": 8
+    },
+    {
+      "source": "Libanus",
+      "target": "Sion",
+      "weight": 5
+    },
+    {
+      "source": "Libanus",
+      "target": "Lord",
+      "weight": 8
+    },
+    {
+      "source": "Juda",
+      "target": "Libanus",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Sion",
+      "weight": 16
+    },
+    {
+      "source": "Lord",
+      "target": "Sion",
+      "weight": 17
+    },
+    {
+      "source": "Juda",
+      "target": "Sion",
+      "weight": 3
+    },
+    {
+      "source": "Christ",
+      "target": "David",
+      "weight": 5
+    },
+    {
+      "source": "David",
+      "target": "God",
+      "weight": 8
+    },
+    {
+      "source": "David",
+      "target": "Lord",
+      "weight": 9
+    },
+    {
+      "source": "David",
+      "target": "Juda",
+      "weight": 6
+    },
+    {
+      "source": "God",
+      "target": "Woe",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Woe",
+      "weight": 2
+    },
+    {
+      "source": "Rasin",
+      "target": "Romelia",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Romelia",
+      "weight": 2
+    },
+    {
+      "source": "Ephraim",
+      "target": "Romelia",
+      "weight": 1
+    },
+    {
+      "source": "Achaz",
+      "target": "Romelia",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "Romelia",
+      "weight": 2
+    },
+    {
+      "source": "Juda",
+      "target": "Romelia",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Romelia",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Rasin",
+      "weight": 3
+    },
+    {
+      "source": "Ephraim",
+      "target": "Rasin",
+      "weight": 2
+    },
+    {
+      "source": "Achaz",
+      "target": "Rasin",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "Rasin",
+      "weight": 3
+    },
+    {
+      "source": "Juda",
+      "target": "Rasin",
+      "weight": 3
+    },
+    {
+      "source": "David",
+      "target": "Rasin",
+      "weight": 2
+    },
+    {
+      "source": "Ephraim",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Achaz",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Achaz",
+      "target": "Ephraim",
+      "weight": 1
+    },
+    {
+      "source": "Ephraim",
+      "target": "Lord",
+      "weight": 4
+    },
+    {
+      "source": "Ephraim",
+      "target": "Juda",
+      "weight": 4
+    },
+    {
+      "source": "David",
+      "target": "Ephraim",
+      "weight": 2
+    },
+    {
+      "source": "Achaz",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Achaz",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Achaz",
+      "target": "David",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Father",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Rasin",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Gentiles",
+      "weight": 8
+    },
+    {
+      "source": "Christ",
+      "target": "Ephraim",
+      "weight": 3
+    },
+    {
+      "source": "Father",
+      "target": "Rasin",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "God",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Father",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "Gentiles",
+      "weight": 1
+    },
+    {
+      "source": "Ephraim",
+      "target": "Father",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Father",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Gentiles",
+      "target": "Rasin",
+      "weight": 1
+    },
+    {
+      "source": "Gentiles",
+      "target": "God",
+      "weight": 8
+    },
+    {
+      "source": "David",
+      "target": "Gentiles",
+      "weight": 1
+    },
+    {
+      "source": "Ephraim",
+      "target": "Gentiles",
+      "weight": 2
+    },
+    {
+      "source": "Gentiles",
+      "target": "Lord",
+      "weight": 9
+    },
+    {
+      "source": "Gentiles",
+      "target": "Juda",
+      "weight": 3
+    },
+    {
+      "source": "Christ",
+      "target": "Ezechias",
+      "weight": 1
+    },
+    {
+      "source": "Ezechias",
+      "target": "Woe",
+      "weight": 1
+    },
+    {
+      "source": "Ezechias",
+      "target": "Libanus",
+      "weight": 2
+    },
+    {
+      "source": "Ezechias",
+      "target": "God",
+      "weight": 4
+    },
+    {
+      "source": "Arphad",
+      "target": "Ezechias",
+      "weight": 3
+    },
+    {
+      "source": "Ezechias",
+      "target": "Sion",
+      "weight": 1
+    },
+    {
+      "source": "Emath",
+      "target": "Ezechias",
+      "weight": 2
+    },
+    {
+      "source": "Ezechias",
+      "target": "Lord",
+      "weight": 5
+    },
+    {
+      "source": "Christ",
+      "target": "Woe",
+      "weight": 1
+    },
+    {
+      "source": "Arphad",
+      "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Emath",
+      "weight": 1
+    },
+    {
+      "source": "Libanus",
+      "target": "Woe",
+      "weight": 1
+    },
+    {
+      "source": "Arphad",
+      "target": "Woe",
+      "weight": 1
+    },
+    {
+      "source": "Sion",
+      "target": "Woe",
+      "weight": 1
+    },
+    {
+      "source": "Emath",
+      "target": "Woe",
+      "weight": 1
+    },
+    {
+      "source": "Arphad",
+      "target": "Libanus",
+      "weight": 2
+    },
+    {
+      "source": "Emath",
+      "target": "Libanus",
+      "weight": 1
+    },
+    {
+      "source": "Arphad",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Emath",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Arphad",
+      "target": "Sion",
+      "weight": 1
+    },
+    {
+      "source": "Arphad",
+      "target": "Emath",
+      "weight": 2
+    },
+    {
+      "source": "Arphad",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Emath",
+      "target": "Sion",
+      "weight": 1
+    },
+    {
+      "source": "Emath",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Moab",
+      "weight": 2
+    },
+    {
+      "source": "Gentiles",
+      "target": "Moab",
+      "weight": 1
+    },
+    {
+      "source": "Ephraim",
+      "target": "Moab",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "Moab",
+      "weight": 3
+    },
+    {
+      "source": "Juda",
+      "target": "Moab",
+      "weight": 1
+    },
+    {
+      "source": "Babylon",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Amos",
+      "target": "Babylon",
+      "weight": 1
+    },
+    {
+      "source": "Achaz",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Achaz",
+      "target": "Libanus",
+      "weight": 1
+    },
+    {
+      "source": "Achaz",
+      "target": "Sion",
+      "weight": 1
+    },
+    {
+      "source": "Moab",
+      "target": "Moabites",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Moabites",
+      "weight": 1
+    },
+    {
+      "source": "Moab",
+      "target": "Sion",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Moab",
+      "weight": 1
+    },
+    {
+      "source": "Moabites",
+      "target": "Sion",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Sion",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "Moabites",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Moabites",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "Pharao",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Pharao",
+      "weight": 2
+    },
+    {
+      "source": "Juda",
+      "target": "Pharao",
+      "weight": 2
+    },
+    {
+      "source": "Babylon",
+      "target": "God",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Helcias",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Eliacim",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Depart",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Helcias",
+      "weight": 2
+    },
+    {
+      "source": "Eliacim",
+      "target": "Helcias",
+      "weight": 2
+    },
+    {
+      "source": "Helcias",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Depart",
+      "target": "Helcias",
+      "weight": 1
+    },
+    {
+      "source": "Helcias",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Helcias",
+      "weight": 1
+    },
+    {
+      "source": "Eliacim",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Depart",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Eliacim",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Depart",
+      "target": "Eliacim",
+      "weight": 1
+    },
+    {
+      "source": "Eliacim",
+      "target": "Juda",
+      "weight": 3
+    },
+    {
+      "source": "David",
+      "target": "Eliacim",
+      "weight": 2
+    },
+    {
+      "source": "Depart",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Depart",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Depart",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "forsaken",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "forsaken",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Moab",
+      "weight": 1
+    },
+    {
+      "source": "Ephraim",
+      "target": "Sion",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "Libanus",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Libanus",
+      "weight": 2
+    },
+    {
+      "source": "Abraham",
+      "target": "Jacob",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "God",
+      "weight": 4
+    },
+    {
+      "source": "Abraham",
+      "target": "Lord",
+      "weight": 4
+    },
+    {
+      "source": "Abraham",
+      "target": "David",
+      "weight": 1
+    },
+    {
+      "source": "Libanus",
+      "target": "Saron",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Saron",
+      "weight": 2
+    },
+    {
+      "source": "Saron",
+      "target": "Sion",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Saron",
+      "weight": 2
+    },
+    {
+      "source": "Gentiles",
+      "target": "Sion",
+      "weight": 4
+    },
+    {
+      "source": "Christ",
+      "target": "Saron",
+      "weight": 1
+    },
+    {
+      "source": "Ezechias",
+      "target": "Helcias",
+      "weight": 1
+    },
+    {
+      "source": "Eliacim",
+      "target": "Ezechias",
+      "weight": 2
+    },
+    {
+      "source": "Ezechias",
+      "target": "Pharao",
+      "weight": 1
+    },
+    {
+      "source": "Ezechias",
+      "target": "Juda",
+      "weight": 3
+    },
+    {
+      "source": "Arphad",
+      "target": "Helcias",
+      "weight": 1
+    },
+    {
+      "source": "Emath",
+      "target": "Helcias",
+      "weight": 1
+    },
+    {
+      "source": "Helcias",
+      "target": "Pharao",
+      "weight": 1
+    },
+    {
+      "source": "Arphad",
+      "target": "Eliacim",
+      "weight": 2
+    },
+    {
+      "source": "Arphad",
+      "target": "Pharao",
+      "weight": 1
+    },
+    {
+      "source": "Arphad",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Eliacim",
+      "target": "Emath",
+      "weight": 1
+    },
+    {
+      "source": "Eliacim",
+      "target": "Pharao",
+      "weight": 1
+    },
+    {
+      "source": "Emath",
+      "target": "Pharao",
+      "weight": 1
+    },
+    {
+      "source": "Emath",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Amos",
+      "target": "Ezechias",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Ezechias",
+      "weight": 2
+    },
+    {
+      "source": "Amos",
+      "target": "Arphad",
+      "weight": 1
+    },
+    {
+      "source": "Amos",
+      "target": "Eliacim",
+      "weight": 1
+    },
+    {
+      "source": "Amos",
+      "target": "David",
+      "weight": 2
+    },
+    {
+      "source": "Eliacim",
+      "target": "Libanus",
+      "weight": 1
+    },
+    {
+      "source": "Arphad",
+      "target": "David",
+      "weight": 1
+    },
+    {
+      "source": "Babylon",
+      "target": "Ezechias",
+      "weight": 1
+    },
+    {
+      "source": "Gentiles",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Abraham",
+      "target": "Christ",
+      "weight": 2
+    },
+    {
+      "source": "Depart",
+      "target": "Sion",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "forsaken",
+      "weight": 1
+    },
+    {
+      "source": "Depart",
+      "target": "Gentiles",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Jesus",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Jesus",
+      "weight": 1
+    },
+    {
+      "source": "Gentiles",
+      "target": "Jesus",
+      "weight": 1
+    },
+    {
+      "source": "Jesus",
+      "target": "Lord",
+      "weight": 1
+    }
+  ]
+}

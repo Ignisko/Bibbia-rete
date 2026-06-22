@@ -1,0 +1,626 @@
+{
+  "nodes": [
+    {
+      "id": "Chobar",
+      "name": "Chobar",
+      "val": 4
+    },
+    {
+      "id": "God",
+      "name": "God",
+      "val": 46
+    },
+    {
+      "id": "Ezechiel",
+      "name": "Ezechiel",
+      "val": 2
+    },
+    {
+      "id": "Lord",
+      "name": "Lord",
+      "val": 47
+    },
+    {
+      "id": "Hebrews",
+      "name": "Hebrews",
+      "val": 2
+    },
+    {
+      "id": "Juda",
+      "name": "Juda",
+      "val": 9
+    },
+    {
+      "id": "Gentiles",
+      "name": "Gentiles",
+      "val": 3
+    },
+    {
+      "id": "Jezonias",
+      "name": "Jezonias",
+      "val": 2
+    },
+    {
+      "id": "Jer",
+      "name": "Jer",
+      "val": 2
+    },
+    {
+      "id": "Sedecias",
+      "name": "Sedecias",
+      "val": 3
+    },
+    {
+      "id": "Daniel",
+      "name": "Daniel",
+      "val": 2
+    },
+    {
+      "id": "Christ",
+      "name": "Christ",
+      "val": 11
+    },
+    {
+      "id": "Jesus",
+      "name": "Jesus",
+      "val": 1
+    },
+    {
+      "id": "David",
+      "name": "David",
+      "val": 3
+    },
+    {
+      "id": "Jacob",
+      "name": "Jacob",
+      "val": 3
+    },
+    {
+      "id": "Ammon",
+      "name": "Ammon",
+      "val": 2
+    },
+    {
+      "id": "Dan",
+      "name": "Dan",
+      "val": 2
+    },
+    {
+      "id": "Nabuchodonosor",
+      "name": "Nabuchodonosor",
+      "val": 2
+    },
+    {
+      "id": "Pharao",
+      "name": "Pharao",
+      "val": 3
+    },
+    {
+      "id": "Ephraim",
+      "name": "Ephraim",
+      "val": 2
+    },
+    {
+      "id": "Joseph",
+      "name": "Joseph",
+      "val": 2
+    },
+    {
+      "id": "Gog",
+      "name": "Gog",
+      "val": 2
+    },
+    {
+      "id": "Levi",
+      "name": "Levi",
+      "val": 2
+    },
+    {
+      "id": "Emath",
+      "name": "Emath",
+      "val": 2
+    }
+  ],
+  "links": [
+    {
+      "source": "Chobar",
+      "target": "God",
+      "weight": 4
+    },
+    {
+      "source": "Chobar",
+      "target": "Ezechiel",
+      "weight": 1
+    },
+    {
+      "source": "Chobar",
+      "target": "Lord",
+      "weight": 4
+    },
+    {
+      "source": "Chobar",
+      "target": "Hebrews",
+      "weight": 1
+    },
+    {
+      "source": "Ezechiel",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Lord",
+      "weight": 46
+    },
+    {
+      "source": "God",
+      "target": "Hebrews",
+      "weight": 2
+    },
+    {
+      "source": "Ezechiel",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Ezechiel",
+      "target": "Hebrews",
+      "weight": 1
+    },
+    {
+      "source": "Hebrews",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Juda",
+      "target": "Lord",
+      "weight": 9
+    },
+    {
+      "source": "God",
+      "target": "Juda",
+      "weight": 9
+    },
+    {
+      "source": "Gentiles",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Gentiles",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Jezonias",
+      "weight": 2
+    },
+    {
+      "source": "Jezonias",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Jezonias",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Jer",
+      "target": "Jezonias",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Jer",
+      "weight": 2
+    },
+    {
+      "source": "Jer",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Sedecias",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Sedecias",
+      "weight": 3
+    },
+    {
+      "source": "Daniel",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Daniel",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "God",
+      "weight": 11
+    },
+    {
+      "source": "Christ",
+      "target": "Lord",
+      "weight": 11
+    },
+    {
+      "source": "Christ",
+      "target": "Jesus",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Sedecias",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "David",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Jesus",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Jesus",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Jesus",
+      "target": "Sedecias",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Jesus",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Sedecias",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Jacob",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Jacob",
+      "weight": 3
+    },
+    {
+      "source": "Jacob",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Ammon",
+      "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Juda",
+      "weight": 3
+    },
+    {
+      "source": "Ammon",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Ammon",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Ammon",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Ammon",
+      "target": "Sedecias",
+      "weight": 1
+    },
+    {
+      "source": "Juda",
+      "target": "Sedecias",
+      "weight": 1
+    },
+    {
+      "source": "Dan",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Dan",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Dan",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Daniel",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Nabuchodonosor",
+      "target": "Pharao",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Nabuchodonosor",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Nabuchodonosor",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Pharao",
+      "weight": 3
+    },
+    {
+      "source": "Lord",
+      "target": "Pharao",
+      "weight": 3
+    },
+    {
+      "source": "Christ",
+      "target": "Jer",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Jer",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Gentiles",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Ephraim",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Joseph",
+      "weight": 2
+    },
+    {
+      "source": "Ephraim",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Jacob",
+      "target": "Joseph",
+      "weight": 1
+    },
+    {
+      "source": "Jacob",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Ephraim",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Joseph",
+      "weight": 2
+    },
+    {
+      "source": "Ephraim",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Ephraim",
+      "target": "Joseph",
+      "weight": 1
+    },
+    {
+      "source": "Ephraim",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Ephraim",
+      "weight": 1
+    },
+    {
+      "source": "Joseph",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Joseph",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Joseph",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Gog",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Gog",
+      "weight": 2
+    },
+    {
+      "source": "Gog",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Gentiles",
+      "target": "Gog",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Levi",
+      "weight": 2
+    },
+    {
+      "source": "Levi",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Emath",
+      "weight": 2
+    },
+    {
+      "source": "Emath",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Emath",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Emath",
+      "target": "Joseph",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Levi",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Dan",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Hebrews",
+      "weight": 1
+    },
+    {
+      "source": "Emath",
+      "target": "Levi",
+      "weight": 1
+    },
+    {
+      "source": "Dan",
+      "target": "Levi",
+      "weight": 1
+    },
+    {
+      "source": "Ephraim",
+      "target": "Levi",
+      "weight": 1
+    },
+    {
+      "source": "Juda",
+      "target": "Levi",
+      "weight": 1
+    },
+    {
+      "source": "Hebrews",
+      "target": "Levi",
+      "weight": 1
+    },
+    {
+      "source": "Dan",
+      "target": "Emath",
+      "weight": 1
+    },
+    {
+      "source": "Emath",
+      "target": "Ephraim",
+      "weight": 1
+    },
+    {
+      "source": "Emath",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Emath",
+      "target": "Hebrews",
+      "weight": 1
+    },
+    {
+      "source": "Dan",
+      "target": "Ephraim",
+      "weight": 1
+    },
+    {
+      "source": "Dan",
+      "target": "Hebrews",
+      "weight": 1
+    },
+    {
+      "source": "Ephraim",
+      "target": "Hebrews",
+      "weight": 1
+    },
+    {
+      "source": "Hebrews",
+      "target": "Juda",
+      "weight": 1
+    }
+  ]
+}

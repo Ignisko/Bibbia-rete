@@ -1,0 +1,791 @@
+{
+  "nodes": [
+    {
+      "id": "Sidrach",
+      "name": "Sidrach",
+      "val": 3
+    },
+    {
+      "id": "Cyrus",
+      "name": "Cyrus",
+      "val": 2
+    },
+    {
+      "id": "Misach",
+      "name": "Misach",
+      "val": 3
+    },
+    {
+      "id": "God",
+      "name": "God",
+      "val": 14
+    },
+    {
+      "id": "Misael",
+      "name": "Misael",
+      "val": 2
+    },
+    {
+      "id": "Lord",
+      "name": "Lord",
+      "val": 7
+    },
+    {
+      "id": "Daniel",
+      "name": "Daniel",
+      "val": 14
+    },
+    {
+      "id": "Joakim",
+      "name": "Joakim",
+      "val": 2
+    },
+    {
+      "id": "Juda",
+      "name": "Juda",
+      "val": 7
+    },
+    {
+      "id": "Azarias",
+      "name": "Azarias",
+      "val": 3
+    },
+    {
+      "id": "Christ",
+      "name": "Christ",
+      "val": 4
+    },
+    {
+      "id": "Alexander the Great",
+      "name": "Alexander the Great",
+      "val": 2
+    },
+    {
+      "id": "Alexander",
+      "name": "Alexander",
+      "val": 4
+    },
+    {
+      "id": "Nabuchodonosor",
+      "name": "Nabuchodonosor",
+      "val": 4
+    },
+    {
+      "id": "Bel",
+      "name": "Bel",
+      "val": 3
+    },
+    {
+      "id": "Darius",
+      "name": "Darius",
+      "val": 4
+    },
+    {
+      "id": "Judea",
+      "name": "Judea",
+      "val": 3
+    },
+    {
+      "id": "Antiochus Epiphanes",
+      "name": "Antiochus Epiphanes",
+      "val": 3
+    },
+    {
+      "id": "Antichrist",
+      "name": "Antichrist",
+      "val": 4
+    },
+    {
+      "id": "Gabriel",
+      "name": "Gabriel",
+      "val": 2
+    },
+    {
+      "id": "Michael",
+      "name": "Michael",
+      "val": 2
+    }
+  ],
+  "links": [
+    {
+      "source": "Cyrus",
+      "target": "Sidrach",
+      "weight": 1
+    },
+    {
+      "source": "Misach",
+      "target": "Sidrach",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Sidrach",
+      "weight": 3
+    },
+    {
+      "source": "Misael",
+      "target": "Sidrach",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Sidrach",
+      "weight": 3
+    },
+    {
+      "source": "Daniel",
+      "target": "Sidrach",
+      "weight": 3
+    },
+    {
+      "source": "Joakim",
+      "target": "Sidrach",
+      "weight": 1
+    },
+    {
+      "source": "Juda",
+      "target": "Sidrach",
+      "weight": 2
+    },
+    {
+      "source": "Azarias",
+      "target": "Sidrach",
+      "weight": 3
+    },
+    {
+      "source": "Cyrus",
+      "target": "Misach",
+      "weight": 1
+    },
+    {
+      "source": "Cyrus",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Cyrus",
+      "target": "Misael",
+      "weight": 1
+    },
+    {
+      "source": "Cyrus",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Cyrus",
+      "target": "Daniel",
+      "weight": 2
+    },
+    {
+      "source": "Cyrus",
+      "target": "Joakim",
+      "weight": 2
+    },
+    {
+      "source": "Cyrus",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Azarias",
+      "target": "Cyrus",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Misach",
+      "weight": 3
+    },
+    {
+      "source": "Misach",
+      "target": "Misael",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Misach",
+      "weight": 3
+    },
+    {
+      "source": "Daniel",
+      "target": "Misach",
+      "weight": 3
+    },
+    {
+      "source": "Joakim",
+      "target": "Misach",
+      "weight": 1
+    },
+    {
+      "source": "Juda",
+      "target": "Misach",
+      "weight": 2
+    },
+    {
+      "source": "Azarias",
+      "target": "Misach",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Misael",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Lord",
+      "weight": 7
+    },
+    {
+      "source": "Daniel",
+      "target": "God",
+      "weight": 14
+    },
+    {
+      "source": "God",
+      "target": "Joakim",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Juda",
+      "weight": 7
+    },
+    {
+      "source": "Azarias",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Lord",
+      "target": "Misael",
+      "weight": 2
+    },
+    {
+      "source": "Daniel",
+      "target": "Misael",
+      "weight": 2
+    },
+    {
+      "source": "Joakim",
+      "target": "Misael",
+      "weight": 1
+    },
+    {
+      "source": "Juda",
+      "target": "Misael",
+      "weight": 2
+    },
+    {
+      "source": "Azarias",
+      "target": "Misael",
+      "weight": 2
+    },
+    {
+      "source": "Daniel",
+      "target": "Lord",
+      "weight": 7
+    },
+    {
+      "source": "Joakim",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Juda",
+      "target": "Lord",
+      "weight": 6
+    },
+    {
+      "source": "Azarias",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Daniel",
+      "target": "Joakim",
+      "weight": 2
+    },
+    {
+      "source": "Daniel",
+      "target": "Juda",
+      "weight": 7
+    },
+    {
+      "source": "Azarias",
+      "target": "Daniel",
+      "weight": 3
+    },
+    {
+      "source": "Joakim",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Azarias",
+      "target": "Joakim",
+      "weight": 1
+    },
+    {
+      "source": "Azarias",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Sidrach",
+      "weight": 1
+    },
+    {
+      "source": "Alexander the Great",
+      "target": "Sidrach",
+      "weight": 1
+    },
+    {
+      "source": "Alexander",
+      "target": "Sidrach",
+      "weight": 1
+    },
+    {
+      "source": "Nabuchodonosor",
+      "target": "Sidrach",
+      "weight": 2
+    },
+    {
+      "source": "Alexander the Great",
+      "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Alexander",
+      "target": "Christ",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Misach",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "God",
+      "weight": 4
+    },
+    {
+      "source": "Christ",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Christ",
+      "target": "Misael",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Nabuchodonosor",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Daniel",
+      "weight": 4
+    },
+    {
+      "source": "Christ",
+      "target": "Juda",
+      "weight": 3
+    },
+    {
+      "source": "Azarias",
+      "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Alexander",
+      "target": "Alexander the Great",
+      "weight": 2
+    },
+    {
+      "source": "Alexander the Great",
+      "target": "Misach",
+      "weight": 1
+    },
+    {
+      "source": "Alexander the Great",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Alexander the Great",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Alexander the Great",
+      "target": "Misael",
+      "weight": 1
+    },
+    {
+      "source": "Alexander the Great",
+      "target": "Nabuchodonosor",
+      "weight": 1
+    },
+    {
+      "source": "Alexander the Great",
+      "target": "Daniel",
+      "weight": 2
+    },
+    {
+      "source": "Alexander the Great",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Alexander the Great",
+      "target": "Azarias",
+      "weight": 1
+    },
+    {
+      "source": "Alexander",
+      "target": "Misach",
+      "weight": 1
+    },
+    {
+      "source": "Alexander",
+      "target": "God",
+      "weight": 4
+    },
+    {
+      "source": "Alexander",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Alexander",
+      "target": "Misael",
+      "weight": 1
+    },
+    {
+      "source": "Alexander",
+      "target": "Nabuchodonosor",
+      "weight": 1
+    },
+    {
+      "source": "Alexander",
+      "target": "Daniel",
+      "weight": 4
+    },
+    {
+      "source": "Alexander",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Alexander",
+      "target": "Azarias",
+      "weight": 1
+    },
+    {
+      "source": "Misach",
+      "target": "Nabuchodonosor",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Nabuchodonosor",
+      "weight": 4
+    },
+    {
+      "source": "Lord",
+      "target": "Nabuchodonosor",
+      "weight": 3
+    },
+    {
+      "source": "Misael",
+      "target": "Nabuchodonosor",
+      "weight": 1
+    },
+    {
+      "source": "Daniel",
+      "target": "Nabuchodonosor",
+      "weight": 4
+    },
+    {
+      "source": "Juda",
+      "target": "Nabuchodonosor",
+      "weight": 2
+    },
+    {
+      "source": "Azarias",
+      "target": "Nabuchodonosor",
+      "weight": 2
+    },
+    {
+      "source": "Bel",
+      "target": "Nabuchodonosor",
+      "weight": 1
+    },
+    {
+      "source": "Bel",
+      "target": "Daniel",
+      "weight": 3
+    },
+    {
+      "source": "Bel",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Darius",
+      "target": "God",
+      "weight": 4
+    },
+    {
+      "source": "God",
+      "target": "Judea",
+      "weight": 3
+    },
+    {
+      "source": "Daniel",
+      "target": "Darius",
+      "weight": 4
+    },
+    {
+      "source": "Daniel",
+      "target": "Judea",
+      "weight": 3
+    },
+    {
+      "source": "Darius",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Judea",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Darius",
+      "target": "Nabuchodonosor",
+      "weight": 1
+    },
+    {
+      "source": "Darius",
+      "target": "Juda",
+      "weight": 3
+    },
+    {
+      "source": "Darius",
+      "target": "Judea",
+      "weight": 3
+    },
+    {
+      "source": "Judea",
+      "target": "Nabuchodonosor",
+      "weight": 1
+    },
+    {
+      "source": "Juda",
+      "target": "Judea",
+      "weight": 2
+    },
+    {
+      "source": "Antiochus Epiphanes",
+      "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Antichrist",
+      "target": "Christ",
+      "weight": 2
+    },
+    {
+      "source": "Alexander",
+      "target": "Antiochus Epiphanes",
+      "weight": 3
+    },
+    {
+      "source": "Alexander",
+      "target": "Antichrist",
+      "weight": 2
+    },
+    {
+      "source": "Antiochus Epiphanes",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Antichrist",
+      "target": "God",
+      "weight": 4
+    },
+    {
+      "source": "Antiochus Epiphanes",
+      "target": "Daniel",
+      "weight": 3
+    },
+    {
+      "source": "Antichrist",
+      "target": "Antiochus Epiphanes",
+      "weight": 2
+    },
+    {
+      "source": "Antichrist",
+      "target": "Daniel",
+      "weight": 4
+    },
+    {
+      "source": "Alexander the Great",
+      "target": "Gabriel",
+      "weight": 1
+    },
+    {
+      "source": "Alexander",
+      "target": "Gabriel",
+      "weight": 1
+    },
+    {
+      "source": "Gabriel",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Antiochus Epiphanes",
+      "target": "Gabriel",
+      "weight": 1
+    },
+    {
+      "source": "Daniel",
+      "target": "Gabriel",
+      "weight": 2
+    },
+    {
+      "source": "Alexander the Great",
+      "target": "Antiochus Epiphanes",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Gabriel",
+      "weight": 1
+    },
+    {
+      "source": "Gabriel",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Antichrist",
+      "target": "Gabriel",
+      "weight": 1
+    },
+    {
+      "source": "Gabriel",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Antichrist",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Antichrist",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Daniel",
+      "target": "Michael",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Michael",
+      "weight": 2
+    },
+    {
+      "source": "Alexander",
+      "target": "Darius",
+      "weight": 1
+    },
+    {
+      "source": "Alexander",
+      "target": "Judea",
+      "weight": 1
+    },
+    {
+      "source": "Antiochus Epiphanes",
+      "target": "Darius",
+      "weight": 1
+    },
+    {
+      "source": "Antichrist",
+      "target": "Darius",
+      "weight": 1
+    },
+    {
+      "source": "Antiochus Epiphanes",
+      "target": "Judea",
+      "weight": 1
+    },
+    {
+      "source": "Antichrist",
+      "target": "Judea",
+      "weight": 1
+    },
+    {
+      "source": "Antichrist",
+      "target": "Michael",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Cyrus",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Joakim",
+      "weight": 1
+    },
+    {
+      "source": "Bel",
+      "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Bel",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Bel",
+      "target": "Cyrus",
+      "weight": 1
+    },
+    {
+      "source": "Bel",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Bel",
+      "target": "Joakim",
+      "weight": 1
+    },
+    {
+      "source": "Bel",
+      "target": "Darius",
+      "weight": 1
+    },
+    {
+      "source": "Bel",
+      "target": "Judea",
+      "weight": 1
+    }
+  ]
+}

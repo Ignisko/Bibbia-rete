@@ -1,0 +1,46 @@
+{
+  "nodes": [
+    {
+      "id": "Lord",
+      "name": "Lord",
+      "val": 27
+    },
+    {
+      "id": "Solomon",
+      "name": "Solomon",
+      "val": 4
+    },
+    {
+      "id": "God",
+      "name": "God",
+      "val": 10
+    },
+    {
+      "id": "Blessed",
+      "name": "Blessed",
+      "val": 2
+    }
+  ],
+  "links": [
+    {
+      "source": "Lord",
+      "target": "Solomon",
+      "weight": 4
+    },
+    {
+      "source": "God",
+      "target": "Lord",
+      "weight": 10
+    },
+    {
+      "source": "Blessed",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Solomon",
+      "weight": 3
+    }
+  ]
+}

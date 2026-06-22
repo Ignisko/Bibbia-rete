@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "id": "Lord",
+      "name": "Lord",
+      "val": 27
+    },
+    {
+      "id": "Aaron",
+      "name": "Aaron",
+      "val": 17
+    },
+    {
+      "id": "God",
+      "name": "God",
+      "val": 16
+    },
+    {
+      "id": "Christ",
+      "name": "Christ",
+      "val": 6
+    },
+    {
+      "id": "Holy Ghost",
+      "name": "Holy Ghost",
+      "val": 1
+    }
+  ],
+  "links": [
+    {
+      "source": "Aaron",
+      "target": "Lord",
+      "weight": 17
+    },
+    {
+      "source": "God",
+      "target": "Lord",
+      "weight": 16
+    },
+    {
+      "source": "Christ",
+      "target": "Lord",
+      "weight": 6
+    },
+    {
+      "source": "Aaron",
+      "target": "God",
+      "weight": 9
+    },
+    {
+      "source": "Aaron",
+      "target": "Christ",
+      "weight": 5
+    },
+    {
+      "source": "Christ",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Christ",
+      "target": "Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Aaron",
+      "target": "Holy Ghost",
+      "weight": 1
+    }
+  ]
+}

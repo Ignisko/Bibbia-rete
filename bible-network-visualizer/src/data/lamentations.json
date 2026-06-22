@@ -1,0 +1,651 @@
+{
+  "nodes": [
+    {
+      "id": "Lamed",
+      "name": "Lamed",
+      "val": 4
+    },
+    {
+      "id": "Juda",
+      "name": "Juda",
+      "val": 3
+    },
+    {
+      "id": "Res",
+      "name": "Res",
+      "val": 4
+    },
+    {
+      "id": "Samech",
+      "name": "Samech",
+      "val": 4
+    },
+    {
+      "id": "Coph",
+      "name": "Coph",
+      "val": 4
+    },
+    {
+      "id": "Gentiles",
+      "name": "Gentiles",
+      "val": 2
+    },
+    {
+      "id": "Sion",
+      "name": "Sion",
+      "val": 4
+    },
+    {
+      "id": "Zain",
+      "name": "Zain",
+      "val": 4
+    },
+    {
+      "id": "Ghimel",
+      "name": "Ghimel",
+      "val": 3
+    },
+    {
+      "id": "Caph",
+      "name": "Caph",
+      "val": 2
+    },
+    {
+      "id": "Mem",
+      "name": "Mem",
+      "val": 4
+    },
+    {
+      "id": "Nun",
+      "name": "Nun",
+      "val": 4
+    },
+    {
+      "id": "Lord",
+      "name": "Lord",
+      "val": 5
+    },
+    {
+      "id": "Aleph",
+      "name": "Aleph",
+      "val": 4
+    },
+    {
+      "id": "God",
+      "name": "God",
+      "val": 1
+    },
+    {
+      "id": "Christ",
+      "name": "Christ",
+      "val": 1
+    }
+  ],
+  "links": [
+    {
+      "source": "Juda",
+      "target": "Lamed",
+      "weight": 2
+    },
+    {
+      "source": "Lamed",
+      "target": "Res",
+      "weight": 4
+    },
+    {
+      "source": "Lamed",
+      "target": "Samech",
+      "weight": 4
+    },
+    {
+      "source": "Coph",
+      "target": "Lamed",
+      "weight": 4
+    },
+    {
+      "source": "Gentiles",
+      "target": "Lamed",
+      "weight": 2
+    },
+    {
+      "source": "Lamed",
+      "target": "Sion",
+      "weight": 3
+    },
+    {
+      "source": "Lamed",
+      "target": "Zain",
+      "weight": 4
+    },
+    {
+      "source": "Ghimel",
+      "target": "Lamed",
+      "weight": 3
+    },
+    {
+      "source": "Caph",
+      "target": "Lamed",
+      "weight": 2
+    },
+    {
+      "source": "Lamed",
+      "target": "Mem",
+      "weight": 4
+    },
+    {
+      "source": "Lamed",
+      "target": "Nun",
+      "weight": 4
+    },
+    {
+      "source": "Lamed",
+      "target": "Lord",
+      "weight": 4
+    },
+    {
+      "source": "Aleph",
+      "target": "Lamed",
+      "weight": 4
+    },
+    {
+      "source": "Juda",
+      "target": "Res",
+      "weight": 2
+    },
+    {
+      "source": "Juda",
+      "target": "Samech",
+      "weight": 2
+    },
+    {
+      "source": "Coph",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Gentiles",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Juda",
+      "target": "Sion",
+      "weight": 3
+    },
+    {
+      "source": "Juda",
+      "target": "Zain",
+      "weight": 2
+    },
+    {
+      "source": "Ghimel",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Caph",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Juda",
+      "target": "Mem",
+      "weight": 2
+    },
+    {
+      "source": "Juda",
+      "target": "Nun",
+      "weight": 2
+    },
+    {
+      "source": "Juda",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Aleph",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Res",
+      "target": "Samech",
+      "weight": 4
+    },
+    {
+      "source": "Coph",
+      "target": "Res",
+      "weight": 4
+    },
+    {
+      "source": "Gentiles",
+      "target": "Res",
+      "weight": 2
+    },
+    {
+      "source": "Res",
+      "target": "Sion",
+      "weight": 3
+    },
+    {
+      "source": "Res",
+      "target": "Zain",
+      "weight": 4
+    },
+    {
+      "source": "Ghimel",
+      "target": "Res",
+      "weight": 3
+    },
+    {
+      "source": "Caph",
+      "target": "Res",
+      "weight": 2
+    },
+    {
+      "source": "Mem",
+      "target": "Res",
+      "weight": 4
+    },
+    {
+      "source": "Nun",
+      "target": "Res",
+      "weight": 4
+    },
+    {
+      "source": "Lord",
+      "target": "Res",
+      "weight": 4
+    },
+    {
+      "source": "Aleph",
+      "target": "Res",
+      "weight": 4
+    },
+    {
+      "source": "Coph",
+      "target": "Samech",
+      "weight": 4
+    },
+    {
+      "source": "Gentiles",
+      "target": "Samech",
+      "weight": 2
+    },
+    {
+      "source": "Samech",
+      "target": "Sion",
+      "weight": 3
+    },
+    {
+      "source": "Samech",
+      "target": "Zain",
+      "weight": 4
+    },
+    {
+      "source": "Ghimel",
+      "target": "Samech",
+      "weight": 3
+    },
+    {
+      "source": "Caph",
+      "target": "Samech",
+      "weight": 2
+    },
+    {
+      "source": "Mem",
+      "target": "Samech",
+      "weight": 4
+    },
+    {
+      "source": "Nun",
+      "target": "Samech",
+      "weight": 4
+    },
+    {
+      "source": "Lord",
+      "target": "Samech",
+      "weight": 4
+    },
+    {
+      "source": "Aleph",
+      "target": "Samech",
+      "weight": 4
+    },
+    {
+      "source": "Coph",
+      "target": "Gentiles",
+      "weight": 2
+    },
+    {
+      "source": "Coph",
+      "target": "Sion",
+      "weight": 3
+    },
+    {
+      "source": "Coph",
+      "target": "Zain",
+      "weight": 4
+    },
+    {
+      "source": "Coph",
+      "target": "Ghimel",
+      "weight": 3
+    },
+    {
+      "source": "Caph",
+      "target": "Coph",
+      "weight": 2
+    },
+    {
+      "source": "Coph",
+      "target": "Mem",
+      "weight": 4
+    },
+    {
+      "source": "Coph",
+      "target": "Nun",
+      "weight": 4
+    },
+    {
+      "source": "Coph",
+      "target": "Lord",
+      "weight": 4
+    },
+    {
+      "source": "Aleph",
+      "target": "Coph",
+      "weight": 4
+    },
+    {
+      "source": "Gentiles",
+      "target": "Sion",
+      "weight": 2
+    },
+    {
+      "source": "Gentiles",
+      "target": "Zain",
+      "weight": 2
+    },
+    {
+      "source": "Gentiles",
+      "target": "Ghimel",
+      "weight": 1
+    },
+    {
+      "source": "Caph",
+      "target": "Gentiles",
+      "weight": 2
+    },
+    {
+      "source": "Gentiles",
+      "target": "Mem",
+      "weight": 2
+    },
+    {
+      "source": "Gentiles",
+      "target": "Nun",
+      "weight": 2
+    },
+    {
+      "source": "Gentiles",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Aleph",
+      "target": "Gentiles",
+      "weight": 2
+    },
+    {
+      "source": "Sion",
+      "target": "Zain",
+      "weight": 3
+    },
+    {
+      "source": "Ghimel",
+      "target": "Sion",
+      "weight": 2
+    },
+    {
+      "source": "Caph",
+      "target": "Sion",
+      "weight": 2
+    },
+    {
+      "source": "Mem",
+      "target": "Sion",
+      "weight": 3
+    },
+    {
+      "source": "Nun",
+      "target": "Sion",
+      "weight": 3
+    },
+    {
+      "source": "Lord",
+      "target": "Sion",
+      "weight": 4
+    },
+    {
+      "source": "Aleph",
+      "target": "Sion",
+      "weight": 3
+    },
+    {
+      "source": "Ghimel",
+      "target": "Zain",
+      "weight": 3
+    },
+    {
+      "source": "Caph",
+      "target": "Zain",
+      "weight": 2
+    },
+    {
+      "source": "Mem",
+      "target": "Zain",
+      "weight": 4
+    },
+    {
+      "source": "Nun",
+      "target": "Zain",
+      "weight": 4
+    },
+    {
+      "source": "Lord",
+      "target": "Zain",
+      "weight": 4
+    },
+    {
+      "source": "Aleph",
+      "target": "Zain",
+      "weight": 4
+    },
+    {
+      "source": "Caph",
+      "target": "Ghimel",
+      "weight": 1
+    },
+    {
+      "source": "Ghimel",
+      "target": "Mem",
+      "weight": 3
+    },
+    {
+      "source": "Ghimel",
+      "target": "Nun",
+      "weight": 3
+    },
+    {
+      "source": "Ghimel",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Aleph",
+      "target": "Ghimel",
+      "weight": 3
+    },
+    {
+      "source": "Caph",
+      "target": "Mem",
+      "weight": 2
+    },
+    {
+      "source": "Caph",
+      "target": "Nun",
+      "weight": 2
+    },
+    {
+      "source": "Caph",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Aleph",
+      "target": "Caph",
+      "weight": 2
+    },
+    {
+      "source": "Mem",
+      "target": "Nun",
+      "weight": 4
+    },
+    {
+      "source": "Lord",
+      "target": "Mem",
+      "weight": 4
+    },
+    {
+      "source": "Aleph",
+      "target": "Mem",
+      "weight": 4
+    },
+    {
+      "source": "Lord",
+      "target": "Nun",
+      "weight": 4
+    },
+    {
+      "source": "Aleph",
+      "target": "Nun",
+      "weight": 4
+    },
+    {
+      "source": "Aleph",
+      "target": "Lord",
+      "weight": 4
+    },
+    {
+      "source": "God",
+      "target": "Lamed",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Res",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Samech",
+      "weight": 1
+    },
+    {
+      "source": "Coph",
+      "target": "God",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Zain",
+      "weight": 1
+    },
+    {
+      "source": "Ghimel",
+      "target": "God",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Mem",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Nun",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Aleph",
+      "target": "God",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Lamed",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Res",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Samech",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Coph",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Gentiles",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Zain",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Sion",
+      "weight": 1
+    },
+    {
+      "source": "Caph",
+      "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Mem",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Nun",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Lord",
+      "weight": 1
+    },
+    {
+      "source": "Aleph",
+      "target": "Christ",
+      "weight": 1
+    }
+  ]
+}

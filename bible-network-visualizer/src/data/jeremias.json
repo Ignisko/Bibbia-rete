@@ -1,0 +1,2171 @@
+{
+  "nodes": [
+    {
+      "id": "Jeremias",
+      "name": "Jeremias",
+      "val": 35
+    },
+    {
+      "id": "Helcias",
+      "name": "Helcias",
+      "val": 2
+    },
+    {
+      "id": "God",
+      "name": "God",
+      "val": 47
+    },
+    {
+      "id": "Josias",
+      "name": "Josias",
+      "val": 6
+    },
+    {
+      "id": "Sedecias",
+      "name": "Sedecias",
+      "val": 16
+    },
+    {
+      "id": "Lord",
+      "name": "Lord",
+      "val": 52
+    },
+    {
+      "id": "Joakim",
+      "name": "Joakim",
+      "val": 10
+    },
+    {
+      "id": "Juda",
+      "name": "Juda",
+      "val": 48
+    },
+    {
+      "id": "Benjamin",
+      "name": "Benjamin",
+      "val": 4
+    },
+    {
+      "id": "Baalim",
+      "name": "Baalim",
+      "val": 2
+    },
+    {
+      "id": "Jacob",
+      "name": "Jacob",
+      "val": 7
+    },
+    {
+      "id": "Sion",
+      "name": "Sion",
+      "val": 6
+    },
+    {
+      "id": "Woe",
+      "name": "Woe",
+      "val": 5
+    },
+    {
+      "id": "Gentiles",
+      "name": "Gentiles",
+      "val": 2
+    },
+    {
+      "id": "Dan",
+      "name": "Dan",
+      "val": 2
+    },
+    {
+      "id": "Ephraim",
+      "name": "Ephraim",
+      "val": 2
+    },
+    {
+      "id": "Moab",
+      "name": "Moab",
+      "val": 6
+    },
+    {
+      "id": "Ammon",
+      "name": "Ammon",
+      "val": 6
+    },
+    {
+      "id": "Christ",
+      "name": "Christ",
+      "val": 5
+    },
+    {
+      "id": "Baal",
+      "name": "Baal",
+      "val": 2
+    },
+    {
+      "id": "David",
+      "name": "David",
+      "val": 9
+    },
+    {
+      "id": "Libanus",
+      "name": "Libanus",
+      "val": 2
+    },
+    {
+      "id": "Babylon",
+      "name": "Babylon",
+      "val": 12
+    },
+    {
+      "id": "Galaad",
+      "name": "Galaad",
+      "val": 2
+    },
+    {
+      "id": "Jechonias",
+      "name": "Jechonias",
+      "val": 7
+    },
+    {
+      "id": "Sidon",
+      "name": "Sidon",
+      "val": 3
+    },
+    {
+      "id": "Ascalon",
+      "name": "Ascalon",
+      "val": 2
+    },
+    {
+      "id": "Ahicam",
+      "name": "Ahicam",
+      "val": 4
+    },
+    {
+      "id": "Gabaon",
+      "name": "Gabaon",
+      "val": 2
+    },
+    {
+      "id": "Sophonias",
+      "name": "Sophonias",
+      "val": 3
+    },
+    {
+      "id": "Semeias",
+      "name": "Semeias",
+      "val": 2
+    },
+    {
+      "id": "Nabuchodonosor",
+      "name": "Nabuchodonosor",
+      "val": 4
+    },
+    {
+      "id": "Jezonias",
+      "name": "Jezonias",
+      "val": 3
+    },
+    {
+      "id": "Nerias",
+      "name": "Nerias",
+      "val": 3
+    },
+    {
+      "id": "Joachin",
+      "name": "Joachin",
+      "val": 2
+    },
+    {
+      "id": "Selemias",
+      "name": "Selemias",
+      "val": 3
+    },
+    {
+      "id": "Nathanias",
+      "name": "Nathanias",
+      "val": 3
+    },
+    {
+      "id": "Jonathan",
+      "name": "Jonathan",
+      "val": 3
+    },
+    {
+      "id": "Juchal",
+      "name": "Juchal",
+      "val": 2
+    },
+    {
+      "id": "Abdemelech",
+      "name": "Abdemelech",
+      "val": 2
+    },
+    {
+      "id": "Nabuzardan",
+      "name": "Nabuzardan",
+      "val": 5
+    },
+    {
+      "id": "Godolias",
+      "name": "Godolias",
+      "val": 2
+    },
+    {
+      "id": "Ismahel",
+      "name": "Ismahel",
+      "val": 2
+    },
+    {
+      "id": "Osaias",
+      "name": "Osaias",
+      "val": 2
+    }
+  ],
+  "links": [
+    {
+      "source": "Helcias",
+      "target": "Jeremias",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Jeremias",
+      "weight": 32
+    },
+    {
+      "source": "Jeremias",
+      "target": "Josias",
+      "weight": 4
+    },
+    {
+      "source": "Jeremias",
+      "target": "Sedecias",
+      "weight": 16
+    },
+    {
+      "source": "Jeremias",
+      "target": "Lord",
+      "weight": 35
+    },
+    {
+      "source": "Jeremias",
+      "target": "Joakim",
+      "weight": 9
+    },
+    {
+      "source": "Jeremias",
+      "target": "Juda",
+      "weight": 34
+    },
+    {
+      "source": "Benjamin",
+      "target": "Jeremias",
+      "weight": 4
+    },
+    {
+      "source": "God",
+      "target": "Helcias",
+      "weight": 2
+    },
+    {
+      "source": "Helcias",
+      "target": "Josias",
+      "weight": 1
+    },
+    {
+      "source": "Helcias",
+      "target": "Sedecias",
+      "weight": 2
+    },
+    {
+      "source": "Helcias",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Helcias",
+      "target": "Joakim",
+      "weight": 1
+    },
+    {
+      "source": "Helcias",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Benjamin",
+      "target": "Helcias",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Josias",
+      "weight": 5
+    },
+    {
+      "source": "God",
+      "target": "Sedecias",
+      "weight": 14
+    },
+    {
+      "source": "God",
+      "target": "Lord",
+      "weight": 47
+    },
+    {
+      "source": "God",
+      "target": "Joakim",
+      "weight": 8
+    },
+    {
+      "source": "God",
+      "target": "Juda",
+      "weight": 45
+    },
+    {
+      "source": "Benjamin",
+      "target": "God",
+      "weight": 4
+    },
+    {
+      "source": "Josias",
+      "target": "Sedecias",
+      "weight": 3
+    },
+    {
+      "source": "Josias",
+      "target": "Lord",
+      "weight": 6
+    },
+    {
+      "source": "Joakim",
+      "target": "Josias",
+      "weight": 4
+    },
+    {
+      "source": "Josias",
+      "target": "Juda",
+      "weight": 6
+    },
+    {
+      "source": "Benjamin",
+      "target": "Josias",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Sedecias",
+      "weight": 16
+    },
+    {
+      "source": "Joakim",
+      "target": "Sedecias",
+      "weight": 7
+    },
+    {
+      "source": "Juda",
+      "target": "Sedecias",
+      "weight": 16
+    },
+    {
+      "source": "Benjamin",
+      "target": "Sedecias",
+      "weight": 3
+    },
+    {
+      "source": "Joakim",
+      "target": "Lord",
+      "weight": 10
+    },
+    {
+      "source": "Juda",
+      "target": "Lord",
+      "weight": 48
+    },
+    {
+      "source": "Benjamin",
+      "target": "Lord",
+      "weight": 4
+    },
+    {
+      "source": "Joakim",
+      "target": "Juda",
+      "weight": 10
+    },
+    {
+      "source": "Benjamin",
+      "target": "Joakim",
+      "weight": 2
+    },
+    {
+      "source": "Benjamin",
+      "target": "Juda",
+      "weight": 4
+    },
+    {
+      "source": "Baalim",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Baalim",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Baalim",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Baalim",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Jacob",
+      "weight": 7
+    },
+    {
+      "source": "Jacob",
+      "target": "Lord",
+      "weight": 7
+    },
+    {
+      "source": "Jacob",
+      "target": "Juda",
+      "weight": 7
+    },
+    {
+      "source": "God",
+      "target": "Sion",
+      "weight": 5
+    },
+    {
+      "source": "Josias",
+      "target": "Sion",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "Sion",
+      "weight": 6
+    },
+    {
+      "source": "Juda",
+      "target": "Sion",
+      "weight": 5
+    },
+    {
+      "source": "God",
+      "target": "Woe",
+      "weight": 5
+    },
+    {
+      "source": "Gentiles",
+      "target": "Woe",
+      "weight": 1
+    },
+    {
+      "source": "Sion",
+      "target": "Woe",
+      "weight": 1
+    },
+    {
+      "source": "Dan",
+      "target": "Woe",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "Woe",
+      "weight": 5
+    },
+    {
+      "source": "Juda",
+      "target": "Woe",
+      "weight": 4
+    },
+    {
+      "source": "Gentiles",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Dan",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Gentiles",
+      "target": "Sion",
+      "weight": 1
+    },
+    {
+      "source": "Dan",
+      "target": "Gentiles",
+      "weight": 1
+    },
+    {
+      "source": "Gentiles",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Gentiles",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Dan",
+      "target": "Sion",
+      "weight": 1
+    },
+    {
+      "source": "Dan",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Dan",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Ephraim",
+      "target": "Jeremias",
+      "weight": 1
+    },
+    {
+      "source": "Ephraim",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Ephraim",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Ephraim",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Ammon",
+      "target": "Moab",
+      "weight": 5
+    },
+    {
+      "source": "God",
+      "target": "Moab",
+      "weight": 6
+    },
+    {
+      "source": "Lord",
+      "target": "Moab",
+      "weight": 6
+    },
+    {
+      "source": "Juda",
+      "target": "Moab",
+      "weight": 5
+    },
+    {
+      "source": "Ammon",
+      "target": "God",
+      "weight": 6
+    },
+    {
+      "source": "Ammon",
+      "target": "Lord",
+      "weight": 6
+    },
+    {
+      "source": "Ammon",
+      "target": "Juda",
+      "weight": 6
+    },
+    {
+      "source": "Jacob",
+      "target": "Woe",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Jeremias",
+      "weight": 5
+    },
+    {
+      "source": "Christ",
+      "target": "God",
+      "weight": 5
+    },
+    {
+      "source": "Christ",
+      "target": "Lord",
+      "weight": 5
+    },
+    {
+      "source": "Christ",
+      "target": "Juda",
+      "weight": 5
+    },
+    {
+      "source": "Baal",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Baal",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Lord",
+      "weight": 9
+    },
+    {
+      "source": "David",
+      "target": "God",
+      "weight": 8
+    },
+    {
+      "source": "David",
+      "target": "Juda",
+      "weight": 9
+    },
+    {
+      "source": "Jeremias",
+      "target": "Sion",
+      "weight": 3
+    },
+    {
+      "source": "Christ",
+      "target": "Libanus",
+      "weight": 1
+    },
+    {
+      "source": "Jeremias",
+      "target": "Libanus",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Libanus",
+      "weight": 2
+    },
+    {
+      "source": "Libanus",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Juda",
+      "target": "Libanus",
+      "weight": 2
+    },
+    {
+      "source": "Baalim",
+      "target": "Jeremias",
+      "weight": 1
+    },
+    {
+      "source": "Babylon",
+      "target": "Jeremias",
+      "weight": 11
+    },
+    {
+      "source": "Babylon",
+      "target": "God",
+      "weight": 11
+    },
+    {
+      "source": "Babylon",
+      "target": "Lord",
+      "weight": 12
+    },
+    {
+      "source": "Babylon",
+      "target": "Juda",
+      "weight": 12
+    },
+    {
+      "source": "David",
+      "target": "Jeremias",
+      "weight": 6
+    },
+    {
+      "source": "David",
+      "target": "Sedecias",
+      "weight": 3
+    },
+    {
+      "source": "Galaad",
+      "target": "Jechonias",
+      "weight": 1
+    },
+    {
+      "source": "Galaad",
+      "target": "Libanus",
+      "weight": 1
+    },
+    {
+      "source": "Galaad",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Galaad",
+      "target": "Josias",
+      "weight": 1
+    },
+    {
+      "source": "Galaad",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Galaad",
+      "target": "Joakim",
+      "weight": 1
+    },
+    {
+      "source": "Galaad",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Galaad",
+      "weight": 1
+    },
+    {
+      "source": "Jechonias",
+      "target": "Libanus",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Jechonias",
+      "weight": 6
+    },
+    {
+      "source": "Jechonias",
+      "target": "Josias",
+      "weight": 3
+    },
+    {
+      "source": "Jechonias",
+      "target": "Lord",
+      "weight": 7
+    },
+    {
+      "source": "Jechonias",
+      "target": "Joakim",
+      "weight": 6
+    },
+    {
+      "source": "Jechonias",
+      "target": "Juda",
+      "weight": 7
+    },
+    {
+      "source": "David",
+      "target": "Jechonias",
+      "weight": 3
+    },
+    {
+      "source": "Josias",
+      "target": "Libanus",
+      "weight": 1
+    },
+    {
+      "source": "Joakim",
+      "target": "Libanus",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Libanus",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Josias",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Joakim",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "David",
+      "weight": 3
+    },
+    {
+      "source": "Jechonias",
+      "target": "Jeremias",
+      "weight": 6
+    },
+    {
+      "source": "Babylon",
+      "target": "Jechonias",
+      "weight": 3
+    },
+    {
+      "source": "Jechonias",
+      "target": "Sedecias",
+      "weight": 6
+    },
+    {
+      "source": "Babylon",
+      "target": "Sedecias",
+      "weight": 7
+    },
+    {
+      "source": "Babylon",
+      "target": "Joakim",
+      "weight": 4
+    },
+    {
+      "source": "Ascalon",
+      "target": "Sidon",
+      "weight": 2
+    },
+    {
+      "source": "Ammon",
+      "target": "Sidon",
+      "weight": 2
+    },
+    {
+      "source": "Moab",
+      "target": "Sidon",
+      "weight": 2
+    },
+    {
+      "source": "Jeremias",
+      "target": "Sidon",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Sidon",
+      "weight": 2
+    },
+    {
+      "source": "Babylon",
+      "target": "Sidon",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Sidon",
+      "weight": 3
+    },
+    {
+      "source": "Juda",
+      "target": "Sidon",
+      "weight": 2
+    },
+    {
+      "source": "Ammon",
+      "target": "Ascalon",
+      "weight": 1
+    },
+    {
+      "source": "Ascalon",
+      "target": "Moab",
+      "weight": 1
+    },
+    {
+      "source": "Ascalon",
+      "target": "Jeremias",
+      "weight": 2
+    },
+    {
+      "source": "Ascalon",
+      "target": "God",
+      "weight": 1
+    },
+    {
+      "source": "Ascalon",
+      "target": "Babylon",
+      "weight": 1
+    },
+    {
+      "source": "Ascalon",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Ascalon",
+      "target": "Juda",
+      "weight": 1
+    },
+    {
+      "source": "Ammon",
+      "target": "Jeremias",
+      "weight": 4
+    },
+    {
+      "source": "Ammon",
+      "target": "Babylon",
+      "weight": 4
+    },
+    {
+      "source": "Jeremias",
+      "target": "Moab",
+      "weight": 4
+    },
+    {
+      "source": "Babylon",
+      "target": "Moab",
+      "weight": 3
+    },
+    {
+      "source": "Ahicam",
+      "target": "Jeremias",
+      "weight": 3
+    },
+    {
+      "source": "Ahicam",
+      "target": "God",
+      "weight": 4
+    },
+    {
+      "source": "Ahicam",
+      "target": "Lord",
+      "weight": 4
+    },
+    {
+      "source": "Ahicam",
+      "target": "Joakim",
+      "weight": 1
+    },
+    {
+      "source": "Ahicam",
+      "target": "Juda",
+      "weight": 4
+    },
+    {
+      "source": "Jechonias",
+      "target": "Sidon",
+      "weight": 1
+    },
+    {
+      "source": "Sedecias",
+      "target": "Sidon",
+      "weight": 1
+    },
+    {
+      "source": "Joakim",
+      "target": "Sidon",
+      "weight": 1
+    },
+    {
+      "source": "Jechonias",
+      "target": "Moab",
+      "weight": 1
+    },
+    {
+      "source": "Moab",
+      "target": "Sedecias",
+      "weight": 2
+    },
+    {
+      "source": "Joakim",
+      "target": "Moab",
+      "weight": 1
+    },
+    {
+      "source": "Ammon",
+      "target": "Jechonias",
+      "weight": 1
+    },
+    {
+      "source": "Ammon",
+      "target": "Sedecias",
+      "weight": 2
+    },
+    {
+      "source": "Ammon",
+      "target": "Joakim",
+      "weight": 1
+    },
+    {
+      "source": "Gabaon",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Gabaon",
+      "target": "Jechonias",
+      "weight": 1
+    },
+    {
+      "source": "Gabaon",
+      "target": "Jeremias",
+      "weight": 1
+    },
+    {
+      "source": "Gabaon",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Babylon",
+      "target": "Gabaon",
+      "weight": 2
+    },
+    {
+      "source": "Gabaon",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Gabaon",
+      "target": "Joakim",
+      "weight": 1
+    },
+    {
+      "source": "Gabaon",
+      "target": "Sedecias",
+      "weight": 1
+    },
+    {
+      "source": "Jechonias",
+      "target": "Sophonias",
+      "weight": 2
+    },
+    {
+      "source": "Juda",
+      "target": "Sophonias",
+      "weight": 3
+    },
+    {
+      "source": "Jeremias",
+      "target": "Sophonias",
+      "weight": 3
+    },
+    {
+      "source": "Helcias",
+      "target": "Sophonias",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Sophonias",
+      "weight": 2
+    },
+    {
+      "source": "Semeias",
+      "target": "Sophonias",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "Sophonias",
+      "weight": 3
+    },
+    {
+      "source": "Nabuchodonosor",
+      "target": "Sophonias",
+      "weight": 2
+    },
+    {
+      "source": "Sedecias",
+      "target": "Sophonias",
+      "weight": 3
+    },
+    {
+      "source": "David",
+      "target": "Sophonias",
+      "weight": 1
+    },
+    {
+      "source": "Helcias",
+      "target": "Jechonias",
+      "weight": 1
+    },
+    {
+      "source": "Jechonias",
+      "target": "Semeias",
+      "weight": 2
+    },
+    {
+      "source": "Jechonias",
+      "target": "Nabuchodonosor",
+      "weight": 1
+    },
+    {
+      "source": "Juda",
+      "target": "Semeias",
+      "weight": 2
+    },
+    {
+      "source": "Juda",
+      "target": "Nabuchodonosor",
+      "weight": 4
+    },
+    {
+      "source": "Jeremias",
+      "target": "Semeias",
+      "weight": 2
+    },
+    {
+      "source": "Jeremias",
+      "target": "Nabuchodonosor",
+      "weight": 4
+    },
+    {
+      "source": "Helcias",
+      "target": "Semeias",
+      "weight": 1
+    },
+    {
+      "source": "Helcias",
+      "target": "Nabuchodonosor",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Helcias",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Semeias",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Nabuchodonosor",
+      "weight": 3
+    },
+    {
+      "source": "Lord",
+      "target": "Semeias",
+      "weight": 2
+    },
+    {
+      "source": "Nabuchodonosor",
+      "target": "Semeias",
+      "weight": 1
+    },
+    {
+      "source": "Sedecias",
+      "target": "Semeias",
+      "weight": 2
+    },
+    {
+      "source": "David",
+      "target": "Semeias",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Nabuchodonosor",
+      "weight": 4
+    },
+    {
+      "source": "Nabuchodonosor",
+      "target": "Sedecias",
+      "weight": 3
+    },
+    {
+      "source": "David",
+      "target": "Nabuchodonosor",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Jacob",
+      "weight": 2
+    },
+    {
+      "source": "Jacob",
+      "target": "Jeremias",
+      "weight": 4
+    },
+    {
+      "source": "David",
+      "target": "Jacob",
+      "weight": 2
+    },
+    {
+      "source": "Ephraim",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Baal",
+      "target": "Jeremias",
+      "weight": 1
+    },
+    {
+      "source": "Baal",
+      "target": "God",
+      "weight": 1
+    },
+    {
+      "source": "Baal",
+      "target": "Sedecias",
+      "weight": 1
+    },
+    {
+      "source": "Baal",
+      "target": "Benjamin",
+      "weight": 1
+    },
+    {
+      "source": "Benjamin",
+      "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Benjamin",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Benjamin",
+      "target": "David",
+      "weight": 1
+    },
+    {
+      "source": "Babylon",
+      "target": "Nabuchodonosor",
+      "weight": 3
+    },
+    {
+      "source": "Jeremias",
+      "target": "Jezonias",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Jezonias",
+      "weight": 3
+    },
+    {
+      "source": "Jezonias",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Jezonias",
+      "target": "Joakim",
+      "weight": 1
+    },
+    {
+      "source": "Jezonias",
+      "target": "Juda",
+      "weight": 3
+    },
+    {
+      "source": "Jechonias",
+      "target": "Nerias",
+      "weight": 1
+    },
+    {
+      "source": "Jechonias",
+      "target": "Joachin",
+      "weight": 1
+    },
+    {
+      "source": "Jechonias",
+      "target": "Selemias",
+      "weight": 2
+    },
+    {
+      "source": "Jechonias",
+      "target": "Nathanias",
+      "weight": 1
+    },
+    {
+      "source": "Jeremias",
+      "target": "Nerias",
+      "weight": 3
+    },
+    {
+      "source": "Jeremias",
+      "target": "Joachin",
+      "weight": 2
+    },
+    {
+      "source": "Jeremias",
+      "target": "Selemias",
+      "weight": 3
+    },
+    {
+      "source": "Jeremias",
+      "target": "Nathanias",
+      "weight": 2
+    },
+    {
+      "source": "Josias",
+      "target": "Nerias",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "Nerias",
+      "weight": 3
+    },
+    {
+      "source": "Joakim",
+      "target": "Nerias",
+      "weight": 1
+    },
+    {
+      "source": "Joachin",
+      "target": "Nerias",
+      "weight": 1
+    },
+    {
+      "source": "Nerias",
+      "target": "Semeias",
+      "weight": 1
+    },
+    {
+      "source": "Nerias",
+      "target": "Selemias",
+      "weight": 1
+    },
+    {
+      "source": "Nerias",
+      "target": "Sedecias",
+      "weight": 2
+    },
+    {
+      "source": "Juda",
+      "target": "Nerias",
+      "weight": 3
+    },
+    {
+      "source": "Nathanias",
+      "target": "Nerias",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Nerias",
+      "weight": 1
+    },
+    {
+      "source": "Joachin",
+      "target": "Josias",
+      "weight": 1
+    },
+    {
+      "source": "Josias",
+      "target": "Semeias",
+      "weight": 1
+    },
+    {
+      "source": "Josias",
+      "target": "Selemias",
+      "weight": 2
+    },
+    {
+      "source": "Josias",
+      "target": "Nathanias",
+      "weight": 1
+    },
+    {
+      "source": "Joachin",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Selemias",
+      "weight": 3
+    },
+    {
+      "source": "Lord",
+      "target": "Nathanias",
+      "weight": 3
+    },
+    {
+      "source": "Joachin",
+      "target": "Joakim",
+      "weight": 2
+    },
+    {
+      "source": "Joakim",
+      "target": "Semeias",
+      "weight": 1
+    },
+    {
+      "source": "Joakim",
+      "target": "Selemias",
+      "weight": 2
+    },
+    {
+      "source": "Joakim",
+      "target": "Nathanias",
+      "weight": 1
+    },
+    {
+      "source": "Joachin",
+      "target": "Semeias",
+      "weight": 1
+    },
+    {
+      "source": "Joachin",
+      "target": "Selemias",
+      "weight": 1
+    },
+    {
+      "source": "Joachin",
+      "target": "Sedecias",
+      "weight": 2
+    },
+    {
+      "source": "Joachin",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Joachin",
+      "target": "Nathanias",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Joachin",
+      "weight": 1
+    },
+    {
+      "source": "Selemias",
+      "target": "Semeias",
+      "weight": 1
+    },
+    {
+      "source": "Nathanias",
+      "target": "Semeias",
+      "weight": 1
+    },
+    {
+      "source": "Sedecias",
+      "target": "Selemias",
+      "weight": 3
+    },
+    {
+      "source": "Juda",
+      "target": "Selemias",
+      "weight": 3
+    },
+    {
+      "source": "Nathanias",
+      "target": "Selemias",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Selemias",
+      "weight": 1
+    },
+    {
+      "source": "Nathanias",
+      "target": "Sedecias",
+      "weight": 1
+    },
+    {
+      "source": "Juda",
+      "target": "Nathanias",
+      "weight": 3
+    },
+    {
+      "source": "David",
+      "target": "Nathanias",
+      "weight": 1
+    },
+    {
+      "source": "Jonathan",
+      "target": "Sophonias",
+      "weight": 1
+    },
+    {
+      "source": "Josias",
+      "target": "Sophonias",
+      "weight": 1
+    },
+    {
+      "source": "Selemias",
+      "target": "Sophonias",
+      "weight": 1
+    },
+    {
+      "source": "Juchal",
+      "target": "Sophonias",
+      "weight": 1
+    },
+    {
+      "source": "Joakim",
+      "target": "Sophonias",
+      "weight": 2
+    },
+    {
+      "source": "Benjamin",
+      "target": "Sophonias",
+      "weight": 1
+    },
+    {
+      "source": "Jechonias",
+      "target": "Jonathan",
+      "weight": 1
+    },
+    {
+      "source": "Jechonias",
+      "target": "Juchal",
+      "weight": 1
+    },
+    {
+      "source": "Benjamin",
+      "target": "Jechonias",
+      "weight": 1
+    },
+    {
+      "source": "Jonathan",
+      "target": "Juda",
+      "weight": 3
+    },
+    {
+      "source": "Juchal",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Jeremias",
+      "target": "Jonathan",
+      "weight": 3
+    },
+    {
+      "source": "Jeremias",
+      "target": "Juchal",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Jonathan",
+      "weight": 3
+    },
+    {
+      "source": "Jonathan",
+      "target": "Josias",
+      "weight": 1
+    },
+    {
+      "source": "Jonathan",
+      "target": "Selemias",
+      "weight": 2
+    },
+    {
+      "source": "Jonathan",
+      "target": "Juchal",
+      "weight": 2
+    },
+    {
+      "source": "Jonathan",
+      "target": "Lord",
+      "weight": 3
+    },
+    {
+      "source": "Joakim",
+      "target": "Jonathan",
+      "weight": 1
+    },
+    {
+      "source": "Jonathan",
+      "target": "Sedecias",
+      "weight": 2
+    },
+    {
+      "source": "Benjamin",
+      "target": "Jonathan",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Selemias",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Juchal",
+      "weight": 2
+    },
+    {
+      "source": "Josias",
+      "target": "Juchal",
+      "weight": 1
+    },
+    {
+      "source": "Juchal",
+      "target": "Selemias",
+      "weight": 2
+    },
+    {
+      "source": "Benjamin",
+      "target": "Selemias",
+      "weight": 1
+    },
+    {
+      "source": "Juchal",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Joakim",
+      "target": "Juchal",
+      "weight": 1
+    },
+    {
+      "source": "Juchal",
+      "target": "Sedecias",
+      "weight": 2
+    },
+    {
+      "source": "Benjamin",
+      "target": "Juchal",
+      "weight": 1
+    },
+    {
+      "source": "Abdemelech",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Abdemelech",
+      "target": "Jeremias",
+      "weight": 2
+    },
+    {
+      "source": "Abdemelech",
+      "target": "Jonathan",
+      "weight": 1
+    },
+    {
+      "source": "Abdemelech",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Abdemelech",
+      "target": "Selemias",
+      "weight": 1
+    },
+    {
+      "source": "Abdemelech",
+      "target": "Juchal",
+      "weight": 1
+    },
+    {
+      "source": "Abdemelech",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Abdemelech",
+      "target": "Sedecias",
+      "weight": 2
+    },
+    {
+      "source": "Juda",
+      "target": "Nabuzardan",
+      "weight": 5
+    },
+    {
+      "source": "Jeremias",
+      "target": "Nabuzardan",
+      "weight": 4
+    },
+    {
+      "source": "God",
+      "target": "Nabuzardan",
+      "weight": 4
+    },
+    {
+      "source": "Babylon",
+      "target": "Nabuzardan",
+      "weight": 4
+    },
+    {
+      "source": "Abdemelech",
+      "target": "Nabuzardan",
+      "weight": 1
+    },
+    {
+      "source": "Lord",
+      "target": "Nabuzardan",
+      "weight": 5
+    },
+    {
+      "source": "Nabuzardan",
+      "target": "Sedecias",
+      "weight": 2
+    },
+    {
+      "source": "Abdemelech",
+      "target": "Babylon",
+      "weight": 1
+    },
+    {
+      "source": "Jezonias",
+      "target": "Moab",
+      "weight": 1
+    },
+    {
+      "source": "Godolias",
+      "target": "Moab",
+      "weight": 1
+    },
+    {
+      "source": "Moab",
+      "target": "Nabuzardan",
+      "weight": 1
+    },
+    {
+      "source": "Ismahel",
+      "target": "Moab",
+      "weight": 1
+    },
+    {
+      "source": "Jonathan",
+      "target": "Moab",
+      "weight": 1
+    },
+    {
+      "source": "Ahicam",
+      "target": "Moab",
+      "weight": 1
+    },
+    {
+      "source": "Moab",
+      "target": "Nathanias",
+      "weight": 1
+    },
+    {
+      "source": "Ammon",
+      "target": "Jezonias",
+      "weight": 1
+    },
+    {
+      "source": "Ammon",
+      "target": "Godolias",
+      "weight": 2
+    },
+    {
+      "source": "Ammon",
+      "target": "Nabuzardan",
+      "weight": 2
+    },
+    {
+      "source": "Ammon",
+      "target": "Ismahel",
+      "weight": 2
+    },
+    {
+      "source": "Ammon",
+      "target": "Jonathan",
+      "weight": 1
+    },
+    {
+      "source": "Ahicam",
+      "target": "Ammon",
+      "weight": 2
+    },
+    {
+      "source": "Ammon",
+      "target": "Nathanias",
+      "weight": 2
+    },
+    {
+      "source": "Godolias",
+      "target": "Jezonias",
+      "weight": 1
+    },
+    {
+      "source": "Jezonias",
+      "target": "Nabuzardan",
+      "weight": 1
+    },
+    {
+      "source": "Ismahel",
+      "target": "Jezonias",
+      "weight": 1
+    },
+    {
+      "source": "Jezonias",
+      "target": "Jonathan",
+      "weight": 1
+    },
+    {
+      "source": "Ahicam",
+      "target": "Jezonias",
+      "weight": 1
+    },
+    {
+      "source": "Babylon",
+      "target": "Jezonias",
+      "weight": 1
+    },
+    {
+      "source": "Jezonias",
+      "target": "Nathanias",
+      "weight": 1
+    },
+    {
+      "source": "Godolias",
+      "target": "Jeremias",
+      "weight": 1
+    },
+    {
+      "source": "Ismahel",
+      "target": "Jeremias",
+      "weight": 1
+    },
+    {
+      "source": "Godolias",
+      "target": "Nabuzardan",
+      "weight": 2
+    },
+    {
+      "source": "Godolias",
+      "target": "Ismahel",
+      "weight": 2
+    },
+    {
+      "source": "Godolias",
+      "target": "Jonathan",
+      "weight": 1
+    },
+    {
+      "source": "Ahicam",
+      "target": "Godolias",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Godolias",
+      "weight": 2
+    },
+    {
+      "source": "Babylon",
+      "target": "Godolias",
+      "weight": 2
+    },
+    {
+      "source": "Godolias",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Godolias",
+      "target": "Nathanias",
+      "weight": 2
+    },
+    {
+      "source": "Godolias",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Ismahel",
+      "target": "Nabuzardan",
+      "weight": 2
+    },
+    {
+      "source": "Jonathan",
+      "target": "Nabuzardan",
+      "weight": 1
+    },
+    {
+      "source": "Ahicam",
+      "target": "Nabuzardan",
+      "weight": 3
+    },
+    {
+      "source": "Nabuzardan",
+      "target": "Nathanias",
+      "weight": 2
+    },
+    {
+      "source": "Ismahel",
+      "target": "Jonathan",
+      "weight": 1
+    },
+    {
+      "source": "Ahicam",
+      "target": "Ismahel",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Ismahel",
+      "weight": 2
+    },
+    {
+      "source": "Babylon",
+      "target": "Ismahel",
+      "weight": 2
+    },
+    {
+      "source": "Ismahel",
+      "target": "Lord",
+      "weight": 2
+    },
+    {
+      "source": "Ismahel",
+      "target": "Nathanias",
+      "weight": 2
+    },
+    {
+      "source": "Ismahel",
+      "target": "Juda",
+      "weight": 2
+    },
+    {
+      "source": "Ahicam",
+      "target": "Jonathan",
+      "weight": 1
+    },
+    {
+      "source": "Babylon",
+      "target": "Jonathan",
+      "weight": 1
+    },
+    {
+      "source": "Jonathan",
+      "target": "Nathanias",
+      "weight": 1
+    },
+    {
+      "source": "Ahicam",
+      "target": "Babylon",
+      "weight": 2
+    },
+    {
+      "source": "Ahicam",
+      "target": "Nathanias",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Nathanias",
+      "weight": 2
+    },
+    {
+      "source": "Babylon",
+      "target": "Nathanias",
+      "weight": 2
+    },
+    {
+      "source": "Ahicam",
+      "target": "Gabaon",
+      "weight": 1
+    },
+    {
+      "source": "Ammon",
+      "target": "Gabaon",
+      "weight": 1
+    },
+    {
+      "source": "Gabaon",
+      "target": "Godolias",
+      "weight": 1
+    },
+    {
+      "source": "Gabaon",
+      "target": "Nabuzardan",
+      "weight": 1
+    },
+    {
+      "source": "Gabaon",
+      "target": "Ismahel",
+      "weight": 1
+    },
+    {
+      "source": "Gabaon",
+      "target": "Nathanias",
+      "weight": 1
+    },
+    {
+      "source": "Jezonias",
+      "target": "Osaias",
+      "weight": 1
+    },
+    {
+      "source": "Jeremias",
+      "target": "Osaias",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Osaias",
+      "weight": 2
+    },
+    {
+      "source": "Lord",
+      "target": "Osaias",
+      "weight": 2
+    },
+    {
+      "source": "Juda",
+      "target": "Osaias",
+      "weight": 2
+    },
+    {
+      "source": "Ahicam",
+      "target": "Osaias",
+      "weight": 1
+    },
+    {
+      "source": "Nabuzardan",
+      "target": "Osaias",
+      "weight": 1
+    },
+    {
+      "source": "Jeremias",
+      "target": "Woe",
+      "weight": 1
+    },
+    {
+      "source": "Nerias",
+      "target": "Woe",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Nerias",
+      "weight": 2
+    },
+    {
+      "source": "Jacob",
+      "target": "Josias",
+      "weight": 1
+    },
+    {
+      "source": "Moab",
+      "target": "Woe",
+      "weight": 1
+    },
+    {
+      "source": "Galaad",
+      "target": "Jeremias",
+      "weight": 1
+    },
+    {
+      "source": "Galaad",
+      "target": "Sion",
+      "weight": 1
+    },
+    {
+      "source": "Babylon",
+      "target": "Galaad",
+      "weight": 1
+    },
+    {
+      "source": "Galaad",
+      "target": "Nabuchodonosor",
+      "weight": 1
+    },
+    {
+      "source": "Babylon",
+      "target": "Sion",
+      "weight": 2
+    },
+    {
+      "source": "Nabuchodonosor",
+      "target": "Sion",
+      "weight": 1
+    },
+    {
+      "source": "Jacob",
+      "target": "Nerias",
+      "weight": 1
+    },
+    {
+      "source": "Jacob",
+      "target": "Sion",
+      "weight": 1
+    },
+    {
+      "source": "Babylon",
+      "target": "Jacob",
+      "weight": 1
+    },
+    {
+      "source": "Jacob",
+      "target": "Sedecias",
+      "weight": 1
+    },
+    {
+      "source": "Nerias",
+      "target": "Sion",
+      "weight": 1
+    },
+    {
+      "source": "Babylon",
+      "target": "Nerias",
+      "weight": 1
+    },
+    {
+      "source": "Sedecias",
+      "target": "Sion",
+      "weight": 1
+    },
+    {
+      "source": "Joachin",
+      "target": "Sophonias",
+      "weight": 1
+    },
+    {
+      "source": "Nabuzardan",
+      "target": "Sophonias",
+      "weight": 1
+    },
+    {
+      "source": "Babylon",
+      "target": "Sophonias",
+      "weight": 1
+    },
+    {
+      "source": "Joachin",
+      "target": "Nabuzardan",
+      "weight": 1
+    },
+    {
+      "source": "Babylon",
+      "target": "Joachin",
+      "weight": 1
+    },
+    {
+      "source": "Joachin",
+      "target": "Nabuchodonosor",
+      "weight": 1
+    },
+    {
+      "source": "Nabuchodonosor",
+      "target": "Nabuzardan",
+      "weight": 1
+    },
+    {
+      "source": "Joakim",
+      "target": "Nabuzardan",
+      "weight": 1
+    },
+    {
+      "source": "Joakim",
+      "target": "Nabuchodonosor",
+      "weight": 1
+    }
+  ]
+}

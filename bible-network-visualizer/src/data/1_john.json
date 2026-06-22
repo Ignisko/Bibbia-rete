@@ -1,0 +1,181 @@
+{
+  "nodes": [
+    {
+      "id": "Christ",
+      "name": "Christ",
+      "val": 5
+    },
+    {
+      "id": "Father",
+      "name": "Father",
+      "val": 5
+    },
+    {
+      "id": "God",
+      "name": "God",
+      "val": 5
+    },
+    {
+      "id": "Jesus Christ",
+      "name": "Jesus Christ",
+      "val": 4
+    },
+    {
+      "id": "Jesus",
+      "name": "Jesus",
+      "val": 5
+    },
+    {
+      "id": "Holy Ghost",
+      "name": "Holy Ghost",
+      "val": 2
+    },
+    {
+      "id": "Antichrist",
+      "name": "Antichrist",
+      "val": 2
+    },
+    {
+      "id": "Phil",
+      "name": "Phil",
+      "val": 2
+    }
+  ],
+  "links": [
+    {
+      "source": "Christ",
+      "target": "Father",
+      "weight": 5
+    },
+    {
+      "source": "Christ",
+      "target": "God",
+      "weight": 5
+    },
+    {
+      "source": "Christ",
+      "target": "Jesus Christ",
+      "weight": 4
+    },
+    {
+      "source": "Christ",
+      "target": "Jesus",
+      "weight": 5
+    },
+    {
+      "source": "Father",
+      "target": "God",
+      "weight": 5
+    },
+    {
+      "source": "Father",
+      "target": "Jesus Christ",
+      "weight": 4
+    },
+    {
+      "source": "Father",
+      "target": "Jesus",
+      "weight": 5
+    },
+    {
+      "source": "God",
+      "target": "Jesus Christ",
+      "weight": 4
+    },
+    {
+      "source": "God",
+      "target": "Jesus",
+      "weight": 5
+    },
+    {
+      "source": "Jesus",
+      "target": "Jesus Christ",
+      "weight": 4
+    },
+    {
+      "source": "Christ",
+      "target": "Holy Ghost",
+      "weight": 2
+    },
+    {
+      "source": "Antichrist",
+      "target": "Christ",
+      "weight": 2
+    },
+    {
+      "source": "Father",
+      "target": "Holy Ghost",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Holy Ghost",
+      "weight": 2
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Jesus",
+      "weight": 2
+    },
+    {
+      "source": "Antichrist",
+      "target": "Holy Ghost",
+      "weight": 1
+    },
+    {
+      "source": "Antichrist",
+      "target": "Father",
+      "weight": 2
+    },
+    {
+      "source": "Antichrist",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Antichrist",
+      "target": "Jesus",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Phil",
+      "weight": 2
+    },
+    {
+      "source": "Father",
+      "target": "Phil",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Phil",
+      "weight": 2
+    },
+    {
+      "source": "Jesus Christ",
+      "target": "Phil",
+      "weight": 2
+    },
+    {
+      "source": "Jesus",
+      "target": "Phil",
+      "weight": 2
+    },
+    {
+      "source": "Antichrist",
+      "target": "Jesus Christ",
+      "weight": 1
+    },
+    {
+      "source": "Antichrist",
+      "target": "Phil",
+      "weight": 1
+    },
+    {
+      "source": "Holy Ghost",
+      "target": "Jesus Christ",
+      "weight": 1
+    }
+  ]
+}
