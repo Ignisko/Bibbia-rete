@@ -1,7 +1,20 @@
-import React from 'react';
-import { Menu } from 'lucide-react';
+import React, { useState, useRef, useEffect } from 'react';
+import { Menu, Info } from 'lucide-react';
 
 const Header = ({ onMenuClick }) => {
+  const [showAbout, setShowAbout] = useState(false);
+  const aboutRef = useRef();
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (aboutRef.current && !aboutRef.current.contains(event.target)) {
+        setShowAbout(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [aboutRef]);
+
   return (
     <header>
       <div className="title-credits">
@@ -11,9 +24,18 @@ const Header = ({ onMenuClick }) => {
           </button>
           <h1>Mapping the Bible</h1>
         </div>
-        <div className="credits">
-          Data extracted from the <strong>Douay-Rheims Catholic Bible</strong>.<br />
-          Inspired by Prof. Dmitry Zinoviev (<a href="https://www.idiotajezusa.pl/" target="_blank" rel="noopener noreferrer">idiotajezusa.pl</a>)
+        <div className="header-actions">
+          <button className="icon-btn about-btn" onClick={() => setShowAbout(!showAbout)}>
+            <Info size={18} color="var(--text-color)" /> About
+          </button>
+          {showAbout && (
+            <div className="about-modal" ref={aboutRef}>
+              <h3>About this Project</h3>
+              <p>Data extracted from the <strong>Douay-Rheims Catholic Bible</strong>.</p>
+              <p>Inspired by <strong>Prof. Dmitry Zinoviev</strong>.</p>
+              <p>Created by <a href="https://www.idiotajezusa.pl/" target="_blank" rel="noopener noreferrer">Ignacy (idiotajezusa.pl)</a></p>
+            </div>
+          )}
         </div>
       </div>
     </header>

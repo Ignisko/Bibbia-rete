@@ -122,6 +122,11 @@ const NetworkGraph = ({ data }) => {
         linkCanvasObjectMode={() => 'replace'}
         linkCanvasObject={paintLink}
         onNodeHover={handleNodeHover}
+        onEngineStop={() => {
+          if (fgRef.current) {
+            fgRef.current.zoomToFit(400, 50);
+          }
+        }}
         cooldownTicks={50} // Settle physics faster
         warmupTicks={100}  // Pre-calculate positions to reduce shaky intro
         d3VelocityDecay={0.3} // Dampen movement
