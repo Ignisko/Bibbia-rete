@@ -14,6 +14,12 @@ const NetworkGraph = ({ data }) => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+  useEffect(() => {
+    if (fgRef.current) {
+      fgRef.current.d3Force('charge').strength(-400);
+      fgRef.current.d3Force('link').distance(60);
+    }
+  }, [data]);
 
   const { nodes, links } = useMemo(() => {
     if (!data || !data.nodes || !data.links) return { nodes: [], links: [] };
