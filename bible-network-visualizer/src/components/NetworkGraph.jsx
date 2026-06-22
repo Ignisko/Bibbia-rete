@@ -18,6 +18,9 @@ const NetworkGraph = ({ data }) => {
     if (fgRef.current) {
       fgRef.current.d3Force('charge').strength(-400);
       fgRef.current.d3Force('link').distance(60);
+      
+      // Reset zoom whenever data (book) changes
+      fgRef.current.zoomToFit(400, 50);
     }
   }, [data]);
 
@@ -133,6 +136,9 @@ const NetworkGraph = ({ data }) => {
         linkCanvasObjectMode={() => 'replace'}
         linkCanvasObject={paintLink}
         onNodeHover={handleNodeHover}
+        warmupTicks={100} // Pre-calculate 100 ticks before rendering to hide frantic jumping
+        cooldownTicks={150} // Settle the graph faster
+        d3VelocityDecay={0.4} // Increase friction to stop nodes from flying around too fast
         backgroundColor="#ffffff"
       />
     </div>
