@@ -35,17 +35,19 @@ for match in chapter_markers:
 output_dir = os.path.join(os.path.dirname(__file__), "..", "bible-network-visualizer", "src", "data")
 os.makedirs(output_dir, exist_ok=True)
 
-god_terms = {"God", "Jesus", "Christ", "Lord", "Holy Ghost", "Father"}
+god_terms = {"God", "Jesus", "Lord", "Holy Ghost", "Father"}
 invalid_names_lower = {"thou", "thee", "amen", "yea", "unto", "hath", "doth", "shalt", "thy", "thine", "upon", "hast", "wherefore", "shall", "behold", "arise", "viz", "didst", "canst", "mayst"}
 
 def normalize_entity(ent):
     ent = re.sub(r'[^\w\s]', '', ent).strip()
     
-    # Strip trailing articles that spacy grabs
     if ent.lower().endswith(" the"):
         ent = ent[:-4].strip()
     if ent.lower().endswith(" of"):
         ent = ent[:-3].strip()
+        
+    if ent.lower() == "christ":
+        return "Jesus"
         
     return ent
 
@@ -55,11 +57,23 @@ index_content = ""
 export_obj = "export const bookData = {\n"
 book_list = []
 
-priority_books = [
-    "Matthew", "Mark", "Luke", "John", 
-    "Acts", "Romans", "1 Corinthians", "2 Corinthians", "Galatians", "Ephesians", "Philippians", "Colossians", "1 Thessalonians", "2 Thessalonians", "1 Timothy", "2 Timothy", "Titus", "Philemon", "Hebrews", "James", "1 Peter", "2 Peter", "1 John", "2 John", "3 John", "Jude", "Apocalypse",
-    "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy", "Josue", "Judges", "Ruth", "1 Kings", "2 Kings", "3 Kings", "4 Kings", "Psalms", "Proverbs", "Ecclesiastes", "Canticle of Canticles", "Wisdom", "Ecclesiasticus", "Isaias", "Jeremias", "Lamentations", "Baruch", "Ezechiel", "Daniel"
+old_testament = [
+    "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy", 
+    "Josue", "Judges", "Ruth", "1 Kings", "2 Kings", "3 Kings", "4 Kings", 
+    "Psalms", "Proverbs", "Ecclesiastes", "Canticle of Canticles", "Wisdom", 
+    "Ecclesiasticus", "Isaias", "Jeremias", "Lamentations", "Baruch", 
+    "Ezechiel", "Daniel"
 ]
+
+new_testament = [
+    "Matthew", "Mark", "Luke", "John", 
+    "Acts", "Romans", "1 Corinthians", "2 Corinthians", "Galatians", "Ephesians", 
+    "Philippians", "Colossians", "1 Thessalonians", "2 Thessalonians", 
+    "1 Timothy", "2 Timothy", "Titus", "Philemon", "Hebrews", "James", 
+    "1 Peter", "2 Peter", "1 John", "2 John", "3 John", "Jude", "Apocalypse"
+]
+
+priority_books = old_testament + new_testament
 
 for book_name in priority_books:
     if book_name not in books:
@@ -91,21 +105,14 @@ for book_name in priority_books:
             if ent.label_ == "PERSON":
                 name = normalize_entity(ent.text)
                 
-                # Check for archaic verbs and invalid names
-                if name.lower().endswith("eth"):
-                    continue
-                if name.lower() in invalid_names_lower:
-                    continue
-                if len(name) <= 2:
+                if name.lower().endswith("eth") or name.lower() in invalid_names_lower or len(name) <= 2:
                     continue
                     
                 chapter_entities.add(name)
                 
-        # Disambiguation and explicit inclusions
         if "John the Baptist" in chapter_text:
             chapter_entities.add("John the Baptist")
-            # If "John" was extracted, it stays "John" alongside "John the Baptist", assuming Apostle John might also be present
-        
+            
         for term in god_terms:
             if term in chapter_text:
                 chapter_entities.add(term)
@@ -124,34 +131,26 @@ for book_name in priority_books:
                     cooccurrences[edge] = 0
                 cooccurrences[edge] += 1
                 
-    min_occurrences = 2
-    filtered_nodes = [node for name, node in nodes_dict.items() if node["val"] >= min_occurrences or name in god_terms]
-    valid_node_ids = {n["id"] for n in filtered_nodes}
+    network_data = {
+        "nodes": list(nodes_dict.values()),
+        "links": [{"source": pair[0], "target": pair[1], "value": weight} for pair, weight in cooccurrences.items() if weight > 1]
+    }
     
-    filtered_links = []
-    for (a, b), weight in cooccurrences.items():
-        if a in valid_node_ids and b in valid_node_ids:
-            filtered_links.append({"source": a, "target": b, "weight": weight})
-            
-    graph_data = {"nodes": filtered_nodes, "links": filtered_links}
+    safe_book_id = book_name.lower().replace(" ", "_").replace("1", "1").replace("2", "2").replace("3", "3").replace("4", "4")
     
-    safe_book_name = book_name.lower().replace(" ", "_")
-    output_file = os.path.join(output_dir, f"{safe_book_name}.json")
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(graph_data, f, indent=2)
+    json_path = os.path.join(output_dir, f"{safe_book_id}.json")
+    with open(json_path, 'w', encoding='utf-8') as f:
+        json.dump(network_data, f)
         
-    js_var_name = safe_book_name
-    if js_var_name[0].isdigit():
-        js_var_name = "_" + js_var_name
-        
-    index_content += f"import {js_var_name} from './{safe_book_name}.json';\n"
-    export_obj += f"  '{safe_book_name}': {js_var_name},\n"
-    book_list.append({"id": safe_book_name, "name": book_name})
-    
-export_obj += "};\n\n"
-export_obj += f"export const bookList = {json.dumps(book_list, indent=2)};\n"
+    index_content += f"import {safe_book_id} from './{safe_book_id}.json';\n"
+    export_obj += f"  '{safe_book_id}': {safe_book_id},\n"
+    testament = "Old Testament" if book_name in old_testament else "New Testament"
+    book_list.append(f"  {{ id: '{safe_book_id}', name: '{book_name}', testament: '{testament}' }}")
 
-with open(os.path.join(output_dir, "index.js"), "w", encoding="utf-8") as f:
-    f.write(index_content + "\n" + export_obj)
+export_obj += "};\n\n"
+export_list = "export const bookList = [\n" + ",\n".join(book_list) + "\n];\n"
+
+with open(os.path.join(output_dir, "index.js"), 'w', encoding='utf-8') as f:
+    f.write(index_content + "\n" + export_obj + export_list)
 
 print("Done processing books!")

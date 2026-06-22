@@ -1,10 +1,12 @@
 import React from 'react';
-import { X, Book } from 'lucide-react';
+import { X, Book, ScrollText, Cross } from 'lucide-react';
 
 const Sidebar = ({ isOpen, onClose, bookList, selectedBook, onBookChange }) => {
+  const oldTestamentBooks = bookList.filter(b => b.testament === 'Old Testament');
+  const newTestamentBooks = bookList.filter(b => b.testament === 'New Testament');
+
   return (
     <>
-      {/* Overlay to click-to-close on mobile/smaller screens */}
       {isOpen && <div className="sidebar-overlay" onClick={onClose}></div>}
       
       <div className={`sidebar ${isOpen ? 'open' : ''}`}>
@@ -19,18 +21,47 @@ const Sidebar = ({ isOpen, onClose, bookList, selectedBook, onBookChange }) => {
         </div>
         
         <div className="sidebar-content">
-          {bookList.map(book => (
-            <button 
-              key={book.id}
-              className={`book-item ${selectedBook === book.id ? 'active' : ''}`}
-              onClick={() => {
-                onBookChange(book.id);
-                onClose(); // Automatically close after selecting to save space
-              }}
-            >
-              {book.name}
-            </button>
-          ))}
+          {oldTestamentBooks.length > 0 && (
+            <div className="testament-section">
+              <h3 className="testament-header">
+                <ScrollText size={16} />
+                Old Testament
+              </h3>
+              {oldTestamentBooks.map(book => (
+                <button 
+                  key={book.id}
+                  className={`book-item ${selectedBook === book.id ? 'active' : ''}`}
+                  onClick={() => {
+                    onBookChange(book.id);
+                    onClose();
+                  }}
+                >
+                  {book.name}
+                </button>
+              ))}
+            </div>
+          )}
+
+          {newTestamentBooks.length > 0 && (
+            <div className="testament-section" style={{ marginTop: '1rem' }}>
+              <h3 className="testament-header" style={{ color: '#8B0000' }}>
+                <Book size={16} />
+                New Testament
+              </h3>
+              {newTestamentBooks.map(book => (
+                <button 
+                  key={book.id}
+                  className={`book-item ${selectedBook === book.id ? 'active' : ''}`}
+                  onClick={() => {
+                    onBookChange(book.id);
+                    onClose();
+                  }}
+                >
+                  {book.name}
+                </button>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </>
