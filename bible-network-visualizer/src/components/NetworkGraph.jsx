@@ -14,13 +14,6 @@ const NetworkGraph = ({ data }) => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  useEffect(() => {
-    if (fgRef.current) {
-      // Moderate charge to space out connected nodes
-      fgRef.current.d3Force('charge').strength(-80);
-      fgRef.current.d3Force('link').distance(40);
-    }
-  }, [data]);
 
   const { nodes, links } = useMemo(() => {
     if (!data || !data.nodes || !data.links) return { nodes: [], links: [] };
@@ -122,14 +115,6 @@ const NetworkGraph = ({ data }) => {
         linkCanvasObjectMode={() => 'replace'}
         linkCanvasObject={paintLink}
         onNodeHover={handleNodeHover}
-        onEngineTick={() => {
-          // Gentle gravity pulling all nodes towards center (0,0)
-          nodes.forEach(node => {
-            node.vx += (0 - node.x) * 0.0015;
-            node.vy += (0 - node.y) * 0.0015;
-          });
-        }}
-        d3VelocityDecay={0.2} // Dampen movement slightly less
         backgroundColor="#ffffff"
       />
     </div>
