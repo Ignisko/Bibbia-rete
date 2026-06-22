@@ -84,7 +84,17 @@ const NetworkGraph = ({ data }) => {
         // Only include links between valid nodes
     const validLinks = data.links.filter(l => adj[l.source] && adj[l.target]);
     
-    const finalNodes = validNodes.map(node => ({ ...node }));
+    const linkedNodeIds = new Set();
+    validLinks.forEach(l => {
+      linkedNodeIds.add(l.source);
+      linkedNodeIds.add(l.target);
+    });
+
+    // Remove any isolated floating nodes that have 0 connections
+    const finalNodes = validNodes
+      .filter(n => linkedNodeIds.has(n.id))
+      .map(node => ({ ...node }));
+      
     const finalLinks = validLinks.map(link => ({ ...link }));
 
     finalNodes.forEach(node => {
@@ -118,8 +128,8 @@ const NetworkGraph = ({ data }) => {
     const isNeighbor = hoverNode && hoverNode.neighbors && hoverNode.neighbors.has(node.id);
     const isDimmed = hoverNode && !isHovered && !isNeighbor;
     
-    // Scale node size smoothly so it doesn't become a giant sloppy circle
-    let size = node.val ? Math.log(node.val + 2) * 1.5 : 2;
+    // Smooth size: not too massive, not microscopic
+    let size = node.val ? Math.sqrt(node.val) * 1.2 : 2.5;
     const godTerms = ["Jesus", "God", "Christ", "Lord", "Holy Ghost", "Father"];
     const isGod = godTerms.includes(node.name);
     const isGroup = groupEntities.has(node.name);
@@ -154,21 +164,22 @@ const NetworkGraph = ({ data }) => {
       ctx.stroke();
     }
 
-    const showLabel = isHovered || isNeighbor || isGod || globalScale >= 2;
-    if (showLabel && !isDimmed) {
+    // Always show text, but keep it small unless hovered
+    if (!isDimmed) {
       const label = node.name;
       const isCentral = godTerms.includes(node.name);
       
       const isBold = isCentral || isHovered;
-      const fontSize = isHovered ? 15 / globalScale : (isCentral ? 14 / globalScale : 11 / globalScale);
+      // Very small base font size to prevent overlapping, larger on hover
+      const fontSize = isHovered ? 12 / globalScale : (isCentral ? 8 / globalScale : 6 / globalScale);
       
       ctx.font = `${isBold ? 'bold' : 'normal'} ${fontSize}px Georgia, serif`;
       ctx.textAlign = 'left';
       ctx.textBaseline = 'middle';
       
-      const textPadding = 4 / globalScale;
+      const textPadding = (size + 2) / globalScale;
       ctx.fillStyle = isHovered ? '#1a5276' : (isNeighbor ? '#111111' : '#444444');
-      ctx.fillText(label, node.x + size + textPadding, node.y);
+      ctx.fillText(label, node.x + textPadding, node.y);
     }
   }, [hoverNode, groupEntities]);
 
