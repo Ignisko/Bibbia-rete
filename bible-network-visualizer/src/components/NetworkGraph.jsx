@@ -50,6 +50,8 @@ const NetworkGraph = ({ data }) => {
       
       if (blockedNames.has(name)) return false;
 
+      if (name.toLowerCase().includes("project gutenberg")) return false;
+
       const firstChar = name.charAt(0);
       if (firstChar === firstChar.toLowerCase() && /[a-z]/i.test(firstChar)) {
         return false;
