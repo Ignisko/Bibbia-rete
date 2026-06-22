@@ -24,7 +24,7 @@ const NetworkGraph = ({ data }) => {
     }
   }, [data]);
 
-  const { nodes, links } = useMemo(() => {
+  const graphData = useMemo(() => {
     if (!data || !data.nodes || !data.links) return { nodes: [], links: [] };
     
     // Build adjacency list for BFS
@@ -173,7 +173,7 @@ const NetworkGraph = ({ data }) => {
         ref={fgRef}
         width={dimensions.width}
         height={dimensions.height}
-        graphData={{ nodes, links }}
+        graphData={graphData}
         nodeCanvasObject={paintNode}
         linkCanvasObjectMode={() => 'replace'}
         linkCanvasObject={paintLink}
