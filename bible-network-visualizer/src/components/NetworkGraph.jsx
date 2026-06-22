@@ -19,8 +19,12 @@ const NetworkGraph = ({ data }) => {
       fgRef.current.d3Force('charge').strength(-400);
       fgRef.current.d3Force('link').distance(60);
       
-      // Reset zoom whenever data (book) changes
-      fgRef.current.zoomToFit(400, 50);
+      // Reset zoom after the physics engine calculates initial layout
+      setTimeout(() => {
+        if (fgRef.current) {
+          fgRef.current.zoomToFit(400, 50);
+        }
+      }, 100);
     }
   }, [data]);
 
