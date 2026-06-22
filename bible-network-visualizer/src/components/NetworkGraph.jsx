@@ -16,15 +16,11 @@ const NetworkGraph = ({ data }) => {
 
   useEffect(() => {
     if (fgRef.current) {
-      fgRef.current.d3Force('charge').strength(-400);
-      fgRef.current.d3Force('link').distance(60);
+      const charge = fgRef.current.d3Force('charge');
+      if (charge) charge.strength(-400).distanceMax(400); // Prevent subgraphs from flying to infinity
       
-      // Reset zoom after the physics engine calculates initial layout
-      setTimeout(() => {
-        if (fgRef.current) {
-          fgRef.current.zoomToFit(400, 50);
-        }
-      }, 100);
+      const link = fgRef.current.d3Force('link');
+      if (link) link.distance(60);
     }
   }, [data]);
 
@@ -129,6 +125,15 @@ const NetworkGraph = ({ data }) => {
     ctx.stroke();
   }, [hoverNode]);
 
+  const zoomedDataRef = useRef(null);
+
+  const handleEngineStop = useCallback(() => {
+    if (fgRef.current && zoomedDataRef.current !== data) {
+      fgRef.current.zoomToFit(400, 50);
+      zoomedDataRef.current = data;
+    }
+  }, [data]);
+
   return (
     <div className="graph-container">
       <ForceGraph2D
@@ -140,6 +145,7 @@ const NetworkGraph = ({ data }) => {
         linkCanvasObjectMode={() => 'replace'}
         linkCanvasObject={paintLink}
         onNodeHover={handleNodeHover}
+        onEngineStop={handleEngineStop}
         warmupTicks={100} // Pre-calculate 100 ticks before rendering to hide frantic jumping
         cooldownTicks={150} // Settle the graph faster
         d3VelocityDecay={0.4} // Increase friction to stop nodes from flying around too fast
