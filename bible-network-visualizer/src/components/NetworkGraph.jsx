@@ -173,25 +173,18 @@ const NetworkGraph = ({ data }) => {
     }
   }, [hoverNode]);
 
-  const paintLink = useCallback((link, ctx, globalScale) => {
+  const getLinkColor = useCallback((link) => {
     const isHovered = hoverNode && (link.source.id === hoverNode.id || link.target.id === hoverNode.id);
     const isDimmed = hoverNode && !isHovered;
+    if (isHovered) return 'rgba(26, 82, 118, 0.9)'; // Dark blue for highlight
+    if (isDimmed) return 'rgba(220, 220, 220, 0.15)'; // Very faint gray
+    return 'rgba(91, 192, 190, 0.35)'; // Professor's cyan/teal color
+  }, [hoverNode]);
 
-    ctx.beginPath();
-    ctx.moveTo(link.source.x, link.source.y);
-    ctx.lineTo(link.target.x, link.target.y);
-    
-    ctx.lineWidth = (link.weight || 1) * 0.5 / globalScale;
-    
-    if (isHovered) {
-      ctx.strokeStyle = 'rgba(40, 116, 166, 0.8)';
-    } else if (isDimmed) {
-      ctx.strokeStyle = 'rgba(220, 220, 220, 0.2)';
-    } else {
-      ctx.strokeStyle = 'rgba(90, 160, 190, 0.3)';
-    }
-    
-    ctx.stroke();
+  const getLinkWidth = useCallback((link) => {
+    const isHovered = hoverNode && (link.source.id === hoverNode.id || link.target.id === hoverNode.id);
+    const baseWidth = Math.sqrt(link.weight || 1) * 0.8;
+    return isHovered ? baseWidth * 2 : baseWidth;
   }, [hoverNode]);
 
   const zoomedDataRef = useRef(null);
@@ -216,11 +209,12 @@ const NetworkGraph = ({ data }) => {
         height={dimensions.height}
         graphData={graphData}
         nodeCanvasObject={paintNode}
-        linkCanvasObjectMode={() => 'replace'}
-        linkCanvasObject={paintLink}
+        linkColor={getLinkColor}
+        linkWidth={getLinkWidth}
+        linkCurvature={0.25} // Beautiful curved links like the professor's
         onNodeHover={handleNodeHover}
         onEngineStop={handleEngineStop}
-        d3VelocityDecay={0.3} // Gentle friction
+        d3VelocityDecay={0.3}
         backgroundColor="#ffffff"
       />
       
