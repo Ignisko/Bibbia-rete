@@ -17,7 +17,19 @@ const NetworkGraph = ({ data }) => {
 
   const { nodes, links } = useMemo(() => {
     if (!data || !data.nodes || !data.links) return { nodes: [], links: [] };
-    const nodes = data.nodes.map(node => ({ ...node }));
+    
+    // First, find all nodes that are actually connected
+    const connectedIds = new Set();
+    data.links.forEach(link => {
+      connectedIds.add(link.source);
+      connectedIds.add(link.target);
+    });
+
+    // Filter out isolated nodes and map
+    const nodes = data.nodes
+      .filter(n => connectedIds.has(n.id))
+      .map(node => ({ ...node }));
+      
     const links = data.links.map(link => ({ ...link }));
 
     nodes.forEach(node => {
