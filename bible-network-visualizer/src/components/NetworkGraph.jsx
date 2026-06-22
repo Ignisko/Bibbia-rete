@@ -25,7 +25,15 @@ const NetworkGraph = ({ data }) => {
       const link = fgRef.current.d3Force('link');
       if (link) link.distance(40); 
       
-      // Let isolated nodes float naturally instead of crashing the d3 engine
+      // Custom soft gravity to pull disconnected subgraphs together
+      fgRef.current.d3Force('softCenter', (alpha) => {
+        const nodes = fgRef.current.graphData().nodes;
+        if (!nodes) return;
+        nodes.forEach(node => {
+          node.vx -= node.x * alpha * 0.02;
+          node.vy -= node.y * alpha * 0.02;
+        });
+      });
     }
   }, [data]);
 
@@ -41,10 +49,13 @@ const NetworkGraph = ({ data }) => {
     
     const adj = {};
     const blockedNames = new Set([
-      "Blessed Sacrament", "Beati immaculati", "Scriptures"
+      "Blessed Sacrament", "Beati immaculati", "Scriptures", 
+      "Foreknown", "Virtues", "Grace", "Faith", "Hope", "Love", "Truth", 
+      "Salvation", "Gospel", "Mercy", "Peace", "Glory", "Word"
     ]);
     
     const validNodes = data.nodes.filter(n => {
+      // Fix trailing space duplicates in AI data
       const name = n.name.trim();
       if (!name) return false;
       
