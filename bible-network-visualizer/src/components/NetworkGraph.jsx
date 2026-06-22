@@ -17,10 +17,13 @@ const NetworkGraph = ({ data }) => {
   useEffect(() => {
     if (fgRef.current) {
       const charge = fgRef.current.d3Force('charge');
-      if (charge) charge.strength(-200); // Less aggressive repel so dense graphs don't explode
+      if (charge) {
+        charge.strength(-200); 
+        charge.distanceMax(400); // Prevent infinite repulsion
+      }
       
       const link = fgRef.current.d3Force('link');
-      if (link) link.distance(40); // Shorter links to mimic the dense clusters
+      if (link) link.distance(40); 
       
       // Let isolated nodes float naturally instead of crashing the d3 engine
     }
@@ -134,11 +137,11 @@ const NetworkGraph = ({ data }) => {
       ctx.stroke();
     }
 
-    if (!isDimmed || isHovered) {
+    const showLabel = isHovered || isNeighbor || isGod || globalScale >= 2;
+    if (showLabel && !isDimmed) {
       const label = node.name;
       const isCentral = godTerms.includes(node.name);
       
-      // Make hovered text bolder and larger
       const isBold = isCentral || isHovered;
       const fontSize = isHovered ? 15 / globalScale : (isCentral ? 14 / globalScale : 11 / globalScale);
       
@@ -147,11 +150,10 @@ const NetworkGraph = ({ data }) => {
       ctx.textBaseline = 'middle';
       
       const textPadding = 4 / globalScale;
-      // Light up the text with the accent color
       ctx.fillStyle = isHovered ? '#1a5276' : (isNeighbor ? '#111111' : '#444444');
       ctx.fillText(label, node.x + size + textPadding, node.y);
     }
-  }, [hoverNode]);
+  }, [hoverNode, groupEntities]);
 
   const getLinkColor = useCallback((link) => {
     const isHovered = hoverNode && (link.source.id === hoverNode.id || link.target.id === hoverNode.id);
