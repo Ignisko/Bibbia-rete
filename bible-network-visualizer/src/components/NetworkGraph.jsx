@@ -17,7 +17,7 @@ const NetworkGraph = ({ data }) => {
   useEffect(() => {
     if (fgRef.current) {
       const charge = fgRef.current.d3Force('charge');
-      if (charge) charge.strength(-400).distanceMax(400); // Prevent subgraphs from flying to infinity
+      if (charge) charge.strength(-400);
       
       const link = fgRef.current.d3Force('link');
       if (link) link.distance(60);
@@ -27,28 +27,61 @@ const NetworkGraph = ({ data }) => {
   const { nodes, links } = useMemo(() => {
     if (!data || !data.nodes || !data.links) return { nodes: [], links: [] };
     
-    // First, find all nodes that are actually connected
-    const connectedIds = new Set();
-    data.links.forEach(link => {
-      connectedIds.add(link.source);
-      connectedIds.add(link.target);
+    // Build adjacency list for BFS
+    const adj = {};
+    data.nodes.forEach(n => { adj[n.id] = []; });
+    data.links.forEach(l => {
+      if (adj[l.source] && adj[l.target]) {
+        adj[l.source].push(l.target);
+        adj[l.target].push(l.source);
+      }
     });
 
-    // Filter out isolated nodes and map
-    const nodes = data.nodes
-      .filter(n => connectedIds.has(n.id))
+    // Find the largest connected component using BFS
+    const visited = new Set();
+    let largestComponent = new Set();
+
+    data.nodes.forEach(node => {
+      if (!visited.has(node.id) && adj[node.id]) {
+        const component = new Set();
+        const queue = [node.id];
+        visited.add(node.id);
+        component.add(node.id);
+
+        while (queue.length > 0) {
+          const curr = queue.shift();
+          adj[curr].forEach(neighbor => {
+            if (!visited.has(neighbor)) {
+              visited.add(neighbor);
+              component.add(neighbor);
+              queue.push(neighbor);
+            }
+          });
+        }
+
+        if (component.size > largestComponent.size) {
+          largestComponent = component;
+        }
+      }
+    });
+
+    // Filter nodes and links to ONLY include the largest component
+    const finalNodes = data.nodes
+      .filter(n => largestComponent.has(n.id))
       .map(node => ({ ...node }));
       
-    const links = data.links.map(link => ({ ...link }));
+    const finalLinks = data.links
+      .filter(l => largestComponent.has(l.source) && largestComponent.has(l.target))
+      .map(link => ({ ...link }));
 
-    nodes.forEach(node => {
+    finalNodes.forEach(node => {
       node.neighbors = new Set();
       node.links = [];
     });
 
-    links.forEach(link => {
-      const a = nodes.find(n => n.id === link.source);
-      const b = nodes.find(n => n.id === link.target);
+    finalLinks.forEach(link => {
+      const a = finalNodes.find(n => n.id === link.source);
+      const b = finalNodes.find(n => n.id === link.target);
       if (a && b) {
         a.neighbors.add(b.id);
         b.neighbors.add(a.id);
@@ -57,7 +90,7 @@ const NetworkGraph = ({ data }) => {
       }
     });
 
-    return { nodes, links };
+    return { nodes: finalNodes, links: finalLinks };
   }, [data]);
 
   const handleNodeHover = useCallback((node) => {
@@ -146,9 +179,7 @@ const NetworkGraph = ({ data }) => {
         linkCanvasObject={paintLink}
         onNodeHover={handleNodeHover}
         onEngineStop={handleEngineStop}
-        warmupTicks={100} // Pre-calculate 100 ticks before rendering to hide frantic jumping
-        cooldownTicks={150} // Settle the graph faster
-        d3VelocityDecay={0.4} // Increase friction to stop nodes from flying around too fast
+        d3VelocityDecay={0.3} // Gentle friction
         backgroundColor="#ffffff"
       />
     </div>
