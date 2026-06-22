@@ -130,6 +130,8 @@ const NetworkGraph = ({ data }) => {
   }, []);
 
   const paintNode = useCallback((node, ctx, globalScale) => {
+    if (!Number.isFinite(node.x) || !Number.isFinite(node.y)) return; // Prevent Canvas crash on init
+    
     const isHovered = hoverNode && node.id === hoverNode.id;
     const isNeighbor = hoverNode && hoverNode.neighbors && hoverNode.neighbors.has(node.id);
     const isDimmed = hoverNode && !isHovered && !isNeighbor;
